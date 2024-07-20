@@ -1,0 +1,18 @@
+# renewed directory
+my_folder <- "d:/github-follow/translators_CN"
+# target directory
+tar_folder <- "d:/zotero-store/translators"
+
+# copy and overwrite
+## only `js` files
+files_all <- fs::dir_ls(
+  path = my_folder, 
+  regexp = '[.]js$')
+
+fs::file_copy(
+  path =  files_all, 
+  new_path = tar_folder, 
+  overwrite = TRUE
+)
+
+
