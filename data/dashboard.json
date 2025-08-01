@@ -844,7 +844,7 @@
       "inRepository": true,
       "translatorType": 12,
       "browserSupport": "gcsibv",
-      "lastUpdated": "2024-11-11 05:42:47"
+      "lastUpdated": "2025-05-27 07:40:48"
     },
     "testCases": [
       {
@@ -1034,6 +1034,11 @@
     "trends": [
       {
         "author": "jiaojiaodubai",
+        "date": "2025-05-27 07:43:56 +0000",
+        "message": "modernize"
+      },
+      {
+        "author": "jiaojiaodubai",
         "date": "2024-11-26 14:36:51 +0800",
         "message": "fix #412"
       },
@@ -1041,11 +1046,6 @@
         "author": "jiaojiaodubai",
         "date": "2024-08-20 13:22:33 +0800",
         "message": "fix typo"
-      },
-      {
-        "author": "jiaojiaodubai",
-        "date": "2024-08-19 17:42:48 +0800",
-        "message": "lint"
       }
     ]
   },
@@ -2810,7 +2810,7 @@
       "priority": 99,
       "inRepository": true,
       "translatorType": 1,
-      "lastUpdated": "2024-06-14 12:51:45"
+      "lastUpdated": "2025-03-29 13:32:17"
     },
     "testCases": [
       {
@@ -3259,7 +3259,7 @@
             "abstractNote": "本发明提供不锈钢管的制造方法,包括如下步骤：S1、管坯加工：将管坯加工成坯料,且坯料的化学组成质量百分比计为：C：0.04-0.06%；Cr：15-21%；Ti：0.1-0.3%；Ni：1.5-9%；Mn：0.1～1.3%；Cu：1.5～3.5%；S：0.002-0.004%；余量为Fe以及不可避免的杂质。本发明通过对坯料进行预热处理,将工件加热到预定温度,并保持一定的时间,将预热后的坯料分别采用两种不同的温度进行处理,且两次处理前后衔接,解决了现有的不锈钢管在生产工艺方面,缺乏对不锈钢管强度的提升,强度较低,导致其在使用过程中,局限性较大,在很多高强度的压力下,易出现折断,不仅大大缩短了不锈钢管的使用寿命,而且存在较大安全隐患的问题。",
             "applicationNumber": "发明公开",
             "country": "中国",
-            "extra": "Genre: 发明公开",
+            "extra": "genre: 发明公开",
             "language": "zh-CN",
             "patentNumber": "CN111020404A",
             "place": "中国",
@@ -3317,6 +3317,11 @@
     "trends": [
       {
         "author": "jiaojiaodubai",
+        "date": "2025-04-14 17:24:31 +0000",
+        "message": "update CNKI family"
+      },
+      {
+        "author": "jiaojiaodubai",
         "date": "2024-06-14 20:53:39 +0800",
         "message": "update CNKI related text parser"
       },
@@ -3338,7 +3343,7 @@
       "priority": 99,
       "inRepository": true,
       "translatorType": 1,
-      "lastUpdated": "2024-09-12 07:27:03"
+      "lastUpdated": "2025-03-24 05:24:12"
     },
     "testCases": [
       {
@@ -3686,6 +3691,11 @@
     "trends": [
       {
         "author": "jiaojiaodubai",
+        "date": "2025-04-14 17:24:31 +0000",
+        "message": "update CNKI family"
+      },
+      {
+        "author": "jiaojiaodubai",
         "date": "2024-09-12 18:15:01 +0800",
         "message": "修复繁体版年鉴条目类型识别错误、专利国别匹配本地化、更新API、修复期刊名有分割错误、支持报纸副标题、适配会议论文页面更改、升级 Labels类、优先采用 DOI 链接"
       },
@@ -3693,11 +3703,6 @@
         "author": "jiaojiaodubai",
         "date": "2024-06-14 20:53:39 +0800",
         "message": "update CNKI related text parser"
-      },
-      {
-        "author": "jiaojiaodubai",
-        "date": "2024-04-27 17:32:42 +0800",
-        "message": "CNKI：修复无法抓取需要跳转的DOI；CNKI Refer：增加语言判断，修复学位论文字段的繁简错误"
       }
     ]
   },
@@ -3713,7 +3718,7 @@
       "inRepository": true,
       "translatorType": 4,
       "browserSupport": "gcsibv",
-      "lastUpdated": "2024-03-01 18:41:50"
+      "lastUpdated": "2025-02-06 14:09:43"
     },
     "testCases": [
       {
@@ -3782,24 +3787,28 @@
             "title": "Climate Change and Edaphic Specialists: Irresistible Force Meets Immovable Object?",
             "creators": [
               {
+                "creatorType": "author",
                 "firstName": "Richard T.",
-                "lastName": "Corlett",
-                "creatorType": "author"
+                "lastName": "Corlett"
               },
               {
+                "creatorType": "author",
                 "firstName": "Kyle W.",
-                "lastName": "Tomlinson",
-                "creatorType": "author"
+                "lastName": "Tomlinson"
               }
             ],
-            "date": "2020",
+            "date": "2020-04",
             "DOI": "10.1016/j.tree.2019.12.007",
+            "ISSN": "01695347",
             "abstractNote": "Species exposed to anthropogenic climate change can acclimate, adapt, move, or be extirpated. It is often assumed that movement will be the dominant response, with populations tracking their climate envelopes in space, but the numerous species restricted to specialized substrates cannot easily move. In warmer regions of the world, such edaphic specialists appear to have accumulated in situ over millions of years, persisting despite climate change by local movements, plastic responses, and genetic adaptation. However, past climates were usually cooler than today and rates of warming slower, while edaphic islands are now exposed to multiple additional threats, including mining. Modeling studies that ignore edaphic constraints on climate change responses may therefore give misleading results for a significant proportion of all taxa.",
             "issue": "4",
-            "libraryCatalog": "CNKI Scholar",
+            "journalAbbreviation": "Trends in Ecology & Evolution",
+            "language": "en-US",
+            "libraryCatalog": "DOI.org (Crossref)",
             "pages": "367-376",
             "publicationTitle": "Trends in Ecology & Evolution",
             "shortTitle": "Climate Change and Edaphic Specialists",
+            "url": "https://linkinghub.elsevier.com/retrieve/pii/S0169534719303520",
             "volume": "35",
             "attachments": [],
             "tags": [
@@ -3845,19 +3854,36 @@
                 "creatorType": "author"
               }
             ],
-            "date": "2024",
-            "ISBN": "9781003469940",
-            "extra": "subject: 美术\nCLC: TU-8",
-            "language": "en-US",
-            "libraryCatalog": "CNKI Scholar",
-            "numPages": "288",
-            "publisher": "Taylor and Francis",
-            "series": "Routledge Environmental Anthropology",
+            "date": "2025",
+            "ISBN": "9781032745770 9781032745763",
+            "abstractNote": "\"This book applies a critical perspective to anthropogenic climate change and the global socio-ecological crisis. The book focuses on the critical anthropology of climate change by opening up a dialogue with the two main contending perspectives in the anthropology of climate change, namely the cultural ecological and the cultural interpretive perspectives. Guided by these, the authors take a firm stance on the types of changes that are needed to sustain life on earth as we know it. Within this framework, they explore issues of climate and social equity, the nature of the current era in earth's geohistory, the perspectives of the elite polluters driving climate change, and the regrettable contributions of anthropologists and other scholars to climate change. Engaging with perspectives from sociology, political science, and the geography of climate change, the book explores various approaches to thinking about and responding to the existential threat of an ever-warming climate. In doing so, it lays the foundation for a brave new sustainable world that is socially just, highly democratic, and climatically-safe for humans and other species. This book will be of interest to researchers and students studying environmental anthropology, climate change, human geography, sociology, and political science\"--",
+            "callNumber": "QC903 .B145 2025",
+            "libraryCatalog": "Library of Congress ISBN",
+            "numPages": "284",
+            "place": "London ; New York, NY",
+            "publisher": "Routledge, Taylor & Francis Group",
+            "series": "Routledge environmental anthropology",
             "shortTitle": "Building the Critical Anthropology of Climate Change",
-            "url": "https://scholar.cnki.net/zn/Detail/index/GARBLAST/STBD74429B71BDFEE5C7EC72DB869CD0CC57",
             "attachments": [],
-            "tags": [],
-            "notes": [],
+            "tags": [
+              {
+                "tag": "Climatic changes"
+              },
+              {
+                "tag": "Effect of climate on"
+              },
+              {
+                "tag": "Human beings"
+              },
+              {
+                "tag": "Social aspects"
+              }
+            ],
+            "notes": [
+              {
+                "note": "Climate change, climate science, and anthropology -- Conflicting anthropological perspectives : cultural ecological/ecological anthropological, cultural interpretive, and critical anthropology perspectives of climate change -- Anthropocene, capitalocene, or whatever : rethinking our era of climate change production -- Social inequality and climate change -- Planetary health : a critical health anthropological perspective -- Toward a critical anthropology of climate refugees -- Can ecological modernization contain climate change? How the rich and powerful seek to address the ecological crisis -- The scholarly elephant in the sky : how can anthropologists and other scholars grapple with their heavy reliance on flying in the era of ecocrisis -- Two genres of the climate movement : climate action vs climate justice -- Towards a critical anthropology of the future : climate change and future scenarios -- Eco-socialism as the ultimate climate change mitigation strategy"
+              }
+            ],
             "seeAlso": []
           }
         ]
@@ -3878,7 +3904,8 @@
             ],
             "date": "2006",
             "ISBN": "9780889209688",
-            "bookTitle": "[object HTMLDivElement]",
+            "bookTitle": "Thinking the Unthinkable:Civilization and Rapid Climate Change",
+            "extra": "CLC: J42",
             "libraryCatalog": "CNKI Scholar",
             "pages": "55-64",
             "publisher": "Wilfrid Laurier University Press",
@@ -3897,19 +3924,12 @@
           {
             "itemType": "thesis",
             "title": "The European Union's climate change mitigation action : an ongoing transition?",
-            "creators": [
-              {
-                "firstName": "Tolis",
-                "lastName": "Valeria",
-                "creatorType": "author"
-              }
-            ],
+            "creators": [],
             "abstractNote": "This project develops a Lacanian framework for analysing the EU’s climate change mitigation policymaking in a period that corresponds to the finalisation of the 2030 Clean energy package and the launch of the 2050 long-term decarbonization strategy. It empirically follows the work of the EU at its Brussels headquarters and at the level of the UNFCCC Conferences of the Parties between 2017 and 2018 and methodologically contributes to the poststructuralist strands of Global Environmental Politics in International Relations. This project aims to reflect on the nature of the EU’s current climate action and on the possibility of “change” in relation to scientifically informed climate warnings and recommendations on departing from the business as usual logic. The investigation is guided by the case studies of energy efficiency and renewables, and circular economy given their policy-relevance and given that these are considered desirable policy tools by the EU. It builds on Jacques Lacan’s theory of discourse which allows us to emphasise signification and its effects on the speaking subjects. This makes it possible to open a seemingly closed discourse and expose its inherent fractures through the speaking subjects by empirically exploring how energy efficiency, renewables and circular economy are spoken. It is demonstrated that energy efficiency, renewables and circular economy cannot be thought as a presupposition of sense that automatically delivers the desired and required emissions reductions. I argue that to understand the current EU’s climate action and any possibility of change, attention must be paid to the way in which any produced fractures are handled in signification by the subjects, as these can be either positively integrated into signification or can disrupt it and cause a change of paradigm. I conclude that except for a few potentially disruptive elements that leave room for a true rupture and possible change, the current EU’s climate mitigation action appears more as a fictitious change than as a real transition.",
             "extra": "subject: 理论经济学",
             "libraryCatalog": "CNKI Scholar",
             "shortTitle": "The European Union's climate change mitigation action",
             "thesisType": "Doctoral dissertation",
-            "university": "Cardiff University",
             "url": "https://scholar.cnki.net/zn/Detail/index/GARELAST/STAAF1F9B76994BC80440DB513678E873E69",
             "attachments": [],
             "tags": [],
@@ -3925,20 +3945,12 @@
           {
             "itemType": "thesis",
             "title": "Neuromolecular signatures of fish social interactions under normal and climate change conditions",
-            "creators": [
-              {
-                "firstName": "Ramirez Calero Sandra",
-                "lastName": "Patricia",
-                "creatorType": "author"
-              }
-            ],
-            "abstractNote": "Coral reef fish exhibit a large variety of behaviours crucial for fitness and survival. The cleaner wrasse Labroides dimidiatus displays cognitive abilities in its interaction with other species by providing services of ectoparasite cleaning. These features serve as a good model to understand the complex processes of social behaviour and how these interactions might be altered by changes in the marine environment due to ocean acidification (caused by elevated CO2) and warming (elevated temperature). In general, little is known about the functional molecular basis of cooperative behaviour between L. dimidiatus and its potential client fishes and how rapid environmental changes might affect it. Thus, here we investigate the molecular mechanisms responsible for the interaction behaviour using Acanthurus leucosternon as client. In addition, we exposed interacting fish species to three conditions representing predicted future climate change conditions (according to RCP8.0 2100) and compare with a control of present-day levels of temperature and CO2 :1) elevated levels of pCO2 (1000 μatm), 2) elevated temperature (32oC), and 3) a combined condition of elevated levels of CO2 and temperature. We dissected the fore-, mid-, and hindbrain regions of each fish to analyse specific differential gene expression, using transcriptomics, and we found that most of the variation and transcriptional response in both species was regulated in the hindbrain and forebrain regions. The interaction behaviour responses of L. dimidiatus during ambient environmental conditions involved immediate early gene alteration, dopaminergic and glutamatergic pathways, the expression of neurohormones (such as isotocin) and steroids (e.g. progesterone and estrogen), as well as social decision-making genes. In contrast, for the client, fewer molecular alterations were found, mostly involving pituitary hormone responses. However, the molecular signatures of L. dimidiatus were affected in all future climate change conditions with transcriptional changes observed in functions such as stress response (i.e. hypoxia, apoptosis, heat shock proteins), histone regulation, metabolism and the synapse. Key molecular processes, such as learning and memory activation in the cleaner wrasse and stress relief and reduced aggression in the client, were affected by the future climate change conditions. Genes involved in behaviour and memory were altered in expression under the elevated CO2 and temperature conditions, whereas the combined condition showed no expression changes related to behaviour, suggesting no additive effect on the cognitive abilities of L. dimidiatus with two simultaneous conditions. Hence, future environmental conditions influence the molecular programming involved in the mutualism maintenance for L. dimidiatus and its potential clients with possible large-scale effects on the coral reef ecosystems.C",
+            "creators": [],
+            "abstractNote": "Coral reef fish exhibit a large variety of behaviours crucial for fitness and survival. The cleaner wrasse Labroides dimidiatus displays cognitive abilities in its interaction with other species by providing services of ectoparasite cleaning. These features serve as a good model to understand the complex processes of social behaviour and how these interactions might be altered by changes in the marine environment due to ocean acidification (caused by elevated CO2) and warming (elevated temperature). In general, little is known about the functional molecular basis of cooperative behaviour between L. dimidiatus and its potential client fishes and how rapid environmental changes might affect it. Thus, here we investigate the molecular mechanisms responsible for the interaction behaviour using Acanthurus leucosternon as client. In addition, we exposed interacting fish species to three conditions representing predicted future climate change conditions (according to RCP8.0 2100) and compare with a control of present-day levels of temperature and CO2 :1) elevated levels of pCO2 (1000 μatm), 2) elevated temperature (32oC), and 3) a combined condition of elevated levels of CO2 and temperature. We dissected the fore-, mid-, and hindbrain regions of each fish to analyse specific differential gene expression, using transcriptomics, and we found that most of the variation and transcriptional response in both species was regulated in the hindbrain and forebrain regions. The interaction behaviour responses of L. dimidiatus during ambient environmental conditions involved immediate early gene alteration, dopaminergic and glutamatergic pathways, the expression of neurohormones (such as isotocin) and steroids (e.g. progesterone and estrogen), as well as social decision-making genes. In contrast, for the client, fewer molecular alterations were found, mostly involving pituitary hormone responses. However, the molecular signatures of L. dimidiatus were affected in all future climate change conditions with transcriptional changes observed in functions such as stress response (i.e. hypoxia, apoptosis, heat shock proteins), histone regulation, metabolism and the synapse. Key molecular processes, such as learning and memory activation in the cleaner wrasse and stress relief and reduced aggression in the client, were affected by the future climate change conditions. Genes involved in behaviour and memory were altered in expression under the elevated CO2 and temperature conditions, whereas the combined condition showed no expression changes related to behaviour, suggesting no additive effect on the cognitive abilities of L. dimidiatus with two simultaneous conditions. Hence, future environmental conditions influence the molecular programming involved in the mutualism maintenance for L. dimidiatus and its potential clients with possible large-scale effects on the coral reef ecosystems.",
             "extra": "major: Philosophy\nsubject: 环境",
             "language": "en-US",
             "libraryCatalog": "CNKI Scholar",
-            "place": "Pokfulam, Hong Kong",
             "thesisType": "Master thesis",
-            "university": "The University of Hong Kong",
             "url": "https://scholar.cnki.net/zn/Detail/index/GARELAST/STAC996F5D363605965191098B0C2CF2EDEE",
             "attachments": [],
             "tags": [],
@@ -3950,192 +3962,46 @@
       {
         "type": "web",
         "url": "https://scholar.cnki.net/zn/Detail/index/GARCLAST/SPAGB666445D4FB9CA39DFFDF6EA2B4F5958",
+        "detectedItemType": "conferencePaper",
         "items": [
           {
-            "itemType": "conferencePaper",
+            "itemType": "bookSection",
             "title": "Analysis of Existing Design Temperature for Heating in Sarajevo in Light of Climate Changes",
             "creators": [
               {
-                "firstName": "Blazevic",
-                "lastName": "Rejhana",
-                "creatorType": "author"
+                "creatorType": "editor",
+                "firstName": "Branko",
+                "lastName": "Katalinic"
               },
               {
-                "firstName": "Teskeredzic",
-                "lastName": "Armin",
-                "creatorType": "author"
+                "creatorType": "author",
+                "firstName": "Rejhana",
+                "lastName": "Blazevic"
               },
               {
-                "firstName": "Zecevic",
-                "lastName": "Melisa",
-                "creatorType": "author"
+                "creatorType": "author",
+                "firstName": "Armin",
+                "lastName": "Teskeredzic"
+              },
+              {
+                "creatorType": "author",
+                "firstName": "Melisa",
+                "lastName": "Zecevic"
               }
             ],
             "date": "2023",
-            "DOI": "10.2507/34TH.DAAAM.PROCEEDINGS.027",
-            "abstractNote": "Designers of heating systems and planners of the district heating consider large number of variables that influence the final proposal of the system which will meet the heating needs. Size of the system and investment costs depends on different parameters but are mostly influenced by the outside design temperature. Engineers are aware of the climate change influence but during design process they need either legal or scientific proof that they can use new/updated values of the design temperatures at the specific location. In this paper, an analysis of hourly air temperature values for the city of Sarajevo, Bosnia and Herzegovina (B&H) was conducted in the latest available 20 years dataset. Data on the outside air temperature were obtained by the Federal Hydrometeorological Institute of Bosnia and Herzegovina. Five different methods were briefly explained and used for determination of the new design temperature for Sarajevo based on the period 2001–2020. Results of the analysis demonstrate that the currently valid and official outside design temperature was low and needs to be revised. As a small-scale example, calculation of the heating needs of one residential unit was made in order to demonstrate the influence of different design outside temperature on the heating needs. These numbers were then extrapolated on the district heating system and the benefits of the proposed approach were underlined. Performed analysis suggest an urgent change in the design temperature for all cities in Bosnia and Herzegovina as it was demonstrated on the example of Sarajevo in this paper.",
-            "libraryCatalog": "CNKI Scholar",
-            "pages": "0209-0218",
-            "proceedingsTitle": "34th DAAAM International Symposium on Intelligent Manufacturing and Automation",
-            "url": "https://scholar.cnki.net/zn/Detail/index/GARCLAST/SPAGB666445D4FB9CA39DFFDF6EA2B4F5958",
-            "volume": "34",
-            "attachments": [],
-            "tags": [
-              {
-                "tag": "Climate Change"
-              },
-              {
-                "tag": "Heat Load"
-              },
-              {
-                "tag": "Heating System"
-              },
-              {
-                "tag": "Outside Desgin Temperature"
-              }
-            ],
-            "notes": [],
-            "seeAlso": []
-          }
-        ]
-      },
-      {
-        "type": "web",
-        "url": "https://kns.cnki.net/kcms2/article/abstract?v=phUvsea1i7YNS5znM1G66x3jDJpx3L1zcm6u9YthZbUuBFoxPotxkL56i7W1yfe0GoocNQkff_ksvrgOiypVY0vfWhsTm-7iAkVlpCzcDro0hBUuXajM1Snj4R10pMhHNxDTyQVdV9Z2DmNHQARAOYrNAlw18XlPLU3VAWMRKMKswIf3yAQryw==&uniplatform=NZKPT&language=CHS",
-        "items": [
-          {
-            "itemType": "book",
-            "title": "IMF Terminology Bulletin: Climate & the Environment, Fintech, Gender, and Related Acronyms: English to Arabic",
-            "creators": [],
-            "date": "10/2023",
-            "ISBN": "9798400251245",
-            "extra": "DOI: 10.5089/9798400251245.073",
-            "language": "ar",
+            "ISBN": "9783902734419",
+            "bookTitle": "DAAAM Proceedings",
+            "edition": "1",
+            "extra": "DOI: 10.2507/34th.daaam.proceedings.027",
             "libraryCatalog": "DOI.org (Crossref)",
-            "place": "Washington, D.C.",
-            "publisher": "International Monetary Fund",
-            "shortTitle": "IMF Terminology Bulletin",
-            "url": "https://elibrary.imf.org/openurl?genre=book&isbn=9798400251245&cid=537460-com-dsp-crossref",
+            "pages": "0209-0218",
+            "publisher": "DAAAM International Vienna",
+            "url": "http://www.daaam.info/Downloads/Pdfs/proceedings/proceedings_2023/027.pdf",
+            "volume": "1",
             "attachments": [],
             "tags": [],
             "notes": [],
-            "seeAlso": []
-          }
-        ]
-      },
-      {
-        "type": "web",
-        "url": "https://kns.cnki.net/kcms2/article/abstract?v=phUvsea1i7b0LBhQwIVxbNbzKBRWIJp8hSX7PW0Uh_sDA_1ULXt8qcyRECdNOTy3NcitPSkXnaQcN051Rb7NtmChDNB1pmvOBleSaIJ3VDSIkWqqqpOALLL5qZSSMkpkTokstP4K9tRA1TywWgO-2OW4Tod3_pUcHuq24TOLnp8x5uPR3hlvGA==&uniplatform=NZKPT&language=CHS",
-        "items": [
-          {
-            "itemType": "journalArticle",
-            "title": "Long-term analysis of microseism during extreme weather events: Medicanes and common storms in the Mediterranean Sea",
-            "creators": [
-              {
-                "creatorType": "author",
-                "firstName": "Alfio Marco",
-                "lastName": "Borzì"
-              },
-              {
-                "creatorType": "author",
-                "firstName": "Vittorio",
-                "lastName": "Minio"
-              },
-              {
-                "creatorType": "author",
-                "firstName": "Raphael",
-                "lastName": "De Plaen"
-              },
-              {
-                "creatorType": "author",
-                "firstName": "Thomas",
-                "lastName": "Lecocq"
-              },
-              {
-                "creatorType": "author",
-                "firstName": "Flavio",
-                "lastName": "Cannavò"
-              },
-              {
-                "creatorType": "author",
-                "firstName": "Giuseppe",
-                "lastName": "Ciraolo"
-              },
-              {
-                "creatorType": "author",
-                "firstName": "Sebastiano",
-                "lastName": "D'Amico"
-              },
-              {
-                "creatorType": "author",
-                "firstName": "Carlo Lo",
-                "lastName": "Re"
-              },
-              {
-                "creatorType": "author",
-                "firstName": "Carmelo",
-                "lastName": "Monaco"
-              },
-              {
-                "creatorType": "author",
-                "firstName": "Marco",
-                "lastName": "Picone"
-              },
-              {
-                "creatorType": "author",
-                "firstName": "Giovanni",
-                "lastName": "Scardino"
-              },
-              {
-                "creatorType": "author",
-                "firstName": "Giovanni",
-                "lastName": "Scicchitano"
-              },
-              {
-                "creatorType": "author",
-                "firstName": "Andrea",
-                "lastName": "Cannata"
-              }
-            ],
-            "date": "2024-03",
-            "DOI": "10.1016/j.scitotenv.2024.169989",
-            "ISSN": "00489697",
-            "abstractNote": "本文从地震角度分析了2011年11月至2021年11月期间发生在地中海的12次气象事件。特别地,我们考虑了8个Medicanes和4个更常见的风暴。这些事件虽然有明显差异,但都造成了强降水、强阵风和强风暴潮,其有效波高通常> 3 ? m。我们利用两种不同的方法(基于幅度衰减的网格搜索和阵列技术)从频谱含量、振幅的时空变化和震源位置等方面处理了这些气象事件与微震(是地球上最连续、最广泛的地震信号)特征之间的关系。通过将微震震源位置与风暴潮显著区域进行对比,我们观察到在(两位医生在气象参数方面表现出很低的强度,微震振幅在这两次事件中没有表现出显著的变化)分析的12个事件中,有10个事件的微震位置与风暴潮的实际位置一致。我们还进行了两次分析,通过使用一种利用连续地震噪声相干性的方法来获得这些事件的地震特征,并从地震角度获得它们的强度,称为\"微震降低幅度\"。此外,通过整合这两种方法得到的结果,我们能够\"地震地\"区分Medicanes和普通风暴。因此,我们展示了通过将微震信息与其他常用的研究气象现象的技术结合起来,为地中海气象事件建立一个新的监测系统的可能性。将微震与海况监测(例如,波浪浮...",
-            "journalAbbreviation": "Science of The Total Environment",
-            "language": "en-US",
-            "libraryCatalog": "DOI.org (Crossref)",
-            "pages": "169989",
-            "publicationTitle": "Science of The Total Environment",
-            "shortTitle": "Long-term analysis of microseism during extreme weather events",
-            "url": "https://linkinghub.elsevier.com/retrieve/pii/S0048969724001232",
-            "volume": "915",
-            "attachments": [],
-            "tags": [
-              {
-                "tag": "Climate change"
-              },
-              {
-                "tag": "Common storms"
-              },
-              {
-                "tag": "Hindcast maps"
-              },
-              {
-                "tag": "Medicanes"
-              },
-              {
-                "tag": "Mediterranean Sea"
-              },
-              {
-                "tag": "Microseism"
-              },
-              {
-                "tag": "Monitoring sea state"
-              },
-              {
-                "tag": "Wave buoys"
-              }
-            ],
             "seeAlso": []
           }
         ]
@@ -4145,6 +4011,11 @@
     "trends": [
       {
         "author": "jiaojiaodubai",
+        "date": "2025-04-14 17:24:31 +0000",
+        "message": "update CNKI family"
+      },
+      {
+        "author": "jiaojiaodubai",
         "date": "2024-08-20 13:22:33 +0800",
         "message": "fix typo"
       },
@@ -4152,11 +4023,6 @@
         "author": "jiaojiaodubai",
         "date": "2024-08-19 17:42:48 +0800",
         "message": "lint"
-      },
-      {
-        "author": "jiaojiaodubai",
-        "date": "2024-03-02 02:47:59 +0800",
-        "message": "修复无法在CNKI主站抓取Scholar的问题；升级extra；extra中新增ids记录"
       }
     ]
   },
@@ -4870,7 +4736,7 @@
   "CNKI thinker.js": {
     "header": {
       "translatorID": "5393921c-d543-4b3a-a874-070b5d73b03a",
-      "label": "CNKI thinker",
+      "label": "CNKI Thinker",
       "creator": "jiaojiaodubai",
       "target": "^https?://thinker\\.cnki\\.net",
       "minVersion": "5.0",
@@ -4879,12 +4745,12 @@
       "inRepository": true,
       "translatorType": 4,
       "browserSupport": "gcsibv",
-      "lastUpdated": "2024-01-28 16:03:07"
+      "lastUpdated": "2025-03-24 05:53:56"
     },
     "testCases": [
       {
         "type": "web",
-        "url": "https://thinker.cnki.net/bookstore/book/bookdetail?bookcode=9787111520269000&type=book",
+        "url": "https://thinker.cnki.net/bookStore/Book/bookdetail?bookcode=9787111520269000&type=book",
         "items": [
           {
             "itemType": "book",
@@ -4893,36 +4759,33 @@
               {
                 "firstName": "",
                 "lastName": "刘翠玲",
-                "creatorType": "author",
-                "fieldMode": 1
+                "fieldMode": 1,
+                "creatorType": "author"
               },
               {
                 "firstName": "",
                 "lastName": "吴静珠",
-                "creatorType": "author",
-                "fieldMode": 1
+                "fieldMode": 1,
+                "creatorType": "author"
               },
               {
                 "firstName": "",
                 "lastName": "孙晓荣",
-                "creatorType": "author",
-                "fieldMode": 1
+                "fieldMode": 1,
+                "creatorType": "author"
               }
             ],
-            "date": "2015-01-01",
             "ISBN": "9787111520269",
             "abstractNote": "本书从社会实际需求出发，根据多年的科研经验和成果，与多年从事测控信息处理、食品等相关专业的研究人员合作，融入许多解决实际问题的研究和实践成果，系统介绍了本课题组基于近红外光谱分析技术在果蔬类农药残留量的检测、食用植物油品质、小麦粉、淀粉的品质检测中的应用研究成",
             "edition": "1",
-            "extra": "CNKICite: 34\nprice: ￥62.40\nview: 2007",
+            "extra": "CNKICite: 39\nprice: ￥9999.00",
             "language": "zh-CN",
-            "numPages": "213",
+            "libraryCatalog": "CNKI Thinker",
             "publisher": "机械工业出版社",
-            "url": "https://thinker.cnki.net/bookstore/book/bookdetail?bookcode=9787111520269000&type=book",
+            "url": "https://thinker.cnki.net/bookStore/Book/bookdetail?bookcode=9787111520269000&type=book",
             "attachments": [],
             "tags": [],
-            "notes": [
-              "第1章 绪论\n第2章 近红外光谱分析技术基础\n第3章 基于近红外光谱的溶液中农药残留检测方法研究\n第4章 基于近红外光谱的蔬菜中农药残留检测方法研究\n第5章 近红外光谱技术在食用油品质定性分析中的应用研究\n第6章 近红外光谱技术在食用油品质定量分析中的应用研究\n第7章 基于近红外光谱的小麦粉品质检测方法研究\n第8章 基于近红外光谱的淀粉品质检测方法研究\n第9章 总结与展望"
-            ],
+            "notes": [],
             "seeAlso": []
           }
         ]
@@ -4938,35 +4801,31 @@
               {
                 "firstName": "",
                 "lastName": "刘翠玲",
-                "creatorType": "author",
-                "fieldMode": 1
+                "fieldMode": 1,
+                "creatorType": "author"
               },
               {
                 "firstName": "",
                 "lastName": "吴静珠",
-                "creatorType": "author",
-                "fieldMode": 1
+                "fieldMode": 1,
+                "creatorType": "author"
               },
               {
                 "firstName": "",
                 "lastName": "孙晓荣",
-                "creatorType": "author",
-                "fieldMode": 1
+                "fieldMode": 1,
+                "creatorType": "author"
               }
             ],
-            "date": "2015",
             "ISBN": "9787111520269",
-            "abstractNote": "8.1||简介\n淀粉是以谷类、薯类、豆类为原料,不经过任何化学方法处理,也不改变淀粉内在的物理和化学特性加工而成的。它是日常生活中必不可少的作料之一,如煎炸烹炒,做汤勾芡都少不了要用到淀粉。随着食用淀粉在现代食品加工业中的广泛应用,淀粉生产和加工贸易取得了较大的发展。常见的产品主要有玉米淀粉、马铃薯淀粉、红薯淀粉和绿豆淀粉等,不同种类的淀粉价格差别较大,有的相差高达10倍以上,但是不同种类淀粉颗粒的宏观外观和普通物化指标差别不明显,无法辨认。由于缺乏相应的食用淀粉鉴别检验技术标准,国内淀粉市场严格监管很难执...",
+            "abstractNote": "8.1||简介 淀粉是以谷类、薯类、豆类为原料,不经过任何化学方法处理,也不改变淀粉内在的物理和化学特性加工而成的。它是日常生活中必不可少的作料之一,如煎炸烹炒,做汤勾芡都少不了要用到淀粉。随着食用淀粉在现代食品加工业中的广泛应用,淀粉生产和加工贸易取得了较大的发展。常见的产品主要有玉米淀粉、马铃薯淀粉、红薯淀粉和绿豆淀粉等,不同种类的淀粉价格差别较大,有的相差高达10倍以上,但是不同种类淀粉颗粒的宏观外观和普通物化指标差别不明显,无法辨认。由于缺乏相应的食用淀粉鉴别检验技术标准,国内淀粉市场严格监管很难执...",
             "bookTitle": "近红外光谱技术在食品品质检测方法中的研究",
             "language": "zh-CN",
-            "pages": "185",
-            "publisher": "机械工业出版社",
+            "libraryCatalog": "CNKI thinker",
             "url": "https://thinker.cnki.net/BookStore/chapter/chapterdetail?bookcode=9787111520269000_174&type=chapter#div6",
             "attachments": [],
             "tags": [],
-            "notes": [
-              ""
-            ],
+            "notes": [],
             "seeAlso": []
           }
         ]
@@ -4974,11 +4833,17 @@
       {
         "type": "web",
         "url": "https://thinker.cnki.net/BookStore/search/Result",
+        "defer": true,
         "items": "multiple"
       }
     ],
-    "zhLabel": "中国知网心可图书馆",
+    "zhLabel": "CNKI Thinker",
     "trends": [
+      {
+        "author": "jiaojiaodubai",
+        "date": "2025-04-14 17:24:31 +0000",
+        "message": "update CNKI family"
+      },
       {
         "author": "jiaojiaodubai",
         "date": "2024-08-20 13:31:03 +0800",
@@ -4988,11 +4853,6 @@
         "author": "jiaojiaodubai",
         "date": "2024-08-20 13:22:33 +0800",
         "message": "fix typo"
-      },
-      {
-        "author": "jiaojiaodubai",
-        "date": "2024-01-31 17:55:52 +0800",
-        "message": "新增知网子网站转换器；新增知网Endnote导入转换器"
       }
     ]
   },
@@ -5006,9 +4866,9 @@
       "maxVersion": "",
       "priority": 150,
       "inRepository": true,
-      "translatorType": 12,
+      "translatorType": 4,
       "browserSupport": "gcsibv",
-      "lastUpdated": "2024-10-04 22:36:27"
+      "lastUpdated": "2025-04-14 17:16:06"
     },
     "testCases": [
       {
@@ -5420,246 +5280,6 @@
               }
             ],
             "tags": [],
-            "notes": [],
-            "seeAlso": []
-          }
-        ]
-      },
-      {
-        "type": "search",
-        "input": {
-          "DOI": "10.13374/j.issn2095-9389.2022.11.11.005"
-        },
-        "items": [
-          {
-            "itemType": "journalArticle",
-            "title": "生物质材料炭化的研究进展及其应用展望",
-            "creators": [
-              {
-                "firstName": "",
-                "lastName": "田学坤",
-                "creatorType": "author",
-                "fieldMode": 1
-              },
-              {
-                "firstName": "",
-                "lastName": "王霞",
-                "creatorType": "author",
-                "fieldMode": 1
-              },
-              {
-                "firstName": "",
-                "lastName": "苏凯",
-                "creatorType": "author",
-                "fieldMode": 1
-              },
-              {
-                "firstName": "",
-                "lastName": "欧阳德泽",
-                "creatorType": "author",
-                "fieldMode": 1
-              },
-              {
-                "firstName": "",
-                "lastName": "赵振毅",
-                "creatorType": "author",
-                "fieldMode": 1
-              },
-              {
-                "firstName": "",
-                "lastName": "刘新红",
-                "creatorType": "author",
-                "fieldMode": 1
-              }
-            ],
-            "date": "2023",
-            "DOI": "10.13374/j.issn2095-9389.2022.11.11.005",
-            "ISSN": "2095-9389",
-            "abstractNote": "生物质属于可再生资源，在我国含量丰富，生物质材料炭化后的产物在储能、吸附等领域得到了广泛应用.研究生物质材料的炭化过程，有利于生物质炭的有效利用.总结了生物质材料炭化过程中，生物质的种类和炭化条件（包括炭化温度、预处理等）对炭化产物中碳的结构、形态、性质的影响，期望为生物质炭化产物的有效利用提供理论基础.同时总结了在催化剂作用下，利用生物质材料炭化来制备碳纳米管，并分析了生物质材料中木质素和纤维素等组分对碳纳米管制备的影响.在此基础上，展望了生物质材料在含碳耐火材料中的应用前景，以期为制备低成本和高性能的新型含碳耐火材料提供思路.",
-            "extra": "original-container-title: Chinese Journal of Engineering\nfoundation: 国家自然科学基金资助项目（51872266,52172031）；\ndownload: 1164\nalbum: 工程科技Ⅱ辑;工程科技Ⅰ辑\nCLC: TB383.1;TQ175.7;TK6\ndbcode: CJFQ\ndbname: CJFDLAST2023\nfilename: BJKD202312004\npublicationTag: 北大核心, CA, JST, Pж(AJ), EI, CSCD, WJCI\nCIF: 3.295\nAIF: 2.29",
-            "issue": "12",
-            "language": "zh-CN",
-            "libraryCatalog": "CNKI",
-            "pages": "2026-2036",
-            "publicationTitle": "工程科学学报",
-            "url": "https://link.cnki.net/doi/10.13374/j.issn2095-9389.2022.11.11.005",
-            "volume": "45",
-            "attachments": [
-              {
-                "title": "Full Text PDF",
-                "mimeType": "application/pdf"
-              }
-            ],
-            "tags": [
-              {
-                "tag": "含碳耐火材料"
-              },
-              {
-                "tag": "炭化条件"
-              },
-              {
-                "tag": "生物质材料"
-              },
-              {
-                "tag": "生物质炭"
-              },
-              {
-                "tag": "碳纳米管"
-              }
-            ],
-            "notes": [],
-            "seeAlso": []
-          }
-        ]
-      },
-      {
-        "type": "search",
-        "input": {
-          "DOI": "10.19655/j.cnki.1005-4642.2020.09.009"
-        },
-        "items": [
-          {
-            "itemType": "journalArticle",
-            "title": "特斯拉阀性能的仿真研究",
-            "creators": [
-              {
-                "firstName": "",
-                "lastName": "周润中",
-                "creatorType": "author",
-                "fieldMode": 1
-              },
-              {
-                "firstName": "",
-                "lastName": "乔宇杰",
-                "creatorType": "author",
-                "fieldMode": 1
-              },
-              {
-                "firstName": "",
-                "lastName": "张钰翔",
-                "creatorType": "author",
-                "fieldMode": 1
-              },
-              {
-                "firstName": "",
-                "lastName": "代珍兵",
-                "creatorType": "author",
-                "fieldMode": 1
-              }
-            ],
-            "date": "2020",
-            "DOI": "10.19655/j.cnki.1005-4642.2020.09.009",
-            "ISSN": "1005-4642",
-            "abstractNote": "通过CAD软件建立几何模型,通过COMSOL软件建立数值模型并求解,与实验结果进行对比,并通过数值模拟讨论相关参量对阀门单向流通性的影响.研究结果表明:特斯拉阀门适用于低粘度高密度流体;本文所设计的特斯拉阀门在四阀门情况下dedicatee数能达到3.414;单阀门特斯拉阀的性能相较于多阀门更佳.",
-            "extra": "original-container-title: Physics Experimentation\ndownload: 2111\nalbum: 基础科学;工程科技Ⅱ辑\nCLC: TH134\ndbcode: CJFQ\ndbname: CJFDLAST2020\nfilename: WLSL202009009\npublicationTag: JST\nCIF: 0.755\nAIF: 0.562",
-            "issue": "9",
-            "language": "zh-CN",
-            "libraryCatalog": "CNKI",
-            "pages": "44-50",
-            "publicationTitle": "物理实验",
-            "url": "https://link.cnki.net/doi/10.19655/j.cnki.1005-4642.2020.09.009",
-            "volume": "40",
-            "attachments": [
-              {
-                "title": "Full Text PDF",
-                "mimeType": "application/pdf"
-              }
-            ],
-            "tags": [
-              {
-                "tag": "diodicity数"
-              },
-              {
-                "tag": "数值模拟"
-              },
-              {
-                "tag": "特斯拉阀"
-              },
-              {
-                "tag": "阀门性能"
-              }
-            ],
-            "notes": [],
-            "seeAlso": []
-          }
-        ]
-      },
-      {
-        "type": "search",
-        "input": {
-          "DOI": "10.13198/j.issn.1001-6929.2021.12.09"
-        },
-        "items": [
-          {
-            "itemType": "journalArticle",
-            "title": "燃煤锅炉协同处置油基岩屑碳排放核算及降碳贡献度分析",
-            "creators": [
-              {
-                "firstName": "",
-                "lastName": "崔长颢",
-                "creatorType": "author",
-                "fieldMode": 1
-              },
-              {
-                "firstName": "",
-                "lastName": "刘美佳",
-                "creatorType": "author",
-                "fieldMode": 1
-              },
-              {
-                "firstName": "",
-                "lastName": "葛金林",
-                "creatorType": "author",
-                "fieldMode": 1
-              },
-              {
-                "firstName": "",
-                "lastName": "王铭玮",
-                "creatorType": "author",
-                "fieldMode": 1
-              },
-              {
-                "firstName": "",
-                "lastName": "闫大海",
-                "creatorType": "author",
-                "fieldMode": 1
-              }
-            ],
-            "date": "2022",
-            "DOI": "10.13198/j.issn.1001-6929.2021.12.09",
-            "ISSN": "1001-6929",
-            "abstractNote": "我国电力行业CO_2排放量巨大，约占全国CO_2排放总量的50%.有效降低电力行业的碳排放，对我国按时实现“3060”碳达峰与碳中和的目标将起到有力支撑.石油和天然气开采过程中产生的油基岩屑因含有较高的热值可作为锅炉煤炭燃料的替代燃料使用.为探明利用燃煤锅炉协同处置油基岩屑的碳减排效果，选取某电站600 MW循环流化床锅炉，以30%的比例掺烧油基岩屑，并参照《温室气体排放核算与报告要求第1部分：发电企业》和《企业温室气体排放核算方法与报告指南发电设施(征求意见稿)》两种核算方法计算协同处置前后锅炉CO_2的排放量.结果表明：(1)在30%的掺加比下，油基岩屑协同处置具有碳减排效果.两种核算方法计算的降碳量分别为159.2和157.7 t，降碳比分别为0.543和0.538.(2)油基岩屑焚烧产生的CO_2排放量小于被替代的煤炭燃烧产生的碳排放量，是协同处置具有碳减排效益的主要原因.(3)核算法与检测法CO_2排放量的差异表明，企业源评估模型碳核算法最主要的不确定性来源于检测数据的精准度.研究显示，燃煤锅炉协同处置油基岩屑具有一定的CO_2减排效果，单位热值含碳量和消耗量是影响碳减排效果的两个关键因素，建议开展油基岩屑掺加比与碳减排量间的相关性研究，为规模化开展燃煤锅炉协同处置降碳工作提供参考.",
-            "extra": "original-container-title: Research of Environmental Sciences\nfoundation: 国家重点研发计划项目(No.2018YFC1900100)； 中央级公益性科研院所基本科研业务专项(No.2019YSKY-016)~~；\ndownload: 511\nalbum: 工程科技Ⅰ辑;工程科技Ⅱ辑\nCLC: X773;X741\ndbcode: CJFQ\ndbname: CJFDLAST2022\nfilename: HJKX202202025\npublicationTag: 北大核心, CA, JST, CSCD, WJCI, AMI扩展\nCIF: 4.747\nAIF: 3.657",
-            "issue": "2",
-            "language": "zh-CN",
-            "libraryCatalog": "CNKI",
-            "pages": "540-546",
-            "publicationTitle": "环境科学研究",
-            "url": "https://link.cnki.net/doi/10.13198/j.issn.1001-6929.2021.12.09",
-            "volume": "35",
-            "attachments": [
-              {
-                "title": "Full Text PDF",
-                "mimeType": "application/pdf"
-              }
-            ],
-            "tags": [
-              {
-                "tag": "协同处置"
-              },
-              {
-                "tag": "循环流化床"
-              },
-              {
-                "tag": "油基岩屑"
-              },
-              {
-                "tag": "碳排放核算"
-              },
-              {
-                "tag": "降碳潜力"
-              }
-            ],
             "notes": [],
             "seeAlso": []
           }
@@ -6422,6 +6042,11 @@
     "trends": [
       {
         "author": "jiaojiaodubai",
+        "date": "2025-04-14 17:24:31 +0000",
+        "message": "update CNKI family"
+      },
+      {
+        "author": "jiaojiaodubai",
         "date": "2024-10-04 22:37:03 +0800",
         "message": "fix typo"
       },
@@ -6429,11 +6054,6 @@
         "author": "jiaojiaodubai",
         "date": "2024-09-29 20:31:25 +0800",
         "message": "fix extra 'uniplatform'"
-      },
-      {
-        "author": "jiaojiaodubai",
-        "date": "2024-09-13 11:59:55 +0800",
-        "message": "兼容学位论文代码手误"
       }
     ]
   },
@@ -6690,7 +6310,7 @@
       "inRepository": true,
       "translatorType": 4,
       "browserSupport": "gcsibv",
-      "lastUpdated": "2024-09-19 07:09:20"
+      "lastUpdated": "2025-06-24 14:49:12"
     },
     "testCases": [
       {
@@ -7085,19 +6705,19 @@
     "zhLabel": "维普网",
     "trends": [
       {
-        "author": "seiuneko",
-        "date": "2025-01-02 09:41:04 +0800",
-        "message": "fix(CQVIP): typo in RegExp.test (#417)"
+        "author": "jiaojiaodubai",
+        "date": "2025-06-24 14:50:57 +0000",
+        "message": "update selector; add fallback element"
       },
       {
         "author": "jiaojiaodubai",
-        "date": "2024-09-19 15:11:09 +0800",
-        "message": "忽略url大小写"
+        "date": "2025-04-10 08:17:53 +0000",
+        "message": "update helper function"
       },
       {
         "author": "jiaojiaodubai",
-        "date": "2024-09-13 12:12:19 +0800",
-        "message": "适配journalArticle的新案例"
+        "date": "2025-04-08 06:39:12 +0000",
+        "message": "fix #465"
       }
     ]
   },
@@ -8897,7 +8517,7 @@
       "inRepository": true,
       "translatorType": 4,
       "browserSupport": "gcsibv",
-      "lastUpdated": "2024-09-30 10:33:44"
+      "lastUpdated": "2025-07-14 15:08:15"
     },
     "testCases": [
       {
@@ -9165,6 +8785,11 @@
     "trends": [
       {
         "author": "jiaojiaodubai",
+        "date": "2025-07-14 07:10:40 +0000",
+        "message": "better original author handle"
+      },
+      {
+        "author": "jiaojiaodubai",
         "date": "2024-09-30 18:35:05 +0800",
         "message": "close #365"
       },
@@ -9172,11 +8797,6 @@
         "author": "jiaojiaodubai",
         "date": "2024-06-20 17:04:42 +0800",
         "message": "clean EOL, fix #351, fix #352"
-      },
-      {
-        "author": "jiaojiaodubai",
-        "date": "2024-02-09 17:13:34 +0800",
-        "message": "按照官方指南更改优先级"
       }
     ]
   },
@@ -9388,15 +9008,15 @@
     "header": {
       "translatorID": "69614630-f9e8-440d-9a7c-1f4fd7edf191",
       "label": "MagTech",
-      "creator": "jiaojiaodubai23",
-      "target": "^https?://.*(/CN/)?.*(\\.shtml)?",
+      "creator": "jiaojiaodubai",
+      "target": "",
       "minVersion": "5.0",
       "maxVersion": "",
       "priority": 200,
       "inRepository": true,
       "translatorType": 4,
       "browserSupport": "gcsibv",
-      "lastUpdated": "2024-06-20 16:34:51"
+      "lastUpdated": "2025-06-21 22:17:45"
     },
     "testCases": [
       {
@@ -9413,21 +9033,25 @@
             "title": "植食性害虫食诱剂的研究与应用",
             "creators": [
               {
+                "firstName": "",
                 "lastName": "蔡晓明",
                 "creatorType": "author",
                 "fieldMode": 1
               },
               {
+                "firstName": "",
                 "lastName": "李兆群",
                 "creatorType": "author",
                 "fieldMode": 1
               },
               {
+                "firstName": "",
                 "lastName": "潘洪生",
                 "creatorType": "author",
                 "fieldMode": 1
               },
               {
+                "firstName": "",
                 "lastName": "陆宴辉",
                 "creatorType": "author",
                 "fieldMode": 1
@@ -9436,25 +9060,37 @@
             "date": "2018-02-08",
             "DOI": "10.16409/j.cnki.2095-039x.2018.01.002",
             "ISSN": "2095-039X",
-            "abstractNote": "植食性害虫主要取食植物的茎叶、果实、花蜜等，并且常对某些食物...",
+            "abstractNote": "植食性害虫主要取食植物的茎叶、果实、花蜜等，并且常对某些食物表现出明显的偏好性。植物挥发物在害虫食物偏好选择行为中发挥着重要作用。基于害虫偏好食源或其挥发物研制的食诱剂（也称\"植物源引诱剂\"），是一类重要的害虫绿色防控产品。20世纪初人们就开始利用发酵糖水、糖醋酒液等传统食诱剂进行害虫诱集防治。随着对害虫食源挥发物中信息物质认识的不断深入，通过组配天然提取或人工合成的挥发物组分，先后研制出实蝇、夜蛾、蓟马、甲虫等多类害虫的新型食诱剂。这些食诱剂大多对雌、雄害虫均有效，已在橘小实蝇Bactrocera dorsalis、地中海实蝇Ceratitis capitata、棉铃虫Helicoverpa armigera、苹果蠹蛾Cydia pomonella、西花蓟马Frankliniella occidentalis、西方玉米根萤叶甲Diabrotica virgifera virgifera、纵坑切梢小蠹Tomicus piniperda等重要害虫的监测和防治中发挥了重要作用。本文总结了已有食诱剂研发与应用过程中的经验和教训，并对今后食诱剂的发展方向与重点方面进行了分析和展望，以期促进植食性害虫食诱剂及其田间使用技术的创新发展。",
+            "extra": "original-author: Cai || Xiaoming\noriginal-author: Li || Zhaoqun\noriginal-author: Pan || Hongsheng\noriginal-author: Lu || Yanhui\ncreatorsExt: [{\"firstName\":\"\",\"lastName\":\"蔡晓明\",\"creatorType\":\"author\",\"fieldMode\":1,\"original\":\"Cai || Xiaoming\"},{\"firstName\":\"\",\"lastName\":\"李兆群\",\"creatorType\":\"author\",\"fieldMode\":1,\"original\":\"Li || Zhaoqun\"},{\"firstName\":\"\",\"lastName\":\"潘洪生\",\"creatorType\":\"author\",\"fieldMode\":1,\"original\":\"Pan || Hongsheng\"},{\"firstName\":\"\",\"lastName\":\"陆宴辉\",\"creatorType\":\"author\",\"fieldMode\":1,\"original\":\"Lu || Yanhui\"}]",
             "issue": "1",
             "language": "zh-CN",
-            "libraryCatalog": "MagTech",
+            "libraryCatalog": "www.zgswfz.com.cn",
             "pages": "8",
             "publicationTitle": "中国生物防治学报",
             "url": "http://www.zgswfz.com.cn/CN/10.16409/j.cnki.2095-039x.2018.01.002",
             "volume": "34",
             "attachments": [
               {
-                "title": "Snapshot",
-                "mimeType": "text/html"
-              },
-              {
                 "title": "Full Text PDF",
                 "mimeType": "application/pdf"
               }
             ],
             "tags": [
+              {
+                "tag": "behavioural manipulation"
+              },
+              {
+                "tag": "green pest control"
+              },
+              {
+                "tag": "host plant"
+              },
+              {
+                "tag": "plant volatiles"
+              },
+              {
+                "tag": "preference"
+              },
               {
                 "tag": "偏好选择"
               },
@@ -9485,16 +9121,19 @@
             "title": "施工粉尘健康损害量化评价",
             "creators": [
               {
+                "firstName": "",
                 "lastName": "李小冬",
                 "creatorType": "author",
                 "fieldMode": 1
               },
               {
+                "firstName": "",
                 "lastName": "苏舒",
                 "creatorType": "author",
                 "fieldMode": 1
               },
               {
+                "firstName": "",
                 "lastName": "黄天健",
                 "creatorType": "author",
                 "fieldMode": 1
@@ -9502,19 +9141,17 @@
             ],
             "date": "2015-01-20",
             "ISSN": "1000-0054",
+            "abstractNote": "为了完善建筑工程健康损害评价体系,提升施工人员职业健康水平,该文基于健康风险评价法和健康损害量化评价,建立施工粉尘健康损害评价框架。针对不同施工阶段不同工种进行粉尘损害评价,并用社会意愿支付法货币化损害结果。结合实际工程,将评价模型运用于某住宅项目主体结构施工阶段,得到各工种的粉尘健康损害值,并进行对比分析。结果表明: 评价模型可以用于施工粉尘的健康损害评价; 不同工种的粉尘健康损害存在明显差异; 在主体结构阶段,木工受到的粉尘污染最为严重。",
+            "extra": "original-author: Li || Xiaodong\noriginal-author: Su || Shu\noriginal-author: Huang || Tianjian\ncreatorsExt: [{\"firstName\":\"\",\"lastName\":\"李小冬\",\"creatorType\":\"author\",\"fieldMode\":1,\"original\":\"Li || Xiaodong\"},{\"firstName\":\"\",\"lastName\":\"苏舒\",\"creatorType\":\"author\",\"fieldMode\":1,\"original\":\"Su || Shu\"},{\"firstName\":\"\",\"lastName\":\"黄天健\",\"creatorType\":\"author\",\"fieldMode\":1,\"original\":\"Huang || Tianjian\"}]",
             "issue": "1",
             "journalAbbreviation": "清华大学学报（自然科学版）",
             "language": "zh-CN",
-            "libraryCatalog": "MagTech",
+            "libraryCatalog": "jst.tsinghuajournals.com",
             "pages": "50-55",
             "publicationTitle": "清华大学学报（自然科学版）",
-            "url": "http://jst.tsinghuajournals.com/CN/Y2015/V55/I1/50",
+            "url": "http://jst.tsinghuajournals.com/CN/abstract/abstract148365.shtml",
             "volume": "55",
             "attachments": [
-              {
-                "title": "Snapshot",
-                "mimeType": "text/html"
-              },
               {
                 "title": "Full Text PDF",
                 "mimeType": "application/pdf"
@@ -9541,64 +9178,49 @@
       },
       {
         "type": "web",
-        "url": "http://www.dwjs.com.cn/T2JUSGUU2P9AedAuY61LaRnnjULDzh%2Bv_w8bZtqBahG9wUCJsceKzRtv6B_%2B%2B9%2BO?encrypt=1",
+        "url": "http://www.zgyj.ac.cn/gyby/zgyj/CN/10.13228/j.boyuan.issn1006-9356.20190429",
         "items": [
           {
             "itemType": "journalArticle",
-            "title": "新型电力系统的“碳视角”：科学问题与研究框架",
+            "title": "高钛型高炉渣钛提取工艺研究现状及发展展望",
             "creators": [
               {
-                "lastName": "康重庆",
+                "firstName": "",
+                "lastName": "刘帅",
                 "creatorType": "author",
                 "fieldMode": 1
               },
               {
-                "lastName": "杜尔顺",
+                "firstName": "",
+                "lastName": "张宗旺",
                 "creatorType": "author",
                 "fieldMode": 1
               },
               {
-                "lastName": "李姚旺",
+                "firstName": "",
+                "lastName": "张建良",
                 "creatorType": "author",
                 "fieldMode": 1
               },
               {
-                "lastName": "张宁",
-                "creatorType": "author",
-                "fieldMode": 1
-              },
-              {
-                "lastName": "陈启鑫",
-                "creatorType": "author",
-                "fieldMode": 1
-              },
-              {
-                "lastName": "郭鸿业",
-                "creatorType": "author",
-                "fieldMode": 1
-              },
-              {
-                "lastName": "王鹏",
+                "firstName": "",
+                "lastName": "王振阳",
                 "creatorType": "author",
                 "fieldMode": 1
               }
             ],
-            "date": "2022-03-05",
-            "DOI": "10.13335/j.1000-3673.pst.2021.2550",
-            "ISSN": "1000-3673",
-            "abstractNote": "电力在我国能源消费与碳排放中占据重要地位。电力系统低碳转型,构建以新能源为主体的新型电力系统将对我国碳达峰、碳中和战略目标的实现起到关键作用。该文首先分析了从“电视角”到“碳视角”下电力学科研究体系的转变趋势,并对当前“碳视角”下的电力系统研究概况进行了综述。基于“碳视角”下的电力系统研究路径,从电力系统全环节碳排放计量和“战略-技术-市场”协同低碳化解决方案2个方面,分析了电力低碳转型过程中的关键科学问题。在此基础上,从碳计量与碳追踪、碳规划与碳轨迹、碳减排与碳优化、碳市场与碳交易4个方面提出了新型电力系统“碳视角”的研究框架,并对关键研究内容进行了分析和阐述。",
+            "date": "2020/03/15",
+            "DOI": "10.13228/j.boyuan.issn1006-9356.20190429",
+            "ISSN": "1006-9356",
+            "abstractNote": "含钛高炉渣可直接用于制作混凝土、渣棉和混凝土砌块等原材料,但其钒、钛有价资源得不到有效利用。中国含钛高炉渣储量大,且每年仍以较快速度增长。因而含钛高炉渣钛资源提取问题成为研究热点。通过对含钛高炉渣钛提取技术的相关研究进行回顾,分别从钛铁合金、钛白和四氯化钛等不同富集形式,对含钛高炉渣钛提取工艺的过程以及优缺点进行综述,并分析探讨各工艺可行性,期望可以促进钛资源可持续健康发展,达到资源综合利用目的。",
             "issue": "3",
             "language": "zh-CN",
-            "libraryCatalog": "MagTech",
-            "pages": "821-833",
-            "publicationTitle": "电网技术",
-            "url": "http://www.dwjs.com.cn/T2JUSGUU2P9AedAuY61LaRnnjULDzh%2Bv_w8bZtqBahG9wUCJsceKzRtv6B_%2B%2B9%2BO?encrypt=1",
-            "volume": "46",
+            "libraryCatalog": "www.zgyj.ac.cn",
+            "pages": "1-7",
+            "publicationTitle": "中国冶金",
+            "url": "http://www.zgyj.ac.cn/gyby/zgyj/CN/10.13228/j.boyuan.issn1006-9356.20190429",
+            "volume": "30",
             "attachments": [
-              {
-                "title": "Snapshot",
-                "mimeType": "text/html"
-              },
               {
                 "title": "Full Text PDF",
                 "mimeType": "application/pdf"
@@ -9606,19 +9228,72 @@
             ],
             "tags": [
               {
-                "tag": "新型电力系统"
+                "tag": "资源利用"
               },
               {
-                "tag": "碳减排与碳优化"
+                "tag": "钛提取工艺"
               },
               {
-                "tag": "碳市场与碳交易"
+                "tag": "钛铁合金"
               },
               {
-                "tag": "碳规划与碳轨迹"
+                "tag": "高炉渣"
               },
               {
-                "tag": "碳计量和碳追踪"
+                "tag": "高钛渣"
+              }
+            ],
+            "notes": [],
+            "seeAlso": []
+          }
+        ]
+      },
+      {
+        "type": "web",
+        "url": "http://www.zgxdyyzz.com.cn/CN/10.3969/j.issn.1672-9463.2022.03.019",
+        "items": [
+          {
+            "itemType": "journalArticle",
+            "title": "糖尿病患者检测血清CA125、CEA的临床意义",
+            "creators": [
+              {
+                "firstName": "",
+                "lastName": "亢贞",
+                "creatorType": "author",
+                "fieldMode": 1
+              }
+            ],
+            "DOI": "10.3969/j.issn.1672-9463.2022.03.019",
+            "ISSN": "1672-9463",
+            "abstractNote": "目的 探讨糖尿病患者血清糖类抗原125（CA125）、癌胚抗原（CEA）水平及意义。方法 选取2017年1月~2018年12月在我院治疗的2型糖尿病患者142例（糖尿病组）,同时选取健康体检者140例作为对照组,检测两组血清CA125、CEA、空腹血糖（FPG）和糖化血红蛋白（HbA1c）水平。结果 糖尿病组血清CA125、CEA、FPG和HbA1c水平明显高于对照组（P<0.05）;糖尿病组有并发症患者血清CA125、CEA水平明显高于无并发症患者（P<0.05）;CEA与FPG、HbA1c呈正相关（r=0.329、0.394,P<0.05）。结论 糖尿病患者血清CA125、CEA升高,尤其合并并发症患者升高更明显,而且CEA与患者FPG、HbA1c水平呈正相关。",
+            "issue": "3",
+            "language": "zh-CN",
+            "libraryCatalog": "www.zgxdyyzz.com.cn",
+            "pages": "82-84",
+            "publicationTitle": "中国现代医药杂志",
+            "url": "http://www.zgxdyyzz.com.cn/CN/10.3969/j.issn.1672-9463.2022.03.019",
+            "volume": "24",
+            "attachments": [
+              {
+                "title": "Full Text PDF",
+                "mimeType": "application/pdf"
+              }
+            ],
+            "tags": [
+              {
+                "tag": "癌胚抗原"
+              },
+              {
+                "tag": "空腹血糖"
+              },
+              {
+                "tag": "糖化血红蛋白"
+              },
+              {
+                "tag": "糖尿病"
+              },
+              {
+                "tag": "糖类抗原125"
               }
             ],
             "notes": [],
@@ -9631,18 +9306,18 @@
     "trends": [
       {
         "author": "jiaojiaodubai",
+        "date": "2025-06-21 14:21:33 +0000",
+        "message": "change detect condition"
+      },
+      {
+        "author": "jiaojiaodubai",
+        "date": "2025-06-03 01:58:19 +0000",
+        "message": "rewrite"
+      },
+      {
+        "author": "jiaojiaodubai",
         "date": "2024-06-20 17:04:42 +0800",
         "message": "clean EOL, fix #351, fix #352"
-      },
-      {
-        "author": "jiaojiaodubai",
-        "date": "2024-02-09 17:13:34 +0800",
-        "message": "按照官方指南更改优先级"
-      },
-      {
-        "author": "jiaojiaodubai",
-        "date": "2023-12-28 01:53:36 +0800",
-        "message": "补充注释；优化DOI字段；统一变量命名风格"
       }
     ]
   },
@@ -11906,7 +11581,7 @@
       "inRepository": true,
       "translatorType": 4,
       "browserSupport": "gcsibv",
-      "lastUpdated": "2024-06-09 14:18:17"
+      "lastUpdated": "2025-04-10 14:56:17"
     },
     "testCases": [
       {
@@ -11944,7 +11619,7 @@
       },
       {
         "type": "web",
-        "url": "https://pkulaw.com/chl/e54c465cca59c137bdfb.html",
+        "url": "https://www.pkulaw.com/chl/e54c465cca59c137bdfb.html",
         "items": [
           {
             "itemType": "statute",
@@ -11958,11 +11633,11 @@
               }
             ],
             "dateEnacted": "2005-10-27",
-            "extra": "Edition: 2005年修订\n法宝引证码: CLI.1.60597",
+            "extra": "edition: 2005年修订\n法宝引证码: CLI.1.60597",
             "language": "zh-CN",
             "publicLawNumber": "中华人民共和国主席令第42号",
             "shortTitle": "公司法",
-            "url": "https://pkulaw.com/chl/e54c465cca59c137bdfb.html",
+            "url": "https://www.pkulaw.com/chl/e54c465cca59c137bdfb.html",
             "attachments": [
               {
                 "title": "Snapshot",
@@ -11997,7 +11672,7 @@
               }
             ],
             "dateEnacted": "1993-11-12",
-            "extra": "Type: regulation\nStatus: 已废止\n法宝引证码: CLI.3.8815",
+            "extra": "type: regulation\nstatus: 已废止\n法宝引证码: CLI.3.8815",
             "language": "zh-CN",
             "publicLawNumber": "法发〔1993〕36号",
             "url": "https://www.pkulaw.com/chl/98ef6bfbd5f5ecdebdfb.html",
@@ -12062,7 +11737,7 @@
               }
             ],
             "dateEnacted": "2007-07-11",
-            "extra": "Type: regulation\n法宝引证码: CLI.2.96270",
+            "extra": "type: regulation\n法宝引证码: CLI.2.96270",
             "language": "zh-CN",
             "publicLawNumber": "国发〔2007〕19号",
             "url": "https://www.pkulaw.com/chl/dc46bb66e13150b8bdfb.html",
@@ -12094,7 +11769,7 @@
               }
             ],
             "dateEnacted": "2018-02-06",
-            "extra": "Type: regulation\n法宝引证码: CLI.3.309904",
+            "extra": "type: regulation\n法宝引证码: CLI.3.309904",
             "language": "zh-CN",
             "publicLawNumber": "法释〔2018〕1号",
             "url": "https://www.pkulaw.com/chl/0a15442a31eb74f6bdfb.html",
@@ -12126,7 +11801,7 @@
               }
             ],
             "dateEnacted": "2018-06-27",
-            "extra": "Type: regulation\n法宝引证码: CLI.2.316828",
+            "extra": "type: regulation\n法宝引证码: CLI.2.316828",
             "language": "zh-CN",
             "publicLawNumber": "国发〔2018〕22号",
             "url": "https://www.pkulaw.com/chl/4a14adc2c14e5e68bdfb.html",
@@ -12158,7 +11833,7 @@
               }
             ],
             "dateEnacted": "2011-07-28",
-            "extra": "Type: regulation\n法宝引证码: CLI.11.518085",
+            "extra": "type: regulation\n法宝引证码: CLI.11.518085",
             "language": "zh-CN",
             "publicLawNumber": "山东省人民政府令第239号",
             "url": "https://www.pkulaw.com/lar/c74c0e82aa441b08e9ca1ea4cf401f45bdfb.html",
@@ -12190,7 +11865,7 @@
               }
             ],
             "dateEnacted": "2022-09-01",
-            "extra": "Type: regulation\n法宝引证码: CLI.12.5537956",
+            "extra": "type: regulation\n法宝引证码: CLI.12.5537956",
             "language": "zh-CN",
             "publicLawNumber": "德办规[2022]10号",
             "url": "https://www.pkulaw.com/lar/03e98798ef205f4a1faf9c788c472e25bdfb.html",
@@ -12222,7 +11897,7 @@
               }
             ],
             "dateEnacted": "2014-10-23",
-            "extra": "Type: regulation\n法宝引证码: CLI.16.237344",
+            "extra": "type: regulation\n法宝引证码: CLI.16.237344",
             "language": "zh-CN",
             "session": "中国共产党第十八届中央委员会第四次全体会议",
             "url": "https://www.pkulaw.com/chl/8e624467ca77636dbdfb.html",
@@ -12247,7 +11922,7 @@
             "nameOfAct": "中华人民共和国与美利坚合众国联合声明",
             "creators": [],
             "dateEnacted": "2011-01-19",
-            "extra": "Type: treaty\n法宝引证码: CLI.T.6998",
+            "extra": "type: treaty\n法宝引证码: CLI.T.6998",
             "language": "zh-CN",
             "url": "https://www.pkulaw.com/eagn/8e43a3c4e94eed58d5f18c2194e7b611bdfb.html",
             "attachments": [
@@ -12278,7 +11953,7 @@
               }
             ],
             "date": "2013-12-23",
-            "extra": "Edition: 2013年\nevent-title: 第十二届全国人民代表大会常务委员会第六次会议\n法宝引证码: CLI.DL.6311",
+            "extra": "edition: 2013年\nevent-title: 第十二届全国人民代表大会常务委员会第六次会议\n法宝引证码: CLI.DL.6311",
             "language": "zh-CN",
             "libraryCatalog": "北大法宝",
             "url": "https://www.pkulaw.com/protocol/e0c81a0878b582cddca4c85351d16972bdfb.html",
@@ -12309,7 +11984,7 @@
                 "fieldMode": 1
               }
             ],
-            "extra": "original-title: 中华人民共和国个人所得税法（2011修正）\nCLI Code: CLI.1.153700(EN)",
+            "extra": "original-title: 中华人民共和国个人所得税法（2011修正）\n法宝引证码: CLI.1.153700(EN)",
             "language": "en-US",
             "publicLawNumber": "Order No.48 of the President of the People's Republic of China",
             "url": "https://www.pkulaw.com/en_law/1fc5de53e239e30bbdfb.html",
@@ -12331,15 +12006,15 @@
         "items": [
           {
             "itemType": "case",
-            "caseName": "荣宝英诉王阳、永诚财产保险股份有限公司江阴支公司机动车交通事故责任纠纷案",
+            "caseName": "荣宝英诉***、永诚财产保险股份有限公司江阴支公司机动车交通事故责任纠纷案",
             "creators": [],
             "dateDecided": "2013-06-21",
             "court": "江苏省无锡市中级人民法院",
             "docketNumber": "（2013）锡民终字第497号",
-            "extra": "Series: 最高人民法院指导案例\nSeries Number: 24\navailable-date: 2014-01-26\nIssue: 8\nGenre: 民事判决书\n法宝引证码: CLI.C.2125100",
+            "extra": "series: 最高人民法院指导案例\nseries number: 24\navailable-date: 2014-01-26\nissue: 8\ngenre: 民事判决书\n法宝引证码: CLI.C.2125100",
             "language": "zh-CN",
             "reporter": "最高人民法院公报",
-            "shortTitle": "指导案例24号：荣宝英诉王阳、永诚财产保险股份有限公司江阴支公司机动车交通事故责任纠纷案",
+            "shortTitle": "指导案例24号：荣宝英诉***、永诚财产保险股份有限公司江阴支公司机动车交通事故责任纠纷案",
             "url": "https://www.pkulaw.com/gac/eee05e2473339b35799c78d539298795d5aa7be54a957fa0bdfb.html",
             "attachments": [
               {
@@ -12378,11 +12053,11 @@
         "items": [
           {
             "itemType": "case",
-            "caseName": "***诉***政府信息公开答复案",
+            "caseName": "陆红霞诉南通市发展和改革委员会政府信息公开答复案",
             "creators": [],
             "dateDecided": "2015-07-06",
             "court": "江苏省南通市中级人民法院",
-            "extra": "available-date: 2015\nIssue: 11\nGenre: 行政裁定书\n法宝引证码: CLI.C.7997435",
+            "extra": "available-date: 2015\nissue: 11\ngenre: 行政裁定书\n法宝引证码: CLI.C.7997435",
             "language": "zh-CN",
             "reporter": "最高人民法院公报",
             "url": "https://www.pkulaw.com/pfnl/a25051f3312b07f383ab74a250eadc412f753fb855fabeadbdfb.html",
@@ -12435,12 +12110,12 @@
         "items": [
           {
             "itemType": "case",
-            "caseName": "***与***合作勘查合同纠纷上诉案",
+            "caseName": "榆林市凯奇莱能源投资有限公司与西安地质矿产勘查开发院合作勘查合同纠纷上诉案",
             "creators": [],
             "dateDecided": "2017-12-16",
             "court": "最高人民法院",
             "docketNumber": "（2011）民一终字第81号",
-            "extra": "Genre: 民事判决书\n法宝引证码: CLI.C.10709337",
+            "extra": "genre: 民事判决书\n法宝引证码: CLI.C.10709337",
             "language": "zh-CN",
             "url": "https://www.pkulaw.com/pfnl/a25051f3312b07f33e89d5b6de18bc0a79dc89fed63cf848bdfb.html",
             "attachments": [
@@ -12662,7 +12337,7 @@
               }
             ],
             "dateEnacted": "2018-03-11",
-            "extra": "Edition: 2018年修正\n法宝引证码: CLI.1.311950",
+            "extra": "edition: 2018年修正\n法宝引证码: CLI.1.311950",
             "language": "zh-CN",
             "publicLawNumber": "中华人民共和国全国人民代表大会公告第1号",
             "shortTitle": "宪法",
@@ -12695,7 +12370,7 @@
               }
             ],
             "dateEnacted": "2024-05-24",
-            "extra": "Type: regulation\n法宝引证码: CLI.4.5193591",
+            "extra": "type: regulation\n法宝引证码: CLI.4.5193591",
             "language": "zh-CN",
             "publicLawNumber": "中国证券监督管理委员会令第224号",
             "url": "https://law.pkulaw.com/bugui/88f5f4c9b697f89bbdfb.html",
@@ -12721,6 +12396,11 @@
     "trends": [
       {
         "author": "jiaojiaodubai",
+        "date": "2025-04-10 15:01:06 +0000",
+        "message": "fix #485"
+      },
+      {
+        "author": "jiaojiaodubai",
         "date": "2024-08-20 13:22:33 +0800",
         "message": "fix typo"
       },
@@ -12728,11 +12408,6 @@
         "author": "jiaojiaodubai",
         "date": "2024-08-19 17:42:48 +0800",
         "message": "lint"
-      },
-      {
-        "author": "jiaojiaodubai",
-        "date": "2024-06-09 22:22:21 +0800",
-        "message": "fix #346"
       }
     ]
   },
@@ -15809,18 +15484,253 @@
       "translatorID": "262ecedb-bb92-4845-a281-cc79af979fbe",
       "label": "TOAJ",
       "creator": "jiaojiaodubai",
-      "target": "^https?://toaj\\.stpi\\.narl\\.org",
+      "target": "^https://toaj\\.stpi\\.niar\\.org\\.tw",
       "minVersion": "5.0",
       "maxVersion": "",
       "priority": 100,
       "inRepository": true,
       "translatorType": 4,
       "browserSupport": "gcsibv",
-      "lastUpdated": "2024-04-01 16:49:31"
+      "lastUpdated": "2025-04-26 06:28:31"
     },
-    "testCases": [],
+    "testCases": [
+      {
+        "type": "web",
+        "url": "https://toaj.stpi.niar.org.tw/index/journal/volume/article/4b1141f987544c340187593d5ce801b6",
+        "items": [
+          {
+            "itemType": "journalArticle",
+            "title": "談戀愛對青少年認知能力與非認知能力的影響：來自中國教育追蹤調查的證據",
+            "creators": [
+              {
+                "firstName": "",
+                "lastName": "駱為祥",
+                "creatorType": "author",
+                "fieldMode": 1
+              },
+              {
+                "firstName": "",
+                "lastName": "趙孟珂",
+                "creatorType": "author",
+                "fieldMode": 1
+              },
+              {
+                "firstName": "",
+                "lastName": "靳永愛",
+                "creatorType": "author",
+                "fieldMode": 1
+              }
+            ],
+            "date": "2022-09",
+            "abstractNote": "在西方國家，戀愛關係被看成青少年成長的一部分；在中國，青少年的戀愛關係被稱為早戀，通 常被認為是不合適宜的。談戀愛真的對中國青少年成長不利嗎？基於中國教育追蹤調查（2013— 2014 學年、2014—2015 學年）資料，使用傾向值加權的方法，本研究系統評估了談戀愛對中學生 的認知能力與非認知能力的影響。認知能力以認知能力測試得分、語數外成績班內標準分、班級 名次來測量；非認知能力以自我效能、抑鬱程度、對未來的信心、教育期望、學習態度來測量。 研究發現，相對於未談過戀愛的中學生，談過戀愛的中學生在認知能力和非認知能力方面的表現 顯著更差。在談戀愛影響認知能力的機制中，學業投入時間是一個重要的中介變項（mediator）， 談戀愛會透過減少學業投入時間來降低認知能力方面的表現。研究進一步發現，談戀愛的負面影 響在女學生當中表現得更為明顯。戀愛捲入程度愈深，其給青少年帶來的負面影響愈大。",
+            "extra": "original-title: Effects of Romantic Involvement on Adolescents’ Cognitive and Noncognitive Skills: Evidence from China Education Panel Survey\noriginal-container-title: Bulletin of Educational Psychology\noriginal-author:  ||\noriginal-author:  ||\noriginal-author: * || \ncreatorsExt: [{\"firstName\":\"\",\"lastName\":\"駱為祥\",\"creatorType\":\"author\",\"fieldMode\":1,\"original\":{\"firstName\":\"\",\"lastName\":\"\",\"creatorType\":\"author\"}},{\"firstName\":\"\",\"lastName\":\"趙孟珂\",\"creatorType\":\"author\",\"fieldMode\":1,\"original\":{\"firstName\":\"\",\"lastName\":\"\",\"creatorType\":\"author\"}},{\"firstName\":\"\",\"lastName\":\"靳永愛\",\"creatorType\":\"author\",\"fieldMode\":1,\"original\":{\"firstName\":\"\",\"lastName\":\"*\",\"creatorType\":\"author\"}}]",
+            "issue": "1",
+            "language": "zh-TW",
+            "libraryCatalog": "臺灣學術期刊開放取用平台",
+            "pages": "179-204",
+            "publicationTitle": "教育心理學報",
+            "url": "https://toaj.stpi.niar.org.tw/index/journal/volume/article/4b1141f987544c340187593d5ce801b6",
+            "volume": "54",
+            "attachments": [
+              {
+                "title": "Full Text PDF",
+                "mimeType": "application/pdf"
+              }
+            ],
+            "tags": [
+              {
+                "tag": "adolescent"
+              },
+              {
+                "tag": "cognitive skills"
+              },
+              {
+                "tag": "non-cognitive skills"
+              },
+              {
+                "tag": "propensity score weighting"
+              },
+              {
+                "tag": "romantic involvement"
+              },
+              {
+                "tag": "傾向值加權"
+              },
+              {
+                "tag": "戀愛"
+              },
+              {
+                "tag": "認知能力"
+              },
+              {
+                "tag": "青少年"
+              },
+              {
+                "tag": "非認知能力"
+              }
+            ],
+            "notes": [],
+            "seeAlso": []
+          }
+        ]
+      },
+      {
+        "type": "web",
+        "url": "https://toaj.stpi.niar.org.tw/index/journal/volume/article/4b1141f9961ac13801961e97fa1601ae",
+        "items": [
+          {
+            "itemType": "journalArticle",
+            "title": "青年教育分流、學用相符、工作滿意及快樂感之縱向關係",
+            "creators": [
+              {
+                "firstName": "",
+                "lastName": "李宗諭",
+                "creatorType": "author",
+                "fieldMode": 1
+              },
+              {
+                "firstName": "",
+                "lastName": "邱皓政",
+                "creatorType": "author",
+                "fieldMode": 1
+              },
+              {
+                "firstName": "",
+                "lastName": "蘇宜芬",
+                "creatorType": "author",
+                "fieldMode": 1
+              }
+            ],
+            "date": "2025-03",
+            "abstractNote": "本研究以縱貫方法，探討青年在 25 歲、30 歲、33 歲三個時間點的生涯發展過程中，學用相符、 工作滿意及快樂感的關聯，並將高中職階段的教育分流（普通類、技職類）及相關預測變項納入 模型。分析資料來自臺灣教育長期追蹤資料庫（TEPS）及其後續調查資料庫（TEPS-B）的 SH 樣 本，共 1,637 人，以隨機截距交叉滯後模型（RI-CLPM）為分析方法。結果顯示，臺灣青年的學 用相符、工作滿意度及快樂感三者成正相關。在滯後效果方面，三波次間的學用相符及快樂感有 自回歸效果，工作滿意度則僅在後二波有自回歸效果；而除了 30 歲的快樂感能正向預測 33 歲的 工作滿意度，其餘交叉滯後效果皆未顯著。在預測變項方面，學歷對三個主要變項皆有正向預測 力；高三時後悔所選組科別對後來生涯的工作滿意度及快樂感有負向預測力。整體而言，教育分 流的調節作並不明顯，僅 25 歲到 30 歲間的少數路徑有差異；在二種教育分流各別樣本模型中， 發現高三時後悔所選科別對技職分流者的工作滿意度及快樂感有負向預測力，而生涯嘗試對普通 分流者的學用相符有正向預測力。最後，提供未來研究與實務建議。",
+            "extra": "original-title: Longitudinal Relationships among Educational Tracking, Job-Education Match, Job Satisfaction, and Happiness of Taiwan Youth\noriginal-container-title: Bulletin of Educational Psychology\noriginal-author: Li || Tsung-Yu\noriginal-author: Chiou || Haw-Jeng\noriginal-author: Su || Yi-Fen\ncreatorsExt: [{\"firstName\":\"\",\"lastName\":\"李宗諭\",\"creatorType\":\"author\",\"fieldMode\":1,\"original\":{\"firstName\":\"Tsung-Yu\",\"lastName\":\"Li\",\"creatorType\":\"author\"}},{\"firstName\":\"\",\"lastName\":\"邱皓政\",\"creatorType\":\"author\",\"fieldMode\":1,\"original\":{\"firstName\":\"Haw-Jeng\",\"lastName\":\"Chiou\",\"creatorType\":\"author\"}},{\"firstName\":\"\",\"lastName\":\"蘇宜芬\",\"creatorType\":\"author\",\"fieldMode\":1,\"original\":{\"firstName\":\"Yi-Fen\",\"lastName\":\"Su\",\"creatorType\":\"author\"}}]",
+            "issue": "3",
+            "language": "zh-TW",
+            "libraryCatalog": "臺灣學術期刊開放取用平台",
+            "pages": "599-630",
+            "publicationTitle": "教育心理學報",
+            "url": "https://toaj.stpi.niar.org.tw/index/journal/volume/article/4b1141f9961ac13801961e97fa1601ae",
+            "volume": "56",
+            "attachments": [
+              {
+                "title": "Full Text PDF",
+                "mimeType": "application/pdf"
+              }
+            ],
+            "tags": [
+              {
+                "tag": "educational tracking"
+              },
+              {
+                "tag": "happiness"
+              },
+              {
+                "tag": "job satisfaction"
+              },
+              {
+                "tag": "job-education match"
+              },
+              {
+                "tag": "youth"
+              },
+              {
+                "tag": "交叉延宕"
+              },
+              {
+                "tag": "學用落差"
+              },
+              {
+                "tag": "縱貫研究"
+              },
+              {
+                "tag": "青年職涯"
+              }
+            ],
+            "notes": [],
+            "seeAlso": []
+          }
+        ]
+      },
+      {
+        "type": "web",
+        "url": "https://toaj.stpi.niar.org.tw/index/journal/volume/article/4b1141f99584be0601958d748349051e",
+        "items": [
+          {
+            "itemType": "journalArticle",
+            "title": "CSR as a framework for sustainability in SMEs: The relationship between company size, industrial sector, and triple bottom line activities",
+            "creators": [
+              {
+                "firstName": "Zdeněk",
+                "lastName": "Caha",
+                "creatorType": "author"
+              },
+              {
+                "firstName": "Renata",
+                "lastName": "Skýpalová",
+                "creatorType": "author"
+              },
+              {
+                "firstName": "Tomáš",
+                "lastName": "Mrhálek",
+                "creatorType": "author"
+              }
+            ],
+            "date": "2024-12",
+            "extra": "original-container-title: Asia Pacific Management Review",
+            "issue": "4",
+            "language": "en-US",
+            "libraryCatalog": "臺灣學術期刊開放取用平台",
+            "pages": "451-461",
+            "shortTitle": "CSR as a framework for sustainability in SMEs",
+            "url": "https://toaj.stpi.niar.org.tw/index/journal/volume/article/4b1141f99584be0601958d748349051e",
+            "volume": "29",
+            "attachments": [],
+            "tags": [
+              {
+                "tag": "3BL"
+              },
+              {
+                "tag": "Company size"
+              },
+              {
+                "tag": "Corporate social responsibility CSR activity"
+              },
+              {
+                "tag": "Industrial sector"
+              },
+              {
+                "tag": "SMEs"
+              },
+              {
+                "tag": "TBL"
+              },
+              {
+                "tag": "Triple bottom line"
+              }
+            ],
+            "notes": [],
+            "seeAlso": []
+          }
+        ]
+      },
+      {
+        "type": "web",
+        "url": "https://toaj.stpi.niar.org.tw/search?queryText=%E4%B8%80%E5%80%8B%E4%B8%AD%E5%9C%8B",
+        "items": "multiple"
+      },
+      {
+        "type": "web",
+        "url": "https://toaj.stpi.niar.org.tw/index/journal/volume/4b1141f99035f52901906a85c6f30dcf",
+        "items": "multiple"
+      }
+    ],
     "zhLabel": "臺灣學術期刊開放取用平台",
     "trends": [
+      {
+        "author": "jiaojiaodubai",
+        "date": "2025-04-26 06:30:32 +0000",
+        "message": "fix #493"
+      },
       {
         "author": "jiaojiaodubai",
         "date": "2024-08-20 13:22:33 +0800",
@@ -15830,11 +15740,6 @@
         "author": "jiaojiaodubai",
         "date": "2024-08-19 17:42:48 +0800",
         "message": "lint"
-      },
-      {
-        "author": "jiaojiaodubai",
-        "date": "2024-04-01 16:50:35 +0800",
-        "message": "升级公共API；更新部分测试用例"
       }
     ]
   },
@@ -15850,7 +15755,7 @@
       "inRepository": true,
       "translatorType": 4,
       "browserSupport": "gcsibv",
-      "lastUpdated": "2025-01-31 12:29:28"
+      "lastUpdated": "2025-07-11 03:58:04"
     },
     "testCases": [
       {
@@ -16409,18 +16314,18 @@
     "trends": [
       {
         "author": "jiaojiaodubai",
-        "date": "2025-02-12 22:50:23 +0800",
-        "message": "resolve: #357"
+        "date": "2025-07-11 12:00:03 +0800",
+        "message": "update monitor params"
       },
       {
         "author": "jiaojiaodubai",
-        "date": "2024-08-20 13:22:33 +0800",
-        "message": "fix typo"
+        "date": "2025-06-19 15:36:14 +0000",
+        "message": "fix index error"
       },
       {
         "author": "jiaojiaodubai",
-        "date": "2024-08-19 17:42:48 +0800",
-        "message": "lint"
+        "date": "2025-06-13 05:53:06 +0000",
+        "message": "fix unavailable type and id"
       }
     ]
   },
@@ -16436,7 +16341,7 @@
       "inRepository": true,
       "translatorType": 4,
       "browserSupport": "gcsibv",
-      "lastUpdated": "2024-08-26 05:50:26"
+      "lastUpdated": "2025-04-08 06:03:31"
     },
     "testCases": [
       {
@@ -16475,7 +16380,8 @@
             "date": "2023",
             "DOI": "10.13699/j.cnki.1001-6821.2023.06.005",
             "abstractNote": "目的 探讨美沙拉嗪肠溶片联合保留灌肠治疗溃疡性结肠炎(UC)患者的疗效.方法 采用随机数字表法将UC患者分为对照组和试验组.用美沙拉嗪肠溶片给予对照组患者口服治疗,每次1.0 g,每天4次.试验组在对照组的基础上给予美沙拉嗪肠溶液保留灌肠,睡前把灌肠管插入距离患者肛门10～15 cm处,灌入美沙拉嗪灌肠液,每次4 g,每天一次.2组治疗时间均为1个月.比较2组治疗1个月后的临床疗效,治疗前、治疗1个月后的肠黏膜变化、炎症反应、细胞间黏附分子-1(ICAM-1)、血管细胞黏附分子(VCAM-1)、血小板计数(PLT)及血小板体积(MPV),治疗期间的药物不良反应.结果 试验过程中共脱落6例,最终试验组和对照组分别纳入40例,治疗1个月后,试验组及对照组的总有效率分别为92.50％和75.00％;溃疡的患者占比分别为7.50％和25.00％;充血水肿的患者占比分别为22.50％和45.00％;血清白细胞介素1(IL-1)含量分别为(14.65±5.87)和(12.54±4.23)pg·L-1;血清白细胞介素4(IL-4)含量分别为(32.65±4.76)和(29.65±4.54)pg·mL-1;血清C反应蛋白(CRP)含量分别为(5.32±0.43)和(6.54±0.54)mg·L-1;血清肿瘤坏死因子-α(TNF-α)含量分别为(0.12±0.04)和(0.23±0.05)μg·L-1;血清γ干扰素(IFN-γ)含量分别为(174.32±13.27)和(203.21±14.32)μg·L-1;血清ICAM-1含量分别为(44.76±3.29)和(54.32±4.38)ng·mL-1;血清VCAM-1含量分别为(45.32±3.29)和(60.54±3.76)ng·mL-1;外周血PLT数量分别为(170.25±34.64)和(211.54±37.45)×109 cell·L-1;MPV分别为(13.51±4.56)和(11.65±3.21)fL,组间比较,差异均有统计学意义(均P>0.05).试验组和对照组治疗期间的药物不良反应发生率比较,差异无统计学差异(12.50％vs.20.00％,P>0.05).结论 美沙拉嗪肠溶片联合保留灌肠能够有效促进UC患者肠黏膜的修复,减轻患者炎症反应,缓解病情,提高临床疗效,安全性良好.",
-            "extra": "original-title: Clinical trial of mesalazine enteric coated tablets combined with retention enema of patients with ulcerative colitis\ncitation: 10",
+            "extra": "original-title: Clinical trial of mesalazine enteric coated tablets combined with retention enema of patients with ulcerative colitis\ncitation: 20",
+            "issue": "6",
             "libraryCatalog": "Wanfang Med",
             "pages": "781-785",
             "publicationTitle": "中国临床药理学杂志",
@@ -16535,7 +16441,7 @@
             ],
             "date": "2023",
             "abstractNote": "目的：C-反应蛋白（CRP）是一种典型的急性期蛋白，在组织发生损伤、感染时其在血液中浓度迅速升高，是炎症反应的非特异性标志物。同时，CRP在固有免疫和后天免疫中起到关键的调节作用，直接参与了很多慢性或急性炎症相关疾病的调控。溃疡性结肠炎（UC）是一种炎症性肠病，发病率在世界范围内逐年升高，持续时间长并反复发作，严重影响患者正常生活。有报道发现， CRP 表达水平的高低与很多药物对 UC 治疗效果的好坏具有显著相关性，但是CRP是否直接参与调控 UC的进展缺乏有力报道。本研究旨在揭示 CRP在 UC小鼠模型中的作用，对今后UC的研究与治疗提供理论指导。<br>　　方法：采用葡聚糖硫酸钠（DSS）诱导C57BL/6J WT野生型与CRP完全敲除型小鼠构建UC小鼠模型，通过小鼠表型（体重、结肠长度与脾脏重量）及系列生理生化指标（疾病活动指数、结肠组织病理学、炎症因子表达、肠道黏液层屏障变化）等，评估CRP对UC小鼠的影响，以及通过外加CRP后测定WT野生型 UC 小鼠表型变化等指标加以确认。从整体、组织和分子三个水平研究CRP对UC小鼠的影响，进一步推断CRP是否直接参与UC进程及可能机制。<br>　　结果：（1）通过表型和组织病理学评价，发现小鼠口服 2%的DSS水溶液一周左右可以诱导UC的发生，成功构建UC小鼠模型（p均lt;0.001）；（2）与WT野生型UC小鼠相比，敲除CRP对UC小鼠表型（体重、结肠长度与脾脏重量）、DAI 评分、炎症因子表达、黏液层相关蛋白分泌及黏液层厚度均无显著性影响（p均gt;0.05），在HE染色分析结肠组织炎症程度的4次实验中仅有1次结果表明敲除CRP可以促进UC小鼠结肠损伤(plt;0.05)，同样在PAS染色中也仅有1次结果表明敲除CRP后UC小鼠的杯状细胞数量显著减少(plt;0.01)；（3）敲除CRP对UC小鼠没有显著影响，可能是小鼠体内CRP处于较低的表达水平，并且急性期仅有 2倍提高，而人急性肠炎中 CRP会高调 100-500倍，可能预示人体内 CRP对 UC的介导依赖于较高的作用浓度，因此我们在野生型小鼠中外加高浓度CRP，使小鼠血浆CRP达到人急性期水平。在WT野生型UC小鼠中外加CRP后发现高浓度CRP对小鼠的表型（体重、结肠长度与脾脏重量）亦无显著性影响（p 均gt;0.05）;（4）考虑到 CRP 的作用可能会被菌群效果所掩盖，因此尝试了抗生素处理，以排除肠道菌群的干扰，结果表明即便无肠道菌群干 扰，WT野生型与 CRP完全敲除型 UC小鼠的表型（体重、结肠长度与脾脏重量）也无显著性差异（p均gt;0.05）；（5）5%高浓度DSS诱导的CRP完全敲除型与WT野生型小鼠的生存率无显著性差异。<br>　　结论：虽然血液中 CRP 水平与 UC 的治愈显著相关，但我们的实验表明CRP 似乎并非是 UC 疾病的直接介导者，更可能是急性肠炎导致炎症因子表达升高，从而促使肝脏分泌更多CRP。我们的结果表明CRP可能仅是UC疾病下游的伴随产物，不具有明显的促炎作用或抑炎作用。但从进化的角度，任何事物的产生都不应该是多余的，考虑到小鼠与人体的巨大差异，对于人体中 CRP的准确功能还需今后的进一步研究。",
-            "extra": "citation: 0",
+            "extra": "original-title: \ncitation: 0",
             "libraryCatalog": "Wanfang Med",
             "thesisType": "硕士学位论文",
             "university": "兰州大学",
@@ -16580,7 +16486,7 @@
             "date": "2023",
             "abstractNote": "目的:探讨益脾祛湿理肠汤治疗溃疡性结肠炎疗效及对患者肠黏膜屏障功能的改善效果.    方法:从时间2017年02月至2021年02月之间我院收治的溃疡性结肠炎患者中随机抽取100例进行调查,按照双色球法将其分为两个不同小组,参比组50例应用单独西医药物进行治疗,试验组50例在西医药物基础上增加益脾祛湿理肠汤进行治疗,比较两组患者治疗后的中医症状积分、肠黏膜屏蔽功能、临床疗效、药物副作用发生率.    结果:在对溃疡性结肠炎患者进行治疗后,试验组患者的中医症状积分低于参比组(P＜0.05);试验组患者的肠黏膜屏蔽功能好于参比组(P＜0.05);试脸组患者的临床疗效高于参比组(P＜0.05);试验组患者的药物副作用发生率与参比组相比无明显差异性(P＞0.05).    结论:在对溃疡性结肠炎患者进行治疗时,应用益脾祛湿理肠汤治疗能够降低患者中医症状积分,改善肠黏膜屏蔽功能,提高临床疗效,推荐使用.",
             "conferenceName": "健康医学论坛暨《国医经方年鉴》线上交流会",
-            "extra": "citation: 0",
+            "extra": "original-title: \ncitation: 0",
             "libraryCatalog": "Wanfang Med",
             "place": "线上",
             "proceedingsTitle": "健康医学论坛暨《国医经方年鉴》线上交流会论文集",
@@ -16636,9 +16542,9 @@
             "applicationNumber": "CN202310400741.8",
             "assignee": "临清市人民医院",
             "country": "中国",
-            "extra": "Genre: 发明专利\ncitation: 0",
+            "extra": "original-title: \nGenre: 发明专利\ncitation: 0",
             "filingDate": "2023-04-14",
-            "legalStatus": "在审",
+            "legalStatus": "撤回",
             "patentNumber": "CN116327231A",
             "place": "中国",
             "rights": "1.一种肢体检测放射影像装置，其特征在于，包括底板(1)，所述底板(1)的一端顶侧固定有摆动座(2)，所述摆动座(2)上转动装配有第一升降液压缸(3)，所述第一升降液压缸(3)的顶端转动装配在支撑板(5)的一端底侧，所述支撑板(5)的顶侧为弧形面，所述支撑板(5)外侧套设有放射筒(8)，所述底板(1)的另一端顶侧固定有第二升降液压缸(4)，所述第二升降液压缸(4)顶端转动装配在支撑板(5)的另一端底侧，所述支撑板(5)上装配有托举组件(7)，所述托举组件(7)包括活动杆(74)，所述支撑板(5)的内部开设有杆孔，所述杆孔内竖直穿插有活动杆(74)，所述活动杆(74)的顶端固定有托板(72)，所述托板(72)与支撑板(5)之间固接有第一弹簧(73)，所述第一弹簧(73)套设在活动杆(74)的顶端，所述支撑板(5)的一侧固定有固定箱(71)，所述固定箱(71)的顶侧设置有安装座(711)，所述安装座(711)上配合装配有束缚板(712)。 2.根据权利要求1所述的一种肢体检测放射影像装置,其特征在于，所述固定箱(71)内开设有气腔(719)，所述气腔(719)内设置有第一活塞(720)，所述第一活塞(720)的底侧固定有第一活塞杆(77)，所述第一活塞杆(77)的底端固定有限位柱(78)。 3.根据权利要求2所述的一种肢体检测放射影像装置,其特征在于，所述固定箱(71)的底侧安装有固定座(76)，所述固定座(76)内部通过销轴配合装配有联动杆(75)，所述联动杆(75)的一端通过销轴配合与活动杆(74)的底端转动连接。 4.根据权利要求3所述的一种肢体检测放射影像装置,其特征在于，所述联动杆(75)的另一端内部开设有滑孔(79)，所述限位柱(78)穿插在滑孔(79)内。 5.根据权利要求4所述的一种肢体检测放射影像装置,其特征在于，所述束缚板(712)的底部内外两侧分别固定有线环和收卷筒(714)，所述收卷筒(714)内部通过发条配合装配有可旋转的线轴，所述束缚板(712)的顶部开设有安装孔，所述安装孔内通过轮轴配合装配有导向轮(713)，其中收卷筒(714)内部的线轴上缠绕有束缚带，所述束缚带的一端绑定在线环上，且束缚带外切环绕通过导向轮(713)。 6.根据权利要求5所述的一种肢体检测放射影像装置,其特征在于，所述束缚板(712)的外侧转动安装有第二活塞杆(716)，所述第二活塞杆(716)上固定有第二活塞(717)，所述固定箱(71)的顶侧转动安装有伸缩缸(715)，所述第二活塞(717)设置在伸缩缸(715)内，所述第二活塞(717)与伸缩缸(715)的缸底之间固接有第二弹簧(718)。 7.根据权利要求6所述的一种肢体检测放射影像装置,其特征在于，所述气腔(719)上连接有泄压管(710)，所述泄压管(710)上装配有泄压阀，所述气腔(719)与伸缩缸(715)的底部通过气管连接。 8.根据权利要求1所述的一种肢体检测放射影像装置,其特征在于，所述支撑板(5)的一侧开设有导向槽(6)，所述导向槽(6)内滑动卡设有滑板(9)，所述滑板(9)上安装有活动马达(10)，所述活动马达(10)的输出端安装有主动齿轮(11)，所述支撑板(5)的侧边固定有齿板(12)，所述主动齿轮(11)与齿板(12)相互啮合，所述滑板(9)上固定有放射筒(8)。",
@@ -16728,7 +16634,7 @@
             "creators": [],
             "dateEnacted": "2023-01-29",
             "codeNumber": "沪卫医[2023]第7号",
-            "extra": "citation: 0",
+            "extra": "original-title: \ncitation: 0",
             "url": "https://med.wanfangdata.com.cn/Paper/Detail?id=Law_D462310887&dbid=WF_FG",
             "attachments": [
               {
@@ -16790,7 +16696,8 @@
             "date": "2024",
             "DOI": "10.19540/j.cnki.cjcmm.20240410.501",
             "abstractNote": "运用证据图系统检索和梳理中成药治疗失眠的临床研究证据,了解该领域证据分布特点,发现中成药治疗失眠相关研究存在的问题.检索3个国家药物目录中明确提及治疗失眠的中成药,检索建库至2023年8月的中、英文文献.采用图、表展示结果.最终纳入中成药23种,相关文献299篇,包括随机对照试验(RCTs)236篇,非随机对照试验(non-RCTs)35篇,回顾性研究7篇,系统评价/Meta分析17篇,指南和专家建议或共识4篇.文献占比较大的是百乐眠胶囊、乌灵胶囊、养血清脑颗粒;结局指标包括睡眠评定量表、临床有效率、安全性指标、焦虑抑郁评分等.结果表明,中成药治疗失眠研究整体呈增长趋势,但研究证据相对较少,研究以单中心、小样本和短周期为主;临床定位宽泛,中医优势不足;结局指标对生活质量、随访及复发率方面关注度不够;RCT整体偏倚风险偏高,系统评价/Meta分析整体质量较低,回顾性研究总体评分不高,non-RCT均未提及随访时间、失访率及样本量估算,结果可信度降低.建议以中医药临床研究规范来设计治疗失眠的中成药研究方案,将中医证候积分评价作为重要结局指标,多关注患者生活质量、随访及复发情况,提高有效治疗失眠中成药的可及性和经济性,加强医保政策与中成药政策的衔接,合理提升具有明确疗效和安全证据支持的中成药在医保甲类目录中的占比.",
-            "extra": "original-title: Evidence mapping of clinical studies on 23 commonly used Chinese patent medicines for treating insomnia\ncitation: 0",
+            "extra": "original-title: Evidence mapping of clinical studies on 23 commonly used Chinese patent medicines for treating insomnia\ncitation: 2",
+            "issue": "14",
             "libraryCatalog": "Wanfang Med",
             "pages": "3952-3962",
             "publicationTitle": "中国中药杂志",
@@ -16861,18 +16768,18 @@
     "trends": [
       {
         "author": "jiaojiaodubai",
+        "date": "2025-04-10 08:17:53 +0000",
+        "message": "update helper function"
+      },
+      {
+        "author": "jiaojiaodubai",
+        "date": "2025-04-08 06:04:38 +0000",
+        "message": "fix #464"
+      },
+      {
+        "author": "jiaojiaodubai",
         "date": "2024-08-26 13:55:20 +0800",
         "message": "close #374"
-      },
-      {
-        "author": "jiaojiaodubai",
-        "date": "2024-08-19 17:42:48 +0800",
-        "message": "lint"
-      },
-      {
-        "author": "jiaojiaodubai",
-        "date": "2024-06-20 17:04:42 +0800",
-        "message": "clean EOL, fix #351, fix #352"
       }
     ]
   },
@@ -17037,7 +16944,7 @@
       "inRepository": true,
       "translatorType": 4,
       "browserSupport": "gcsibv",
-      "lastUpdated": "2024-06-20 16:34:51"
+      "lastUpdated": "2025-05-27 07:22:17"
     },
     "testCases": [
       {
@@ -17046,7 +16953,7 @@
         "items": [
           {
             "itemType": "journalArticle",
-            "title": "基于WGCNA算法的基因共表达网络构建理论及其R软件实现",
+            "title": "基于 WGCNA 算法的基因共表达网络构建理论及其 R 软件实现",
             "creators": [
               {
                 "firstName": "",
@@ -17069,25 +16976,15 @@
             ],
             "date": "2013-02-28",
             "ISSN": "1674-568X",
-            "abstractNote": "WGCNA(weighted geneco-expression network analysis)算法是一种构建基因共表达网络的典型系统生物学算法,该算法基于高通量的基因信使RNA(mRNA)表达芯片数据,被广泛应用于国际生物医学领域。本文旨在介绍WGCNA的基本数理原理,并依托R软件包WGNCA以实例的方式介绍其应用。WGCNA算法首先假定基因网络服从无尺度分布,并定义基因共表达相关矩阵、基因网络形成的邻接函数,然后计算不同节点的相异系数,并据此构建分层聚类树(hierarchical clusteringtree),该聚类树的不同分支代表不同的基因模块(module),模块内基因共表达程度高,而分数不同模块的基因共表达程度低。最后,探索模块与特定表型或疾病的关联关系,最终达到鉴定疾病治疗的靶点基因、基因网络的目的。",
-            "extra": "original-title: Gene Co-expression Network Analysis Based on WGCNA Algorithm-Theory and Implementation in R Software\nfund: 青海省135高层次人才培养基金资助",
+            "abstractNote": "WGCNA(weighted geneco-expression network analysis) 算法是一种构建基因共表达网络的典型系统生物学算法，该算法基于高通量的基因信使 RNA(mRNA) 表达芯片数据，被广泛应用于国际生物医学领域。本文旨在介绍 WGCNA 的基本数理原理，并依托 R 软件包 WGNCA 以实例的方式介绍其应用。WGCNA 算法首先假定基因网络服从无尺度分布，并定义基因共表达相关矩阵、基因网络形成的邻接函数，然后计算不同节点的相异系数，并据此构建分层聚类树 (hierarchical clusteringtree),该聚类树的不同分支代表不同的基因模块 (module),模块内基因共表达程度高，而分数不同模块的基因共表达程度低。最后，探索模块与特定表型或疾病的关联关系，最终达到鉴定疾病治疗的靶点基因、基因网络的目的。",
+            "extra": "original-title: Gene Co-expression Network Analysis Based on WGCNA Algorithm-Theory and Implementation in R Software\nfund: 青海省 135 高层次人才培养基金资助",
             "issue": "1",
             "libraryCatalog": "Wenjin",
             "pages": "143-149",
             "publicationTitle": "基因组学与应用生物学",
             "url": "http://find.nlc.cn/search/showDocDetails?docId=-8373230212045865087&dataSource=cjfd&query=wgcna",
             "attachments": [],
-            "tags": [
-              {
-                "tag": "R软件"
-              },
-              {
-                "tag": "WGCNA算法"
-              },
-              {
-                "tag": "基因共表达网络"
-              }
-            ],
+            "tags": [],
             "notes": [],
             "seeAlso": []
           }
@@ -17102,22 +16999,20 @@
             "title": "红星照耀中国",
             "creators": [
               {
-                "firstName": "",
                 "lastName": "埃德加·斯诺",
-                "creatorType": "author",
-                "fieldMode": 1
+                "fieldMode": 1,
+                "creatorType": "author"
               },
               {
-                "firstName": "",
                 "lastName": "董乐山",
-                "creatorType": "translator",
-                "fieldMode": 1
+                "fieldMode": 1,
+                "creatorType": "translator"
               }
             ],
             "date": "2012",
             "ISBN": "9787506361347",
             "abstractNote": "本书分为十二篇，内容包括：探寻红色中国、去红都的道路、在保安、一个共产党员的由来等。",
-            "extra": "original-author: Edgar Snow\ncreatorsExt: [{\"firstName\":\"\",\"lastName\":\"埃德加·斯诺\",\"creatorType\":\"author\",\"fieldMode\":1,\"country\":\"美\",\"original\":\"Edgar Snow\"},{\"firstName\":\"\",\"lastName\":\"董乐山\",\"creatorType\":\"translator\",\"fieldMode\":1,\"country\":\"\",\"original\":\"\"}]",
+            "extra": "original-author: Snow || Edgar\ncreatorsExt: [{\"lastName\":\"埃德加·斯诺\",\"fieldMode\":1,\"creatorType\":\"author\",\"original\":\"Snow || Edgar\",\"country\":\"美\"},{\"lastName\":\"董乐山\",\"fieldMode\":1,\"creatorType\":\"translator\",\"country\":\"\"}]",
             "language": "zh-CN",
             "libraryCatalog": "Wenjin",
             "numPages": "338",
@@ -17212,7 +17107,7 @@
             ],
             "date": "2006-12-26",
             "libraryCatalog": "Wenjin",
-            "pages": "B04",
+            "pages": "4",
             "publicationTitle": "贵州政协报",
             "url": "http://find.nlc.cn/search/showDocDetails?docId=-4758410971070022650&dataSource=ccnd&query=%E6%96%B0%E5%8F%91%E5%B1%95%E7%90%86%E5%BF%B5",
             "attachments": [],
@@ -17228,7 +17123,7 @@
         "items": [
           {
             "itemType": "book",
-            "title": "钢琴金曲-理查德·克莱德曼",
+            "title": "钢琴金曲 - 理查德·克莱德曼",
             "creators": [
               {
                 "firstName": "",
@@ -17239,7 +17134,7 @@
             ],
             "date": "2008",
             "ISBN": "9787884737703",
-            "extra": "medium: CD\ncreatorsExt: [{\"firstName\":\"\",\"lastName\":\"理查德·克莱德曼\",\"creatorType\":\"author\",\"fieldMode\":1,\"country\":\"法\",\"original\":\"\"}]",
+            "extra": "creatorsExt: [{\"firstName\":\"\",\"lastName\":\"理查德·克莱德曼\",\"creatorType\":\"author\",\"fieldMode\":1,\"country\":\"法\"}]\nmedium: CD",
             "libraryCatalog": "Wenjin",
             "place": "武汉",
             "publisher": "扬子江音像出版社",
@@ -17268,6 +17163,11 @@
     "trends": [
       {
         "author": "jiaojiaodubai",
+        "date": "2025-05-27 07:30:41 +0000",
+        "message": "modernize"
+      },
+      {
+        "author": "jiaojiaodubai",
         "date": "2024-08-20 13:22:33 +0800",
         "message": "fix typo"
       },
@@ -17275,11 +17175,6 @@
         "author": "jiaojiaodubai",
         "date": "2024-08-19 17:42:48 +0800",
         "message": "lint"
-      },
-      {
-        "author": "jiaojiaodubai",
-        "date": "2024-06-20 17:04:42 +0800",
-        "message": "clean EOL, fix #351, fix #352"
       }
     ]
   },
@@ -17641,7 +17536,7 @@
       "inRepository": true,
       "translatorType": 4,
       "browserSupport": "gcsibv",
-      "lastUpdated": "2024-07-19 15:35:31"
+      "lastUpdated": "2025-06-25 06:21:19"
     },
     "testCases": [
       {
@@ -17678,40 +17573,24 @@
       },
       {
         "type": "web",
-        "url": "https://www.zhihu.com/search?type=content&q=Zotero",
-        "items": "multiple"
-      },
-      {
-        "type": "web",
-        "url": "https://www.zhihu.com/question/292241691",
-        "items": "multiple"
-      },
-      {
-        "type": "web",
-        "url": "https://www.zhihu.com/column/c_1218192088992534528",
-        "items": "multiple"
-      },
-      {
-        "type": "web",
-        "url": "https://www.zhihu.com/question/533166415/answer/2491983922",
+        "url": "https://www.zhihu.com/question/6098306614/answer/64053981531",
         "items": [
           {
             "itemType": "forumPost",
-            "title": "请问各路大神，在zotero里面打开PDF版硕士/博士论文，是不显示目录的，有没有插件可以显示目录？",
+            "title": "2024年，你的科研工作进展如何？有什么心得体会想和大家分享？",
             "creators": [
               {
-                "lastName": "BeWater",
+                "lastName": "浅斟低唱",
                 "creatorType": "author",
                 "fieldMode": 1
               }
             ],
-            "date": "2022-05-19",
-            "abstractNote": "从知网下载的学位论文页数很多，但pdf文件又没有目录，阅读起来比较麻烦。如何解决呢？\n\n\n需要软件\npdftk Server\nhttps://www.pdflabs.com/tools/pdftk-server/\n\n\nZotero茉莉花插件（使用教程）\n\n\n配置\nPdftk Server下载之后，进...",
-            "extra": "vote: 40",
+            "date": "2024-12-26",
+            "abstractNote": "写在圣诞节，不在加班而是带的研究生大神加油打call的一个晚上：）\n\n科研工作2024年对我来说过的非常的迅速，一年的工作多数建立在我们2023年的发现，做出了很多理解上的突破，主要还是各位懂技术的大佬们带飞的一年。\n\n除了这三篇中我参与的两个（提供样品和光学电学补充数据, Nature 635, ...",
             "forumTitle": "知乎",
             "language": "zh-CN",
             "postType": "知乎回答",
-            "url": "https://www.zhihu.com/question/533166415/answer/2491983922",
+            "url": "https://www.zhihu.com/question/6098306614/answer/64053981531",
             "attachments": [
               {
                 "title": "Snapshot",
@@ -17720,24 +17599,24 @@
             ],
             "tags": [
               {
-                "tag": "Zotero"
-              },
-              {
                 "tag": "博士"
               },
               {
-                "tag": "目录"
+                "tag": "博士后"
               },
               {
-                "tag": "硕士"
+                "tag": "学术"
               },
               {
-                "tag": "论文"
+                "tag": "年度盘点"
+              },
+              {
+                "tag": "科研"
               }
             ],
             "notes": [
               {
-                "note": "<p data-first-child=\"\" data-pid=\"UKDJFsMg\">从知网下载的<span><a class=\"RichContent-EntityWord css-b7erz1\" data-za-not-track-link=\"true\" data-paste-text=\"true\" href=\"https://www.zhihu.com/search?q=%E5%AD%A6%E4%BD%8D%E8%AE%BA%E6%96%87&amp;search_source=Entity&amp;hybrid_search_source=Entity&amp;hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A2491983922%7D\" target=\"_blank\">学位论文<svg width=\"10px\" height=\"10px\" viewBox=\"0 0 15 15\" class=\"css-1dvsrp\"><path d=\"M10.89 9.477l3.06 3.059a1 1 0 0 1-1.414 1.414l-3.06-3.06a6 6 0 1 1 1.414-1.414zM6 10a4 4 0 1 0 0-8 4 4 0 0 0 0 8z\" fill=\"currentColor\"></path></svg></a></span>页数很多，但pdf文件又没有目录，阅读起来比较麻烦。如何解决呢？</p><h3><br><b>需要软件</b></h3><p data-pid=\"vr0CI1Aq\"><br><b>pdftk Server</b><br><a href=\"https://link.zhihu.com/?target=https%3A//www.pdflabs.com/tools/pdftk-server/\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">pdflabs.com/tools/pdftk</span><span class=\"invisible\">-server/</span><span class=\"ellipsis\"></span></a></p><p data-pid=\"L-oB97X-\"><br><b>Zotero茉莉花插件</b>（<u><a href=\"https://link.zhihu.com/?target=http%3A//mp.weixin.qq.com/s%3F__biz%3DMzA4OTk0NDA0Nw%3D%3D%26mid%3D2654860337%26idx%3D1%26sn%3Db772974b85fce702ab5c7479de642142%26chksm%3D8bda6eb1bcade7a7deceb493fa05b02faa7ff9ff2b0a19ae8359dcc183f42cb7e8a8748a2cab%26scene%3D21%23wechat_redirect\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">使用教程</a></u>）</p><h3><br><b>配置</b></h3><p data-pid=\"8__GDnxH\"><br>Pdftk Server下载之后，进行安装，记一下<b><span><a class=\"RichContent-EntityWord css-b7erz1\" data-za-not-track-link=\"true\" data-paste-text=\"true\" href=\"https://www.zhihu.com/search?q=%E5%AE%89%E8%A3%85%E7%9B%AE%E5%BD%95&amp;search_source=Entity&amp;hybrid_search_source=Entity&amp;hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A2491983922%7D\" target=\"_blank\">安装目录<svg width=\"10px\" height=\"10px\" viewBox=\"0 0 15 15\" class=\"css-1dvsrp\"><path d=\"M10.89 9.477l3.06 3.059a1 1 0 0 1-1.414 1.414l-3.06-3.06a6 6 0 1 1 1.414-1.414zM6 10a4 4 0 1 0 0-8 4 4 0 0 0 0 8z\" fill=\"currentColor\"></path></svg></a></span></b>。</p><p data-pid=\"YHWnauRX\"><br>在<b>Zotero &gt; 编辑 &gt; 首选项</b>中选择茉莉花插件，设置 <b>PDFtk Server路径设置</b>，选择刚才的PDftk Server安装目录即可。如果茉莉花成功识别到路径后，后面会出现对勾的标志。<br></p><img src=\"https://picx.zhimg.com/50/v2-34c7b9d8b30518976d14007959fbcdd9_720w.jpg?source=2c26e567\"/><p data-pid=\"CI1ZlS2h\">配置成功后，关闭Zotero重启即可。</p><h3><br><b>使用</b></h3><p data-pid=\"5Mlvsiya\"><br>再次打开Zotero，选择一篇中文文献的pdf文件，右键选择<b>知网助手</b> 即可看到 <b>添加PDF书签</b> 功能，即可完成对PDF文件目录的生成。<br></p><img src=\"https://pica.zhimg.com/50/v2-4cd7c60863432698508867ab8b4489e5_720w.jpg?source=2c26e567\"/><p class=\"ztext-empty-paragraph\"><br></p><p data-pid=\"IkDW0yya\">推一下自己的文章</p><div class=\"RichText-LinkCardContainer\"><a target=\"_blank\" href=\"https://zhuanlan.zhihu.com/p/514025295\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-text=\"be water：Zotero中文文献那些事\" class=\"LinkCard new css-1vqsdx1\"><span class=\"LinkCard-contents\"><span class=\"LinkCard-title loading\" data-text=\"true\"></span><span class=\"LinkCard-desc loading\"></span></span><span class=\"LinkCard-image LinkCard-image--default\"></span></a></div><p class=\"ztext-empty-paragraph\"><br></p><p data-pid=\"jKjL9Ofe\">更多文献管理的内容可以关注专栏</p><div class=\"RichText-LinkCardContainer\"><a target=\"_blank\" href=\"https://www.zhihu.com/column/c_1447680839576842240\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-text=\"文献管理\" class=\"LinkCard new css-1vqsdx1\" data-image=\"https://pic2.zhimg.com/v2-52a669542a8699d42a3c5796c7e536e9_ipico.jpg\" data-image-width=\"200\" data-image-height=\"200\"><span class=\"LinkCard-contents\"><span class=\"LinkCard-title loading\" data-text=\"true\"></span><span class=\"LinkCard-desc loading\"></span></span><span class=\"LinkCard-image LinkCard-image--default\"></span></a></div><p></p>"
+                "note": "<p data-first-child=\"\" data-pid=\"zlNmtRpL\">写在圣诞节，不在加班而是带的研究生大神加油打call的一个晚上：）</p><h2>科研工作</h2><p data-pid=\"JMlruUyA\">2024年对我来说过的非常的迅速，一年的工作多数建立在我们2023年的发现，做出了很多理解上的突破，主要还是各位懂技术的大佬们带飞的一年。</p><div class=\"RichText-LinkCardContainer\"><a target=\"_blank\" href=\"https://www.zhihu.com/question/616351382/answer/3159767665\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-text=\"如何评价华盛顿大学西雅图分校最近观测到的零场分数量子反常霍尔效应？\" class=\"LinkCard new css-biylet\" data-image=\"https://picx.zhimg.com/v2-c71d5176a5c96e370f51f231bdc2db1b_180x120.jpg\" data-image-width=\"2056\" data-image-height=\"1148\"><span class=\"LinkCard-contents\"><span class=\"LinkCard-title loading\" data-text=\"true\"></span><span class=\"LinkCard-desc loading\"></span></span><span class=\"LinkCard-image LinkCard-image--default\"></span></a></div><div class=\"RichText-LinkCardContainer\"><a target=\"_blank\" href=\"https://zhuanlan.zhihu.com/p/10238579311\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-text=\"浅斟低唱：tMoTe2进展\" class=\"LinkCard new css-biylet\" data-image=\"https://pic2.zhimg.com/v2-bd3eac78a87b172f79a054f00f0186cd_180x120.jpg\" data-image-width=\"1706\" data-image-height=\"1278\"><span class=\"LinkCard-contents\"><span class=\"LinkCard-title loading\" data-text=\"true\"></span><span class=\"LinkCard-desc loading\"></span></span><span class=\"LinkCard-image LinkCard-image--default\"></span></a></div><p data-pid=\"Oeriujvp\">除了这三篇中我参与的两个（提供样品和光学电学补充数据, Nature 635, 584-589, Nature, 635, 590-595），还开始尝试在第二条陈带找FCI，arXiv: 2406.09591 (Nature Physics accepted)。</p><p data-pid=\"9Du-Aa68\">说说物理吧，虽然FQAHE做了出来，虽然还是不能理解FQAHE出现的条件(what is essential)，但是现在开始有点感觉了。Topological flat band和高温超导一样是个难题，但是前者似乎更加\"准1D\"，可能是职业生涯里面能弄清楚的事情。如果我们真的靠tMoTe2/RPG/TBG-BN搞清楚了 what is essential for I/F QAHE in topological flat band，室温QAHE甚至FQAHE 是没有理论局限的。(Fu Bound may be tight, but still can be well above 300K)。 </p><p data-pid=\"PeAFawBx\">和师兄终于把MATBG wrap up了(Nature Materials, 23, 224-229, arXiv: 2408.01599)，暂时可能不会再碰MATBG了，等待同行器件质量突破的契机！！！</p><p data-pid=\"_DSXaVUO\">技术上虽然还是什么也不懂，但是逐渐开始和各方大神学习。CAD，画PCB板，三维建模的技术突飞猛进，感谢GPT/B站。</p><p data-pid=\"BfA3U5H-\">物理上又开始挖掘古老文献了，有什么以前做不了现在能做的深刻物理？又开始看/关注暗物质、重力测量之类的文章的，开始学robotics， AI， space tech。。。</p><h2>毕业</h2><p data-pid=\"0l2D6u__\">24年有一两个月都忙着毕业，交毕业论文，毕业答辩，真麻烦，讨厌繁文缛节，无毕业的兴奋感，只有对未来再也没有现在实验室好资源(好老板)的焦虑和恐慌。。。。</p><div class=\"RichText-LinkCardContainer\"><a target=\"_blank\" href=\"https://www.zhihu.com/question/662719751/answer/3576179144\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-text=\"课题组的研究方向是二维材料（物理，光学实验方向），想了解一下有没有特别好的教材或者综述？\" class=\"LinkCard new css-biylet\"><span class=\"LinkCard-contents\"><span class=\"LinkCard-title loading\" data-text=\"true\"></span><span class=\"LinkCard-desc loading\"></span></span><span class=\"LinkCard-image LinkCard-image--default\"></span></a></div><h2>加入MIT</h2><p data-pid=\"d5jm8KuM\">年初收到了MIT Pappalardo Fellow和Princeton Dicke Fellow的offer，各相权衡（主要还是适合自己)来到了MIT(Let's see if it's a good choice or not...)。东边的氛围真的和西边很不一样啊。</p><p data-pid=\"u2OB2XHG\">来了东边和家庭医生initial meet，发现身体素质开始急剧下降，赶紧天天开始锻炼。感谢老婆大人料理好全部家务事，不然搬家、搬技术、重新搭生产力环境能忙两三个月。</p><h2>开展更加独立的工作</h2><p data-pid=\"e4MwJBpH\">一开始我的打算是在MIT单打独斗，做一些以前想做但是没敢做的，超高风险超高回报的事情。等接了MIT的offer，meet了MIT的学生，发现还可以带组里学生一起搞能发文章的、且大家可能更关心的事情。那么计划就变了！</p><p data-pid=\"pkoBxHmq\">在一个新的地方重新establish还是很有意思的，思考了很多以前并没有考量的细节工作，疯狂的给实验室写driver，顺便给我们的measurement software打个广告：</p><div class=\"RichText-LinkCardContainer\"><a target=\"_blank\" href=\"https://github.com/nanophys/MeasureIt/tree/master\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-text=\"https://github.com/nanophys/MeasureIt/tree/master\" class=\"LinkCard new css-biylet\"><span class=\"LinkCard-contents\"><span class=\"LinkCard-title loading\" data-text=\"true\"></span><span class=\"LinkCard-desc loading\"></span></span><span class=\"LinkCard-image LinkCard-image--default\"></span></a></div><div class=\"RichText-LinkCardContainer\"><a target=\"_blank\" href=\"https://join.slack.com/t/measureit-workspace/shared_invite/zt-2ws3h3k2q-78XfSUNtqCjSUkydRW2MXA\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-text=\"Join our slack channel!\" class=\"LinkCard new css-biylet\"><span class=\"LinkCard-contents\"><span class=\"LinkCard-title loading\" data-text=\"true\"></span><span class=\"LinkCard-desc loading\"></span></span><span class=\"LinkCard-image LinkCard-image--default\"></span></a></div><h2>最后给参与过的工作打打广告，欢迎讨论</h2><ol><li data-pid=\"zKCiqB8K\">Cai, Jiaqi.<i>Integer and fractional Chern insulators in two-dimensional van der Waals heterostructures</i>. Diss. University of Washington, 2024.</li><li data-pid=\"qqrOmNPK\">He, Minhao, et al. \"Dynamically tunable moiré exciton Rydberg states in a monolayer semiconductor on twisted bilayer graphene.\"<b><i>Nature Materials </i>23.2 (2024): 224-229.</b></li><li data-pid=\"0SCTw8QA\">Yi, Hemian, et al. \"Interface-induced superconductivity in magnetic topological insulators.\"<b><i>Science </i>383.6683 (2024): 634-639</b>.</li><li data-pid=\"dFVvNe6_\">Shi, Yue, et al. \"Absence of Weyl nodes in EuCd 2 As 2 revealed by the carrier density dependence of the anomalous Hall effect.\"<b><i>Physical Review B </i>109.12 (2024): 125202.</b></li><li data-pid=\"zmlm_fjs\">Liu, Zhaoyu, et al. \"Continuously tunable uniaxial strain control of van der Waals heterostructure devices.\"<b><i>Journal of Applied Physics </i>135.20 (2024).</b></li><li data-pid=\"Qj5j-Zg3\">Thompson, Ellis, et al. \"Visualizing the microscopic origins of topology in twisted molybdenum ditelluride.\"<i>arXiv preprint arXiv:2405.19308</i>(2024).</li><li data-pid=\"5mitDAZE\">Park, Heonjoon, et al. \"Ferromagnetism and Topology of the Higher Flat Band in a Fractional Chern Insulator.\"<i>arXiv preprint arXiv:2406.09591</i>(2024).</li><li data-pid=\"qRskbqcr\">He, Minhao, et al. \"Strongly interacting Hofstadter states in magic-angle twisted bilayer graphene.\"<i>arXiv preprint arXiv:2408.01599</i>(2024).</li><li data-pid=\"IS1jWzQC\">Anderson, Eric, et al. \"Trion sensing of a zero-field composite Fermi liquid.\"<b><i>Nature </i>635.8039 (2024): 590-595.</b></li><li data-pid=\"gB-A0BNV\">Redekop, Evgeny, et al. \"Direct magnetic imaging of fractional Chern insulators in twisted MoTe2.\"<b><i>Nature </i>635.8039 (2024): 584-589.</b></li></ol><p></p>"
               }
             ],
             "seeAlso": []
@@ -17746,25 +17625,24 @@
       },
       {
         "type": "web",
-        "url": "https://www.zhihu.com/question/440729199/answer/1702311609",
+        "url": "https://www.zhihu.com/question/448277911/answer/1781798505",
         "items": [
           {
             "itemType": "forumPost",
-            "title": "深度学习领域，你心目中 idea 最惊艳的论文是哪篇？",
+            "title": "大学的微积分、线性代数、概率论，它们的难度怎么样？",
             "creators": [
               {
-                "lastName": "邱锡鹏",
+                "lastName": "杨树森",
                 "creatorType": "author",
                 "fieldMode": 1
               }
             ],
-            "date": "2021-01-28",
-            "abstractNote": "大家都提到了ResNet、Transformer、GAN、BERT等，虽然他们很成功，但说到惊艳，我个人认为Memory Networks更胜一筹，读后拓展了我对机器学习模型的认知，也逼得DeepMind几天后就赶快放出了Neural Turing Machines。\n\n\n\n...",
-            "extra": "vote: 586",
+            "date": "2021-03-15",
+            "abstractNote": "在考试比较简单的情况下，微积分最难，因为它涉及到的细节最多。如果忽略考试，仅看大纲范围内的理论，肯定是概率论最难。\n\n很久以前我回答过数学专业本科课程的难度问题，认为概率论是简单的，这很明显是受到了考试难度的影响。然而，概率论里有很多看似简单的东西，其实相当难回答。例如数学期望的定义，仅仅把目光放在...",
             "forumTitle": "知乎",
             "language": "zh-CN",
             "postType": "知乎回答",
-            "url": "https://www.zhihu.com/question/440729199/answer/1702311609",
+            "url": "https://www.zhihu.com/question/448277911/answer/1781798505",
             "attachments": [
               {
                 "title": "Snapshot",
@@ -17773,24 +17651,128 @@
             ],
             "tags": [
               {
-                "tag": "学术论文"
+                "tag": "微积分"
               },
               {
-                "tag": "强化学习 (Reinforcement Learning)"
+                "tag": "数学"
               },
               {
-                "tag": "深度学习（Deep Learning）"
+                "tag": "概率论与数理统计"
               },
               {
-                "tag": "自然语言处理"
+                "tag": "线性代数"
               },
               {
-                "tag": "计算机视觉"
+                "tag": "高等数学"
               }
             ],
             "notes": [
               {
-                "note": "<p data-first-child=\"\" data-pid=\"nLec8XPy\">大家都提到了ResNet、Transformer、GAN、BERT等，虽然他们很成功，但说到惊艳，我个人认为Memory Networks更胜一筹，读后拓展了我对机器学习模型的认知，也逼得DeepMind几天后就赶快放出了Neural Turing Machines。</p><div class=\"RichText-LinkCardContainer\"><a target=\"_blank\" href=\"https://link.zhihu.com/?target=https%3A//arxiv.org/abs/1410.3916\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-text=\"Memory Networks\" class=\"LinkCard new css-1vqsdx1\"><span class=\"LinkCard-contents\"><span class=\"LinkCard-title loading\" data-text=\"true\"></span><span class=\"LinkCard-desc loading\"></span></span><span class=\"LinkCard-image LinkCard-image--default\"></span></a></div><p></p>"
+                "note": "<p data-first-child=\"\" data-pid=\"3RchesI8\">在考试比较简单的情况下，微积分最难，因为它涉及到的细节最多。如果忽略考试，仅看大纲范围内的理论，肯定是概率论最难。</p><p data-pid=\"1MGKwOs0\">很久以前我回答过数学专业本科课程的难度问题，认为概率论是简单的，这很明显是受到了考试难度的影响。然而，概率论里有很多看似简单的东西，其实相当难回答。例如数学期望的定义，仅仅把目光放在离散型和连续性随机变量是不恰当的。</p><p data-pid=\"_2cQrv3t\">在定义了离散型随机变量的期望以后，设<span class=\"math-inline\">X</span>是随机变量，构造<span class=\"math-inline\">\\varepsilon</span><span class=\"ztext-math\" data-eeimg=\"1\" data-tex=\"\\left(\\varepsilon>0\\right)\"><span></span><span><script type=\"math/tex;mode=inline\">\\left(\\varepsilon>0\\right)</script><span class=\"tex2jax_ignore math-holder\">\\left(\\varepsilon&gt;0\\right)</span></span></span> - <b>离散化</b>随机变量</p><p data-pid=\"akwf8Nee\"><span class=\"ztext-math\" data-eeimg=\"1\" data-tex=\"X_\\varepsilon=\\varepsilon\\left\\lfloor\\frac{X}{\\varepsilon}\\right\\rfloor,\"><span></span><span><script type=\"math/tex;mode=inline\">X_\\varepsilon=\\varepsilon\\left\\lfloor\\frac{X}{\\varepsilon}\\right\\rfloor,</script><span class=\"tex2jax_ignore math-holder\">X_\\varepsilon=\\varepsilon\\left\\lfloor\\frac{X}{\\varepsilon}\\right\\rfloor,</span></span></span> </p><p data-pid=\"zovvYraR\">然后将<span class=\"math-inline\">X</span>的期望定义为<span class=\"math-inline\">\\textstyle\\lim_{\\varepsilon\\to 0}E\\left(X_\\varepsilon\\right).</span></p><p data-pid=\"MH9YicWx\">为什么要这么复杂呢？因为确实有很多简单的随机变量不是离散型或连续型的，例如将一个离散型随机变量加上一个连续型随机变量。</p><p data-pid=\"dy1GEJFK\">然后，可以证明当<span class=\"math-inline\">X</span>是连续型随机变量时，记<span class=\"math-inline\">X</span>的概率密度为<span class=\"math-inline\">p\\left(x\\right),</span>则在一定条件下成立</p><p data-pid=\"thZ-YN3n\"><span class=\"ztext-math\" data-eeimg=\"1\" data-tex=\"E\\left(X\\right)=\\int_\\mathbb Rxp\\left(x\\right)\\mathrm dx.\"><span></span><span><script type=\"math/tex;mode=inline\">E\\left(X\\right)=\\int_\\mathbb Rxp\\left(x\\right)\\mathrm dx.</script><span class=\"tex2jax_ignore math-holder\">E\\left(X\\right)=\\int_\\mathbb Rxp\\left(x\\right)\\mathrm dx.</span></span></span> </p><p data-pid=\"c0hclsD_\">另外可以证明有关期望的熟知的性质，而这件事是相当复杂的。期望只是一个例子，本科概率论中有相当多的常用结论看似简单，实际上相当不好证明。更别说还有几乎必然收敛、依概率收敛、依分布收敛和几个大数定律了。</p><p data-pid=\"lQZDk5sj\">我过去认为微积分比线性代数容易，那是因为没有入门多元微积分。首先，想要深入了解多元微积分就必须掌握线性代数；其次，多元微积分中的定理比线性代数难多了。放弃说明多元积分学，仅仅简要说明多元微分学。</p><p data-pid=\"qcY4P6o8\">在多元微分学里，首要的问题是可微性，你应该知道可微性远远比可偏导性严格。然而偏导数连续可以推出可微，这个结论就不太平凡。除此以外，还有反函数定理和隐函数定理。</p><p data-pid=\"ZwGFyf9d\">在一维情形下，函数<span class=\"math-inline\">f\\in C^1</span>在点<span class=\"math-inline\">x_0</span>处存在非零导数，就可以推出<span class=\"math-inline\">f</span>限制在<span class=\"math-inline\">x_0</span>的某一邻域上有反函数，并且它在点<span class=\"math-inline\">f\\left(x_0\\right)</span>处的导数是<span class=\"math-inline\">1/f'\\left(x_0\\right).</span>但是在高维情形下呢？</p><p data-pid=\"TMHuQrPO\">设<span class=\"math-inline\">f\\in C^1</span>是的<span class=\"math-inline\">n</span>元<span class=\"math-inline\">n</span>维向量函数，在点<span class=\"math-inline\">x_0</span>处的 Jacobi 行列式非零，则<span class=\"math-inline\">f</span>限制在<span class=\"math-inline\">x_0</span>的某一邻域上有反函数，并且它在点<span class=\"math-inline\">f\\left(x_0\\right)</span>处的导数是<span class=\"math-inline\">\\left(f'\\left(x_0\\right)\\right)^{-1},</span>也就是<span class=\"math-inline\">f</span>点<span class=\"math-inline\">x_0</span>处的 Jacobi 矩阵的逆。这个定理的证明相当繁琐。</p><p data-pid=\"CNkzH5VC\">隐函数比反函数更困难，因为它是对于一个<span class=\"math-inline\">m+n</span>元<span class=\"math-inline\">m</span>维向量函数<span class=\"math-inline\">F\\in C^1,</span>在一定条件下找到唯一确定的<span class=\"math-inline\">n</span>元<span class=\"math-inline\">m</span>维隐函数<span class=\"math-inline\">f,</span>使得<span class=\"math-inline\">F\\left(x,f\\left(x\\right)\\right)=0.</span>不再多说。</p><p data-pid=\"c_f1TEYq\">所谓线性代数没有那么难，也并非过去想象的那样。入门线性代数的标志是抽象地看待线性空间与线性映射。虽然有限维空间同构于（狭义的）向量空间，但是仅仅依靠向量空间看问题是不够的。</p><p data-pid=\"TnBDbbUl\">本科线性代数的核心在于矩阵的相似标准化，这件事有什么用？矩阵是线性变换在线性空间的基下的表示。两个矩阵相似，标志着它们可以看做是同一个线性变换在不同基下的表示。将矩阵相似标准化，意味着找到线性变换的<b>不依赖具体基下表示</b>的内在性质。</p><p data-pid=\"YGlPxj6O\">只有抽象地看待线性空间，才能彻底跳出基的束缚。所谓<span class=\"math-inline\">V</span>是<span class=\"math-inline\">n</span>维线性空间，并不具备<span class=\"math-inline\">V</span>上的哪个元素的坐标是什么的含义。相应地，子空间和商空间也是抽象的。线性代数看似繁琐，但是抽象的观点将复杂的事物变得简单，是这门课的精髓所在。</p>"
+              }
+            ],
+            "seeAlso": []
+          }
+        ]
+      },
+      {
+        "type": "web",
+        "url": "https://www.zhihu.com/question/283967816/answer/1785586737",
+        "items": [
+          {
+            "itemType": "forumPost",
+            "title": "如何看待全国高中数学教材的内容调整？",
+            "creators": [
+              {
+                "lastName": "Dylaaan",
+                "creatorType": "author",
+                "fieldMode": 1
+              }
+            ],
+            "date": "2021-03-17",
+            "abstractNote": "其实还是有一些合理的地方的，比如删去“几何概型”。\n\n\n\n\n事实上，概率的公理化的定义用到了“测度”。\n\n其中最常用的Lebesgue测度，可以被理解为是图形的面积。\n\n在几何概型中，设 $\\Omega$ 表示样本空间， $A$ 表示一个事件，它们都是 $\\mathbb{R}^n$ 中的Lebesg...",
+            "forumTitle": "知乎",
+            "language": "zh-CN",
+            "postType": "知乎回答",
+            "url": "https://www.zhihu.com/question/283967816/answer/1785586737",
+            "attachments": [
+              {
+                "title": "Snapshot",
+                "mimeType": "text/html"
+              }
+            ],
+            "tags": [
+              {
+                "tag": "大学数学课程"
+              },
+              {
+                "tag": "教育"
+              },
+              {
+                "tag": "数学教育"
+              },
+              {
+                "tag": "高中数学"
+              },
+              {
+                "tag": "高考"
+              }
+            ],
+            "notes": [
+              {
+                "note": "<p data-first-child=\"\" data-pid=\"u-vJ6q1p\">其实还是有一些合理的地方的，比如删去“几何概型”。</p><p class=\"ztext-empty-paragraph\"><br></p><p data-pid=\"aO5gPcP9\">事实上，概率的公理化的定义用到了“测度”。</p><p data-pid=\"wj0mrB3X\">其中最常用的Lebesgue测度，可以被理解为是图形的面积。</p><p data-pid=\"0Z1BRKS0\">在几何概型中，设 $\\Omega$ 表示样本空间， $A$ 表示一个事件，它们都是 $\\mathbb{R}^n$ 中的Lebesgue可测集。</p><p data-pid=\"Yxi9c_HK\">那么事件 $A$ 发生的概率为 $P(A)=\\dfrac{L(A)}{L(\\Omega)}$ ，其中 $L$ 表示Lebesgue测度。</p><p data-pid=\"3-aSRtPh\">这一切都是在概率论公理化之后才发生的。</p><p class=\"ztext-empty-paragraph\"><br></p><p data-pid=\"y63d7gAB\">如果没有公理化的概率论，就会出现如下的问题，这被称为Bertand悖论。<sup data-text=\"苏淳. 概率论（第三版）\" data-url=\"\" data-numero=\"1\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-tooltip=\"苏淳. 概率论（第三版）\" data-tooltip-richtext=\"1\" data-tooltip-preset=\"white\" data-tooltip-classname=\"ztext-reference-tooltip\"><a id=\"ref_1_0\" href=\"#ref_1\" data-reference-link=\"true\" aria-labelledby=\"ref_1\">[1]</a></sup></p><img src=\"https://pica.zhimg.com/50/v2-918ef671b4edad2820531d6953a6f11c_720w.jpg?source=2c26e567\"/><img src=\"https://picx.zhimg.com/50/v2-80b3d45f34653161fa2ca1f2321bc25a_720w.jpg?source=2c26e567\"/><img src=\"https://picx.zhimg.com/50/v2-d4170fc992c5550049773b811b5ee212_720w.jpg?source=2c26e567\"/><img src=\"https://picx.zhimg.com/50/v2-c17e6ca1a60f38060fffc3a878c89d03_720w.jpg?source=2c26e567\"/><p data-pid=\"L_Ian6lV\">可以看到，上面的三种解法，答案分别是 $\\dfrac{1}{3}$ ， $\\dfrac{1}{2}$ 和 $\\dfrac{1}{4}$ 。</p><img src=\"https://picx.zhimg.com/50/v2-1116bcacb05b0a02f09a38f5257ccb69_720w.jpg?source=2c26e567\"/><p class=\"ztext-empty-paragraph\"><br></p><p data-pid=\"UfvRmFFY\">当然，以上是苏淳教授在《概率论》一书中的看法。接下来还有我自己的看法。</p><p data-pid=\"esMZ1gb4\">看到删除“命题”和“逻辑”之后，就开始觉得有点离谱了。</p><p data-pid=\"D9wp0mki\">一些工科的学生搞不清楚数学在做什么，但也大可不必，直接拿来应用就行了。</p><p data-pid=\"bRCNBfvJ\">但是确实存在一些数学系的学生，有时候连一些最基本的逻辑都没有，甚至有时候不明白“假设”是什么意思，“公理”是什么意思，更离谱的会觉得“定理不需要证明”。</p><p data-pid=\"JWmWGGFA\">就像 <span><span class=\"UserLink\"><div class=\"css-1gomreu\"><a class=\"UserLink-link\" data-za-detail-view-element_name=\"User\" target=\"_blank\" href=\"//www.zhihu.com/people/5c05c9c0be702a0c3966f3def70e3faf\">@Yuhang Liu</a></div></span></span> 所说的，我也开始担心以后的大学生搞不清楚什么是“命题”，什么是“定理”，什么是“假设”了。</p><p data-pid=\"hQPkFcz9\">别吧，有生之年别让我看到这一天。</p><p></p><h2>参考</h2><ol class=\"ReferenceList\"><li id=\"ref_1\" tabindex=\"0\"><a class=\"ReferenceList-backLink\" href=\"#ref_1_0\" aria-label=\"back\" data-reference-link=\"true\">^</a><span>苏淳. 概率论（第三版）</span></li></ol>"
+              }
+            ],
+            "seeAlso": []
+          }
+        ]
+      },
+      {
+        "type": "web",
+        "url": "https://www.zhihu.com/question/6098306614/answer/67036803631",
+        "items": [
+          {
+            "itemType": "forumPost",
+            "title": "2024年，你的科研工作进展如何？有什么心得体会想和大家分享？",
+            "creators": [
+              {
+                "lastName": "sonta",
+                "creatorType": "author",
+                "fieldMode": 1
+              }
+            ],
+            "date": "2025-01-18",
+            "abstractNote": "1/18 update: 做了一个视频介绍linear attention一些近期进展\n\n[Talk][中文] What's next to Mamba? Towards more expressive recurrent update rule_哔哩哔哩_bilibili​www.bilibili...",
+            "forumTitle": "知乎",
+            "language": "zh-CN",
+            "postType": "知乎回答",
+            "url": "https://www.zhihu.com/question/6098306614/answer/67036803631",
+            "attachments": [
+              {
+                "title": "Snapshot",
+                "mimeType": "text/html"
+              }
+            ],
+            "tags": [
+              {
+                "tag": "博士"
+              },
+              {
+                "tag": "博士后"
+              },
+              {
+                "tag": "学术"
+              },
+              {
+                "tag": "年度盘点"
+              },
+              {
+                "tag": "科研"
+              }
+            ],
+            "notes": [
+              {
+                "note": "<p data-first-child=\"\" data-pid=\"5Paj0Tfp\">1/18 update: 做了一个视频介绍linear attention一些近期进展</p><div class=\"RichText-LinkCardContainer\"><a target=\"_blank\" href=\"https://link.zhihu.com/?target=https%3A//www.bilibili.com/video/BV1MDwAeWEoM/%3Fvd_source%3D035872531a338721ba64a57a1cdc1ebc\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-text=\"[Talk][中文] What's next to Mamba? Towards more expressive recurrent update rule_哔哩哔哩_bilibili\" class=\"LinkCard new css-biylet\" data-za-detail-view-id=\"172\"><span class=\"LinkCard-contents\"><span class=\"LinkCard-title two-line\">[Talk][中文] What's next to Mamba? Towards more expressive recurrent update rule_哔哩哔哩_bilibili</span><span class=\"LinkCard-desc\"><span style=\"display: inline-flex; align-items: center;\">​<svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" class=\"Zi Zi--InsertLink\" fill=\"currentColor\"><path fill-rule=\"evenodd\" d=\"M5.327 18.883a3.005 3.005 0 0 1 0-4.25l2.608-2.607a.75.75 0 1 0-1.06-1.06l-2.608 2.607a4.505 4.505 0 0 0 6.37 6.37l2.608-2.607a.75.75 0 0 0-1.06-1.06l-2.608 2.607a3.005 3.005 0 0 1-4.25 0Zm5.428-11.799a.75.75 0 0 0 1.06 1.06L14.48 5.48a3.005 3.005 0 0 1 4.25 4.25l-2.665 2.665a.75.75 0 0 0 1.061 1.06l2.665-2.664a4.505 4.505 0 0 0-6.371-6.372l-2.665 2.665Zm5.323 2.117a.75.75 0 1 0-1.06-1.06l-7.072 7.07a.75.75 0 0 0 1.061 1.06l7.071-7.07Z\" clip-rule=\"evenodd\"></path></svg></span>www.bilibili.com/video/BV1MDwAeWEoM/?vd_source=035872531a338721ba64a57a1cdc1ebc</span></span></a></div><p data-pid=\"HN9u2A8w\"><br>----分割线-----</p><p data-pid=\"Zh074Fj6\">我主要是做LLM新架构（非Transformer）设计相关的工作。这个领域个人理解是属于MLSys偏算法的范畴：主要依然以算法为主，但是如果不会写GPU kernel就（几乎）告别这个领域了，所以多多少少沾点MLSys。今年总的来说是收获非常多的一年，自己从萌新PhD也已经做到了在领域内非常知名了（</p><p data-pid=\"3fBfO-cF\">去年年底挂出来的的<a href=\"https://link.zhihu.com/?target=https%3A//arxiv.org/abs/2312.06635\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\" data-za-detail-view-id=\"1043\">GLA</a>被ICML ‘24顺利接受（跟<a href=\"https://link.zhihu.com/?target=https%3A//arxiv.org/abs/2405.21060\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\" data-za-detail-view-id=\"1043\">Mamba2</a>很像，<i>但是时间上早了半年，并且形式更加<b>general。</b></i>给Linear Attention加forget gate是2024年新架构方向的研究重点：包括但不限于<a href=\"https://link.zhihu.com/?target=https%3A//arxiv.org/abs/2405.04517\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\" data-za-detail-view-id=\"1043\">xLSTM</a>, Mamba2, <a href=\"https://link.zhihu.com/?target=https%3A//arxiv.org/abs/2405.05254\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\" data-za-detail-view-id=\"1043\">gated RetNet</a>, <a href=\"https://link.zhihu.com/?target=https%3A//arxiv.org/abs/2404.05892\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\" data-za-detail-view-id=\"1043\">RWKV-6,</a> <a href=\"https://link.zhihu.com/?target=https%3A//openreview.net/forum%3Fid%3DY8YVCOMEpz\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\" data-za-detail-view-id=\"1043\">MetaLA</a>, <a href=\"https://link.zhihu.com/?target=https%3A//openreview.net/forum%3Fid%3DIIVYiJ1ggK\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\" data-za-detail-view-id=\"1043\">Rodimus</a>*...）。自己另外也跟 <span><span class=\"UserLink\"><div class=\"css-1gomreu\"><a class=\"UserLink-link\" data-za-detail-view-element_name=\"User\" target=\"_blank\" href=\"//www.zhihu.com/people/ea59b7e0726d2e15c54e2a87e334d6f6\">@Doraemonzzz</a></div></span></span> 做了一个 <a href=\"https://link.zhihu.com/?target=https%3A//arxiv.org/pdf/2311.04823\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\" data-za-detail-view-id=\"1043\">HGRN</a> (NeurIPS '23) 的followup：<a href=\"https://link.zhihu.com/?target=https%3A//arxiv.org/abs/2404.07904\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\" data-za-detail-view-id=\"1043\">HGRN2</a> (COLM '24)</p><ul><li data-pid=\"qsvgA3dA\">HGRN2最后的形式虽然跟GLA殊途同归，但是HGRN2是从gated linear RNN而不是linear attention的角度来motivate的，从这个角度来说，HGRN2可以看成GLA的改进参数化的方式。这种改进的参数化也被最近的NeurIPS '24 oral MetaLA用到了）。</li></ul><p data-pid=\"REbB0_b1\">之后又跟 <span><span class=\"UserLink\"><div class=\"css-1gomreu\"><a class=\"UserLink-link\" data-za-detail-view-element_name=\"User\" target=\"_blank\" href=\"//www.zhihu.com/people/8d5f4c3b705ef7df799b680515700468\">@yzhangcs</a></div></span></span>  一起做了 <a href=\"https://link.zhihu.com/?target=https%3A//arxiv.org/abs/2409.07146\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">GSA</a> (NeurIPS '24)</p><div class=\"RichText-LinkCardContainer\"><a target=\"_blank\" href=\"https://www.zhihu.com/question/683517985/answer/4404036401\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-text=\"NeurIPS 2024 有哪些值得关注的工作？\" class=\"LinkCard new css-biylet\" data-image=\"https://pica.zhimg.com/v2-476bf405175d4643a018319c313f164e_ipico.jpg\" data-image-width=\"1544\" data-image-height=\"1536\"><span class=\"LinkCard-contents\"><span class=\"LinkCard-title loading\" data-text=\"true\"></span><span class=\"LinkCard-desc loading\"></span></span><span class=\"LinkCard-image LinkCard-image--default\"></span></a></div><ul><li data-pid=\"jmxToeXy\">GSA的核心思路就是一层GSA可以写成一个 中间由softmax 连接的两层GLA，使得模型更加的expressive，同时由于保留了softmax的形式，非常适合把transformer大模型distill到一个RNN上（finetuning Transformers to RNNs)</li></ul><p data-pid=\"39WbpVHJ\">此外四月份跑去Cornell tech给了个Talk (<a href=\"https://link.zhihu.com/?target=https%3A//sustcsonglin.github.io/assets/pdf/talk_240425.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">slides</a>) (sasha迷妹狂喜+1)，暑假的时候去斯坦福Hazyresearch组朝圣并给了个Talk（chris re迷妹狂喜+2）（<a href=\"https://link.zhihu.com/?target=https%3A//sustcsonglin.github.io/assets/pdf/talk_linear_transformer.pdf\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">slides</a>）， 以及其他各种大大小小的remote talk。明年初打算给一个新架构近两年发展历程的系列talk（感兴趣的group如果想让我给个talk的话可以私信联系）</p><p class=\"ztext-empty-paragraph\"><br></p><p data-pid=\"92EJcFYk\">除了发paper之外，我觉得（有追求的）PhD student的核心不是堆paper数量，而是要</p><ul><li data-pid=\"UDyKnfja\">带领领域发展</li><li data-pid=\"YptgpB2j\">维护高质量的开源库，方便其他研究者来跟进 &amp; 方便萌新入坑 (99%的Phd student不会干这种事，自己的repo能不coming soon就不错了）</li></ul><p data-pid=\"ht8Znn4E\">个人非常喜欢Omar的一个博客，建议每一个AI PhD student都背一遍</p><div class=\"RichText-LinkCardContainer\"><a target=\"_blank\" href=\"https://link.zhihu.com/?target=https%3A//github.com/okhat/blog/blob/main/2024.09.impact.md\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-text=\"On Impactful AI Research\" class=\"LinkCard new css-biylet\"><span class=\"LinkCard-contents\"><span class=\"LinkCard-title loading\" data-text=\"true\"></span><span class=\"LinkCard-desc loading\"></span></span><span class=\"LinkCard-image LinkCard-image--default\"></span></a></div><p data-pid=\"lFeawwZM\">对于第一点，上半年做了自己非常满意的一篇<b>并行</b>DeltaNet训练 (NeurIPS '24) 的工作 (<a href=\"https://link.zhihu.com/?target=https%3A//arxiv.org/abs/2406.06484\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">paper</a>, <a href=\"https://link.zhihu.com/?target=https%3A//sustcsonglin.github.io/blog/2024/deltanet-1/\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">blog series</a>），算法十分优美（我做了五年算法research的最得意之作，没有之一）并且scalable，审稿分数很不错，只可惜碰到了逆天AC只给了个poster郁闷了一阵子 </p><img src=\"https://picx.zhimg.com/50/v2-908d4fe09c65da2869fabf2c3023d0c9_720w.jpg?source=2c26e567\"/><p data-pid=\"ZV_N-0Zq\">（后来albert安慰我说conference都是__，我想想也是，毕竟Mamba1能被某位不要脸的来自某Tech的AC在ICLR '23给强行拒了）。DeltaNet有一个很不错的ICLR '24高分followup（感觉oral预定）</p><p data-pid=\"iFUV7_FD\"><a href=\"https://link.zhihu.com/?target=https%3A//openreview.net/forum%3Fid%3DUvTo3tVBk2\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Unlocking State-Tracking in Linear RNNs Through Negative Eigenvalues</a></p><div class=\"RichText-LinkCardContainer\"><a target=\"_blank\" href=\"https://link.zhihu.com/?target=https%3A//openreview.net/forum%3Fid%3DUvTo3tVBk2\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-text=\"Unlocking State-Tracking in Linear RNNs Through Negative Eigenvalues\" class=\"LinkCard new css-biylet\" data-image=\"https://pica.zhimg.com/v2-f379b46dfcd21ef4f1edea0f5ad81a0c_ipico.jpg\" data-image-width=\"512\" data-image-height=\"512\"><span class=\"LinkCard-contents\"><span class=\"LinkCard-title loading\" data-text=\"true\"></span><span class=\"LinkCard-desc loading\"></span></span><span class=\"LinkCard-image LinkCard-image--default\"></span></a></div><p data-pid=\"3ZR-B8J8\">并且我自己也做了一个Gated DeltaNet的followup</p><div class=\"RichText-LinkCardContainer\"><a target=\"_blank\" href=\"https://link.zhihu.com/?target=https%3A//arxiv.org/abs/2412.06464\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-text=\"Gated Delta Networks: Improving Mamba2 with Delta Rule\" class=\"LinkCard new css-biylet\" data-image=\"https://picx.zhimg.com/v2-4baaae2386ede0213c693947a141a747_180x120.jpg\" data-image-width=\"1200\" data-image-height=\"700\"><span class=\"LinkCard-contents\"><span class=\"LinkCard-title loading\" data-text=\"true\"></span><span class=\"LinkCard-desc loading\"></span></span><span class=\"LinkCard-image LinkCard-image--default\"></span></a></div><p data-pid=\"XCam-6eq\">此外值得一提的是最近的RWKV7可以被看成是generalized delta rule，</p><div class=\"RichText-LinkCardContainer\"><a target=\"_blank\" href=\"https://zhuanlan.zhihu.com/p/9397296254\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-text=\"PENG Bo：RWKV-7 as a meta-in-context learner：从第一性原理真正理解\" class=\"LinkCard new css-biylet\"><span class=\"LinkCard-contents\"><span class=\"LinkCard-title loading\" data-text=\"true\"></span><span class=\"LinkCard-desc loading\"></span></span><span class=\"LinkCard-image LinkCard-image--default\"></span></a></div><p data-pid=\"ZonJuHZ7\">（其meta-learning的视角早在deltanet里为人熟知了）；TTT layer也是跟delta rule有着千丝万缕的关系：</p><div class=\"RichText-LinkCardContainer\"><a target=\"_blank\" href=\"https://zhuanlan.zhihu.com/p/707826685\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-text=\"sonta：[线性RNN系列] TTT (Test-Time Training) layer\" class=\"LinkCard new css-biylet\" data-image=\"https://pic4.zhimg.com/equation_ipico.jpg\"><span class=\"LinkCard-contents\"><span class=\"LinkCard-title loading\" data-text=\"true\"></span><span class=\"LinkCard-desc loading\"></span></span><span class=\"LinkCard-image LinkCard-image--default\"></span></a></div><p data-pid=\"koqE3gjZ\">因此，自己DeltaNet的工作也算是为领域做了点贡献。可以预见25年会有更多相关的工作 </p><p data-pid=\"nKJsTUMA\">（25/01/04修改：没想到年初就出了一个Titans，那25年只会更多相关的工作）</p><div class=\"RichText-LinkCardContainer\"><a target=\"_blank\" href=\"https://link.zhihu.com/?target=https%3A//arxiv.org/abs/2501.00663\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-text=\"Titans: Learning to Memorize at Test Time\" class=\"LinkCard new css-biylet\" data-image=\"https://picx.zhimg.com/v2-4baaae2386ede0213c693947a141a747_180x120.jpg\" data-image-width=\"1200\" data-image-height=\"700\"><span class=\"LinkCard-contents\"><span class=\"LinkCard-title loading\" data-text=\"true\"></span><span class=\"LinkCard-desc loading\"></span></span><span class=\"LinkCard-image LinkCard-image--default\"></span></a></div><div class=\"RichText-LinkCardContainer\"><a target=\"_blank\" href=\"https://zhuanlan.zhihu.com/p/16374862400\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-text=\"sonta：[线性RNN系列] Titans: 将in-context meta learning进行到底，取代Mamba势不可挡\" class=\"LinkCard new css-biylet\" data-image=\"https://pic3.zhimg.com/equation_ipico.jpg\" data-image-width=\"0\" data-image-height=\"0\"><span class=\"LinkCard-contents\"><span class=\"LinkCard-title loading\" data-text=\"true\"></span><span class=\"LinkCard-desc loading\"></span></span><span class=\"LinkCard-image LinkCard-image--default\"></span></a></div><p data-pid=\"so6kgeMk\">（很喜欢albert的一句话：24年很多新架构工作都同质化严重，只有DeltaNet让人眼前一亮。Albert也非常喜欢拿着我DeltaNet paper里的表在各种talk里面cue（受宠若惊））</p><img src=\"https://pic1.zhimg.com/50/v2-aa2b238c2423df9bcd5cd614c5a0326b_720w.jpg?source=2c26e567\"/><p data-pid=\"sIkHkQxa\">在开源库方面，<a href=\"https://link.zhihu.com/?target=https%3A//github.com/fla-org/flash-linear-attention\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">flash-linear-attention (FLA)</a> 库已经快成为新架构research的既定标准了，有很多其他research组在用，并且业界里也用的很多。我们在年中的时候实现了一个RWKV6的triton的kernel也被RWKV社区广泛使用。</p><p data-pid=\"NFMb6wF3\">最后打个广告：现在FLA库几乎全是由我和 <span><span class=\"UserLink\"><div class=\"css-1gomreu\"><a class=\"UserLink-link\" data-za-detail-view-element_name=\"User\" target=\"_blank\" href=\"//www.zhihu.com/people/8d5f4c3b705ef7df799b680515700468\">@yzhangcs</a></div></span></span> 在维护，但是维护库是一个非常花时间和精力的事情。希望找到一些对MLSys偏算法方向感兴趣的同学来一起维护FLA（我和 <span><span class=\"UserLink\"><div class=\"css-1gomreu\"><a class=\"UserLink-link\" data-za-detail-view-element_name=\"User\" target=\"_blank\" href=\"//www.zhihu.com/people/8d5f4c3b705ef7df799b680515700468\">@yzhangcs</a></div></span></span> 可以Triton包教包会，为领域培养一些新的血液。另外我对用thunderkittens把所有kernel全部重新写一遍也挺有兴趣的，就是精力更不上呜呜 ）</p><p class=\"ztext-empty-paragraph\"><br></p><p data-pid=\"jKvkjiP9\">（建了个fla交流群 想进群私信）</p>"
               }
             ],
             "seeAlso": []
@@ -17801,6 +17783,11 @@
     "zhLabel": "知乎",
     "trends": [
       {
+        "author": "Wings236",
+        "date": "2025-07-15 13:26:41 +0800",
+        "message": "Zhihu update (#605)"
+      },
+      {
         "author": "jiaojiaodubai",
         "date": "2024-07-19 23:42:50 +0800",
         "message": "fix: use variable before declare"
@@ -17809,11 +17796,6 @@
         "author": "jiaojiaodubai",
         "date": "2024-07-14 17:05:37 +0800",
         "message": "fix #360; update test cases; use edited time as date; improve async loaded results; lint"
-      },
-      {
-        "author": "jiaojiaodubai",
-        "date": "2024-06-21 12:54:49 +0800",
-        "message": "lint; replace launch.json with tasks.json"
       }
     ]
   },
@@ -23497,14 +23479,14 @@
       "translatorID": "c7f4a1df-1d53-433d-8c04-26fd55791459",
       "label": "epaper.gmw.cn",
       "creator": "jiaojiaodubai",
-      "target": "^https://epaper\\.gmw\\.cn/gmrb",
+      "target": "^https://epaper\\.gmw\\.cn/(gmrb|zhdsb)",
       "minVersion": "5.0",
       "maxVersion": "",
       "priority": 100,
       "inRepository": true,
       "translatorType": 4,
       "browserSupport": "gcsibv",
-      "lastUpdated": "2025-02-13 13:42:04"
+      "lastUpdated": "2025-04-08 08:07:01"
     },
     "testCases": [
       {
@@ -23549,10 +23531,111 @@
         "type": "web",
         "url": "https://epaper.gmw.cn/gmrb/html/2025-02/13/nbs.D110000gmrb_01.htm",
         "items": "multiple"
+      },
+      {
+        "type": "web",
+        "url": "https://epaper.gmw.cn/zhdsb/html/2025-04/02/nw.D110000zhdsb_20250402_3-01.htm",
+        "items": [
+          {
+            "itemType": "newspaperArticle",
+            "title": "中国科幻正吸引着世界目光",
+            "creators": [
+              {
+                "firstName": "",
+                "lastName": "张隽",
+                "creatorType": "author",
+                "fildMode": 1
+              }
+            ],
+            "date": "2025-04-02",
+            "libraryCatalog": "epaper.gmw.cn",
+            "place": "北京",
+            "publicationTitle": "中华读书报",
+            "url": "https://epaper.gmw.cn/zhdsb/html/2025-04/02/nw.D110000zhdsb_20250402_3-01.htm",
+            "attachments": [
+              {
+                "title": "Snapshot",
+                "mimeType": "text/html"
+              }
+            ],
+            "tags": [],
+            "notes": [],
+            "seeAlso": []
+          }
+        ]
+      },
+      {
+        "type": "web",
+        "url": "https://epaper.gmw.cn/zhdsb/html/2025-04/02/nw.D110000zhdsb_20250402_1-17.htm",
+        "items": [
+          {
+            "itemType": "newspaperArticle",
+            "title": "绵延百年的投龙故事",
+            "creators": [
+              {
+                "firstName": "",
+                "lastName": "魏祝挺",
+                "creatorType": "author",
+                "fildMode": 1
+              }
+            ],
+            "date": "2025-04-02",
+            "libraryCatalog": "epaper.gmw.cn",
+            "place": "北京",
+            "publicationTitle": "中华读书报",
+            "url": "https://epaper.gmw.cn/zhdsb/html/2025-04/02/nw.D110000zhdsb_20250402_1-17.htm",
+            "attachments": [
+              {
+                "title": "Snapshot",
+                "mimeType": "text/html"
+              }
+            ],
+            "tags": [],
+            "notes": [],
+            "seeAlso": []
+          }
+        ]
+      },
+      {
+        "type": "web",
+        "url": "https://epaper.gmw.cn/zhdsb/html/2025-04/02/nw.D110000zhdsb_20250402_2-01.htm",
+        "items": [
+          {
+            "itemType": "newspaperArticle",
+            "title": "中国现代文学馆彰显新时代文化自信磅礴力量",
+            "creators": [
+              {
+                "firstName": "",
+                "lastName": "夏琪",
+                "creatorType": "author",
+                "fildMode": 1
+              }
+            ],
+            "date": "2025-04-02",
+            "libraryCatalog": "epaper.gmw.cn",
+            "place": "北京",
+            "publicationTitle": "中华读书报",
+            "url": "https://epaper.gmw.cn/zhdsb/html/2025-04/02/nw.D110000zhdsb_20250402_2-01.htm",
+            "attachments": [
+              {
+                "title": "Snapshot",
+                "mimeType": "text/html"
+              }
+            ],
+            "tags": [],
+            "notes": [],
+            "seeAlso": []
+          }
+        ]
       }
     ],
     "zhLabel": "光明网（电子版）",
     "trends": [
+      {
+        "author": "jiaojiaodubai",
+        "date": "2025-04-08 08:12:20 +0000",
+        "message": "resolve #479"
+      },
       {
         "author": "jiaojiaodubai",
         "date": "2025-02-13 13:53:50 +0000",
@@ -23903,8 +23986,688 @@
     "trends": [
       {
         "author": "jiaojiaodubai",
-        "date": "2025-03-11 08:20:44 +0800",
+        "date": "2025-04-10 08:17:53 +0000",
+        "message": "update helper function"
+      },
+      {
+        "author": "jiaojiaodubai",
+        "date": "2025-03-11 00:21:12 +0000",
         "message": "add sanmin.com.tw.js, resolve #446"
+      }
+    ]
+  },
+  "CNKI e-Books.js": {
+    "header": {
+      "translatorID": "8ca3a3a4-708a-47b2-ac91-261148e0b822",
+      "label": "CNKI e-Books",
+      "creator": "jiaojiaodubai",
+      "target": "^https://book\\.oversea\\.cnki\\.net",
+      "minVersion": "5.0",
+      "maxVersion": "",
+      "priority": 100,
+      "inRepository": true,
+      "translatorType": 4,
+      "browserSupport": "gcsibv",
+      "lastUpdated": "2025-04-08 19:07:53"
+    },
+    "testCases": [
+      {
+        "type": "web",
+        "url": "https://book.oversea.cnki.net/chn/pubdetail?sysid=223&resid=6&pykm=OB200303075",
+        "items": [
+          {
+            "itemType": "book",
+            "title": "本草备要",
+            "creators": [
+              {
+                "firstName": "",
+                "lastName": "汪昂",
+                "creatorType": "editor",
+                "fieldMode": 1
+              },
+              {
+                "firstName": "",
+                "lastName": "郑金生",
+                "creatorType": "contributor",
+                "fieldMode": 1
+              }
+            ],
+            "ISBN": "9787117241755",
+            "abstractNote": "共八卷。汪昂撰，康熙三十三年（1694年）刊，本书可视为临床药物手册，亦为医学门径书。 主要取材于《本草纲目》和《神农本草经疏》。卷首为药性总义，统论药物性味，归经及炮制大要:卷一草部药191种，卷二木部药83种，卷三果部药31种，卷四谷菜部药40种，卷五金石水木部药58种，卷六禽兽部药25种，卷七鳞介鱼虫部药41种，卷八人部药9种，共计478种。每药先辨其气、味、形、色，次述所八经络、功用、主治，并根据药物所属之“十剂“，分记于该药之首。后世刊本又增附药图400余幅，更臻完善。",
+            "extra": "creatorsExt: [{\"country\":\"清\",\"firstName\":\"\",\"lastName\":\"汪昂\",\"creatorType\":\"editor\",\"fieldMode\":1},{\"country\":\"\",\"firstName\":\"\",\"lastName\":\"郑金生\",\"creatorType\":\"contributor\",\"fieldMode\":1}]",
+            "libraryCatalog": "CNKI e-Books",
+            "numPages": "432",
+            "publisher": "人民卫生出版社",
+            "attachments": [],
+            "tags": [],
+            "notes": [],
+            "seeAlso": []
+          }
+        ]
+      },
+      {
+        "type": "web",
+        "url": "https://book.oversea.cnki.net/chn/pubdetail?sysid=223&resid=6&pykm=OB170202076",
+        "items": [
+          {
+            "itemType": "book",
+            "title": "日本現代史",
+            "creators": [
+              {
+                "firstName": "",
+                "lastName": "長谷川如是閑",
+                "creatorType": "author",
+                "fieldMode": 1
+              },
+              {
+                "firstName": "",
+                "lastName": "彭信威",
+                "creatorType": "translator",
+                "fieldMode": 1
+              }
+            ],
+            "ISBN": "9787215104617",
+            "abstractNote": "本书以世界为背景叙述了日本自明治维新以来六十年间（1868-1928）的历史，详细论述了明治维新的意义和改革情况、启蒙时代的思想及运动、中日战后日本国民的变化、一战后世界各国思想和政治格局对日本的影响。",
+            "extra": "creatorsExt: [{\"country\":\"日\",\"firstName\":\"\",\"lastName\":\"長谷川如是閑\",\"creatorType\":\"author\",\"fieldMode\":1},{\"country\":\"\",\"firstName\":\"\",\"lastName\":\"彭信威\",\"creatorType\":\"translator\",\"fieldMode\":1}]",
+            "libraryCatalog": "CNKI e-Books",
+            "numPages": "275",
+            "publisher": "河南人民出版社",
+            "attachments": [],
+            "tags": [],
+            "notes": [],
+            "seeAlso": []
+          }
+        ]
+      },
+      {
+        "type": "web",
+        "url": "https://book.oversea.cnki.net/chn/pubdetail?sysid=223&resid=6&pykm=OB200303075",
+        "items": [
+          {
+            "itemType": "book",
+            "title": "本草备要",
+            "creators": [
+              {
+                "firstName": "",
+                "lastName": "汪昂",
+                "creatorType": "editor",
+                "fieldMode": 1
+              },
+              {
+                "firstName": "",
+                "lastName": "郑金生",
+                "creatorType": "contributor",
+                "fieldMode": 1
+              }
+            ],
+            "ISBN": "9787117241755",
+            "abstractNote": "共八卷。汪昂撰，康熙三十三年（1694年）刊，本书可视为临床药物手册，亦为医学门径书。 主要取材于《本草纲目》和《神农本草经疏》。卷首为药性总义，统论药物性味，归经及炮制大要:卷一草部药191种，卷二木部药83种，卷三果部药31种，卷四谷菜部药40种，卷五金石水木部药58种，卷六禽兽部药25种，卷七鳞介鱼虫部药41种，卷八人部药9种，共计478种。每药先辨其气、味、形、色，次述所八经络、功用、主治，并根据药物所属之“十剂“，分记于该药之首。后世刊本又增附药图400余幅，更臻完善。",
+            "extra": "creatorsExt: [{\"country\":\"清\",\"firstName\":\"\",\"lastName\":\"汪昂\",\"creatorType\":\"editor\",\"fieldMode\":1},{\"country\":\"\",\"firstName\":\"\",\"lastName\":\"郑金生\",\"creatorType\":\"contributor\",\"fieldMode\":1}]",
+            "libraryCatalog": "CNKI e-Books",
+            "numPages": "432",
+            "publisher": "人民卫生出版社",
+            "url": "https://book.oversea.cnki.net/chn/pubdetail?sysid=223&resid=6&pykm=OB200303075",
+            "attachments": [],
+            "tags": [],
+            "notes": [],
+            "seeAlso": []
+          }
+        ]
+      },
+      {
+        "type": "web",
+        "url": "https://book.oversea.cnki.net/chn/pubdetail?sysid=223&resid=6&pykm=OB170202076",
+        "items": [
+          {
+            "itemType": "book",
+            "title": "日本現代史",
+            "creators": [
+              {
+                "firstName": "",
+                "lastName": "長谷川如是閑",
+                "creatorType": "author",
+                "fieldMode": 1
+              },
+              {
+                "firstName": "",
+                "lastName": "彭信威",
+                "creatorType": "translator",
+                "fieldMode": 1
+              }
+            ],
+            "ISBN": "9787215104617",
+            "abstractNote": "本书以世界为背景叙述了日本自明治维新以来六十年间（1868-1928）的历史，详细论述了明治维新的意义和改革情况、启蒙时代的思想及运动、中日战后日本国民的变化、一战后世界各国思想和政治格局对日本的影响。",
+            "extra": "creatorsExt: [{\"country\":\"日\",\"firstName\":\"\",\"lastName\":\"長谷川如是閑\",\"creatorType\":\"author\",\"fieldMode\":1},{\"country\":\"\",\"firstName\":\"\",\"lastName\":\"彭信威\",\"creatorType\":\"translator\",\"fieldMode\":1}]",
+            "libraryCatalog": "CNKI e-Books",
+            "numPages": "275",
+            "publisher": "河南人民出版社",
+            "url": "https://book.oversea.cnki.net/chn/pubdetail?sysid=223&resid=6&pykm=OB170202076",
+            "attachments": [],
+            "tags": [],
+            "notes": [],
+            "seeAlso": []
+          }
+        ]
+      }
+    ],
+    "zhLabel": "中国知网电子书",
+    "trends": [
+      {
+        "author": "jiaojiaodubai",
+        "date": "2025-04-10 08:17:53 +0000",
+        "message": "update helper function"
+      },
+      {
+        "author": "jiaojiaodubai",
+        "date": "2025-04-08 19:10:41 +0000",
+        "message": "resolve #462"
+      }
+    ]
+  },
+  "Lawbank.js": {
+    "header": {
+      "translatorID": "34940faa-9381-4bc8-b796-e83d36eecd48",
+      "label": "Lawbank",
+      "creator": "jiaojiaodubai",
+      "target": "^https://(www|db)\\.lawbank\\.com\\.tw",
+      "minVersion": "5.0",
+      "maxVersion": "",
+      "priority": 100,
+      "inRepository": true,
+      "translatorType": 4,
+      "browserSupport": "gcsibv",
+      "lastUpdated": "2025-04-30 00:29:46"
+    },
+    "testCases": [
+      {
+        "type": "web",
+        "url": "https://db.lawbank.com.tw/FLAW/FLAWDAT09.aspx?lsid=FL001378",
+        "items": [
+          {
+            "itemType": "statute",
+            "nameOfAct": "法人及夫妻財產制契約登記規則",
+            "creators": [
+              {
+                "firstName": "",
+                "lastName": "司法院民事廳",
+                "creatorType": "author",
+                "fildMode": 1
+              }
+            ],
+            "dateEnacted": "1973-07-06",
+            "language": "zh-TW",
+            "url": "https://db.lawbank.com.tw/FLAW/FLAWDAT09.aspx?lsid=FL001378",
+            "attachments": [],
+            "tags": [],
+            "notes": [],
+            "seeAlso": []
+          }
+        ]
+      },
+      {
+        "type": "web",
+        "url": "https://db.lawbank.com.tw/FINT/FINTQRY04.aspx?id=J%2cU%2c105%2c%e5%8f%b0%e4%b8%8a%2c2111%2c001&ro=1&category=3&type=3&subtype=1,A,S,U,4,G,I,O,CA&filter=7&sort=1&p=CF434FFF8364ED26B8C898DE4F1FFAAA",
+        "items": [
+          {
+            "itemType": "case",
+            "caseName": "翁日章、翁明陽、翁寶秀、翁寶釧訴翁明輝請求分割遺產等事件案",
+            "creators": [],
+            "dateDecided": "2016-11-29",
+            "abstractNote": "按民法第二百二十五條第二項所定之代償請求權之立法目的，係基於衡平 思想，旨在調整失當之財產價值分配，保護債權人之利益，使債權人有主 張以債務人對於第三人之損害賠償請求權或受領自第三人之賠償物代替原 給付標的之權利，其因不可歸責於債務人之事由直接轉換之利益（如交易 之對價）與損害賠償，發生之原因雖有不同，但性質上同為給付不能之代 替利益，應類推適用上開規定，得為代償請求權之標的。又依民法第二百 二十五條第一項、第二項規定之文義，固須不可歸責於債務人之事由致給 付不能者，債權人始得主張代償請求權。惟因可歸責於債務人之事由致給 付不能者，參酌民法第二百二十五條第二項規定之立法理由謂「其不能給 付，『不問其債務人應否負責』，須以債務人所受之損害賠償或其所有之 損害賠償請求權，代債務之標的，以保護債權人之利益」，應認債權人得 選擇行使損害賠償請求權（民法第二百二十六條第一項）或代償請求權以 保護其利益。惟代償請求權之目的，係於債務人給付不能時，使債權人得 向債務人請求讓與其損害賠償請求權或交付受領之賠償物或交付其所取得 交易之對價，代替原來債務之標的為給付，以保障債權人之利益。準此， 即應以債務人就原來債務之標的仍應為給付為前提，始可因其給付不能而 發生代償請求權。倘原來之債權已罹於消滅時效期間，債務人本得行使時 效抗辯，拒絕為給付，自不可能再有給付不能，而發生代償請求權及其時 效期間重新起算之情事，否則即與時效制度原期確保交易安全，維護社會 秩序之目的有違。",
+            "court": "臺灣最高法院",
+            "docketNumber": "105年度台上字第2111號",
+            "extra": "genre: 判決書",
+            "language": "zh-TW",
+            "url": "https://db.lawbank.com.tw/FINT/FINTQRY04.aspx?id=J%2cU%2c105%2c%e5%8f%b0%e4%b8%8a%2c2111%2c001&ro=1&category=3&type=3&subtype=1,A,S,U,4,G,I,O,CA&filter=7&sort=1&p=CF434FFF8364ED26B8C898DE4F1FFAAA",
+            "attachments": [
+              {
+                "title": "Snapshot",
+                "mimeType": "text/html"
+              }
+            ],
+            "tags": [
+              {
+                "tag": "不當得利"
+              },
+              {
+                "tag": "公同共有"
+              },
+              {
+                "tag": "分割遺產"
+              },
+              {
+                "tag": "消滅時效"
+              }
+            ],
+            "notes": [],
+            "seeAlso": []
+          }
+        ]
+      },
+      {
+        "type": "web",
+        "url": "https://db.lawbank.com.tw/FINT/FINTQRY04.aspx?id=J%2c1%2c112%2c%e5%8f%b0%e6%8a%97%e5%a4%a7%2c630%2c001&ro=1&category=3&type=3&subtype=1,A,S,U,4,G,I,O,CA&sort=1&p=49DF6736B28D1583084F33CB442ACFA6",
+        "items": [
+          {
+            "itemType": "case",
+            "caseName": "吳○○請求損害賠償等聲請退還裁判費案",
+            "creators": [],
+            "dateDecided": "2024-02-20",
+            "court": "臺灣最高法院",
+            "docketNumber": "112年度台抗大字第630號",
+            "extra": "genre: 民事裁定書",
+            "language": "zh-TW",
+            "url": "https://db.lawbank.com.tw/FINT/FINTQRY04.aspx?id=J%2c1%2c112%2c%e5%8f%b0%e6%8a%97%e5%a4%a7%2c630%2c001&ro=1&category=3&type=3&subtype=1,A,S,U,4,G,I,O,CA&sort=1&p=49DF6736B28D1583084F33CB442ACFA6",
+            "attachments": [
+              {
+                "title": "Snapshot",
+                "mimeType": "text/html"
+              }
+            ],
+            "tags": [],
+            "notes": [],
+            "seeAlso": []
+          }
+        ]
+      },
+      {
+        "type": "web",
+        "url": "https://db.lawbank.com.tw/FINT/FINTQRY04.aspx?id=J%2cV%2c113%2c%e5%8f%b0%e4%b8%8a%2c292%2c001&ro=1&category=4&sort=1&p=1028CE2C61721F61383E2643AECF1029",
+        "items": [
+          {
+            "itemType": "case",
+            "caseName": "鍾志彬上訴（二審）案",
+            "creators": [],
+            "dateDecided": "2024-02-29",
+            "abstractNote": "（一）免於身心傷害之身體權，雖非憲法明文列舉之權利，惟基於人性尊嚴理念，維護個人主體性及人格自由發展，亦屬憲法第22條所保障之基本權利。而人民之健康關乎生命之存續與品質，身體與健康同屬法律保障之人格法益，並與人性尊嚴之普世價值息息相關，是人民之健康權，乃內含於憲法保障身體權之一環。而憲法所保障之健康權，旨在保障人民生理機能及心理健康（精神狀態）之完整健全，不受任意侵害。故刑法傷害罪，係以身體、健康為其保護法益，並以維護個人身體的完整性、生理機能之健全，與心理狀態之健康為其內容。故所謂健康，當然包含生理及心理上之健康狀態。（二）以心理健康之傷害為例，其傷害是否重大，除須符合精神衛生法第3條第1項第1款規定精神疾病之定義外，尚須其所罹之精神疾病已達上開重大不治或難治之重傷要件，始能論以重傷罪。準此，法院關於被害人之思考、情緒、知覺、認知、行為及其他精神狀態有無因精神疾病之影響而有重大異常之表現？被害人適應原本生活之基本角色功能（職業、社交活動執行與日常生活之參與）是否因而發生重大障礙？及被害人是否因而需要長期持續接受醫療及照顧？被害人所罹之精神疾病是否已達不治或難治之程度等，攸關被害人心理健康之傷害是否已達重傷相關審酌事項之判斷，事涉醫療相關領域之專業知識，倘業已綜合專科醫師經診療或鑑定後之意見、被害人經治療後心理健康狀態及其原本生活基本角色功能之回復狀況等各項證據而為重傷之認定，如與證據法則無違，即不能任意指為違法。",
+            "court": "臺灣最高法院",
+            "docketNumber": "113年度台上字第292號",
+            "extra": "genre: 判決書",
+            "language": "zh-TW",
+            "url": "https://db.lawbank.com.tw/FINT/FINTQRY04.aspx?id=J%2cV%2c113%2c%e5%8f%b0%e4%b8%8a%2c292%2c001&ro=1&category=4&sort=1&p=1028CE2C61721F61383E2643AECF1029",
+            "attachments": [
+              {
+                "title": "Snapshot",
+                "mimeType": "text/html"
+              }
+            ],
+            "tags": [],
+            "notes": [],
+            "seeAlso": []
+          }
+        ]
+      },
+      {
+        "type": "web",
+        "url": "https://db.lawbank.com.tw/FINT/FINTQRY04.aspx?id=J%2c2%2c110%2c%e5%8f%b0%e4%b8%8a%e5%a4%a7%2c5217%2c002&ro=2&category=4&type=3&subtype=2,B,T,V,5,H,J,P,DB&sort=1&p=A64DFF30A7E3D66A674F900E2D8CD95B",
+        "items": [
+          {
+            "itemType": "case",
+            "caseName": "林益世違反貪污治罪條例案",
+            "creators": [],
+            "dateDecided": "2023-03-02",
+            "court": "臺灣最高法院",
+            "docketNumber": "110年度台上大字第5217號",
+            "extra": "genre: 刑事裁定書",
+            "language": "zh-TW",
+            "url": "https://db.lawbank.com.tw/FINT/FINTQRY04.aspx?id=J%2c2%2c110%2c%e5%8f%b0%e4%b8%8a%e5%a4%a7%2c5217%2c002&ro=2&category=4&type=3&subtype=2,B,T,V,5,H,J,P,DB&sort=1&p=A64DFF30A7E3D66A674F900E2D8CD95B",
+            "attachments": [
+              {
+                "title": "Snapshot",
+                "mimeType": "text/html"
+              }
+            ],
+            "tags": [],
+            "notes": [],
+            "seeAlso": []
+          }
+        ]
+      },
+      {
+        "type": "web",
+        "url": "https://db.lawbank.com.tw/FINT/FINTQRY04.aspx?id=M%2cCJ00005684&ro=1&category=11&type=12&subtype=*&sort=1&p=CF434FFF8364ED26B8C898DE4F1FFAAA",
+        "items": [
+          {
+            "itemType": "case",
+            "caseName": "憲法法庭113年憲判字第3號判決判決",
+            "creators": [],
+            "dateDecided": "2024-04-26",
+            "abstractNote": "刑法第309條第1項規定所處罰之公然侮辱行為，係指依個案之表意脈絡，表意人故意發表公然貶損他人名譽之言論，已逾越一般人可合理忍受之範圍；經權衡該言論對他人名譽權之影響，及該言論依其表意脈絡是否有益於公共事務之思辯，或屬文學、藝術之表現形式，或具學術、專業領域等正面價值，於個案足認他人之名譽權應優先於表意人之言論自由而受保障者。於此範圍內，與憲法第11條保障言論自由之意旨尚屬無違。（裁判要旨內容由法源資訊撰寫）",
+            "court": "臺灣憲法法庭",
+            "docketNumber": "113年憲判字第3號",
+            "extra": "genre: 判決判決書",
+            "language": "zh-TW",
+            "url": "https://db.lawbank.com.tw/FINT/FINTQRY04.aspx?id=M%2cCJ00005684&ro=1&category=11&type=12&subtype=*&sort=1&p=CF434FFF8364ED26B8C898DE4F1FFAAA",
+            "attachments": [
+              {
+                "title": "Snapshot",
+                "mimeType": "text/html"
+              }
+            ],
+            "tags": [
+              {
+                "tag": "人格權"
+              },
+              {
+                "tag": "公然侮辱"
+              },
+              {
+                "tag": "比例原則"
+              }
+            ],
+            "notes": [],
+            "seeAlso": []
+          }
+        ]
+      },
+      {
+        "type": "web",
+        "url": "https://db.lawbank.com.tw/FINT/FINTQRY04.aspx?id=C%2cD%2c813&ro=1&category=11&type=2&subtype=D&sort=1&p=CF434FFF8364ED26B8C898DE4F1FFAAA",
+        "items": [
+          {
+            "itemType": "report",
+            "title": "歷史建築所定著之土地為第三人所有之補償案",
+            "creators": [
+              {
+                "firstName": "",
+                "lastName": "司法院",
+                "creatorType": "author",
+                "fildMode": 1
+              }
+            ],
+            "date": "2021-12-24",
+            "abstractNote": "文化資產保存法第9條第1項及第18條第1項關於歷史建築登錄部分規定，於歷史建築所定著之土地為第三人所有之情形，未以取得土地所有人同意為要件，尚難即認與憲法第15條保障人民財產權之意旨有違。惟上開情形之土地所有人，如因定著於其土地上之建造物及附屬設施，被登錄為歷史建築，致其就該土地原得行使之使用、收益、處分等權能受到限制，究其性質，屬國家依法行使公權力，致人民財產權遭受逾越其社會責任所應忍受範圍之損失，而形成個人之特別犧牲，國家應予相當補償。文化資產保存法第9條第1項及第18條第1項規定，構成對上開情形之土地所有人之特別犧牲者，同法第99條第2項及第100條第1項規定，未以金錢或其他適當方式給予上開土地所有人相當之補償，於此範圍內，不符憲法第15條保障人民財產權之意旨。有關機關應自本解釋公布之日起2年內，依本解釋意旨，修正文化資產保存法妥為規定。",
+            "language": "zh-TW",
+            "libraryCatalog": "Lawbank",
+            "reportNumber": "歷史建築所定著之土地為第三人所有之補償案",
+            "url": "https://db.lawbank.com.tw/FINT/FINTQRY04.aspx?id=C%2cD%2c813&ro=1&category=11&type=2&subtype=D&sort=1&p=CF434FFF8364ED26B8C898DE4F1FFAAA",
+            "attachments": [
+              {
+                "title": "Snapshot",
+                "mimeType": "text/html"
+              }
+            ],
+            "tags": [],
+            "notes": [],
+            "seeAlso": []
+          }
+        ]
+      },
+      {
+        "type": "web",
+        "url": "https://db.lawbank.com.tw/FINT/FINTQRY04.aspx?id=C%2cD%2c813&ro=1&category=11&type=2&subtype=D&sort=1&p=CF434FFF8364ED26B8C898DE4F1FFAAA",
+        "items": [
+          {
+            "itemType": "report",
+            "title": "歷史建築所定著之土地為第三人所有之補償案",
+            "creators": [
+              {
+                "firstName": "",
+                "lastName": "司法院",
+                "creatorType": "author",
+                "fildMode": 1
+              }
+            ],
+            "date": "2021-12-24",
+            "abstractNote": "文化資產保存法第9條第1項及第18條第1項關於歷史建築登錄部分規定，於歷史建築所定著之土地為第三人所有之情形，未以取得土地所有人同意為要件，尚難即認與憲法第15條保障人民財產權之意旨有違。惟上開情形之土地所有人，如因定著於其土地上之建造物及附屬設施，被登錄為歷史建築，致其就該土地原得行使之使用、收益、處分等權能受到限制，究其性質，屬國家依法行使公權力，致人民財產權遭受逾越其社會責任所應忍受範圍之損失，而形成個人之特別犧牲，國家應予相當補償。文化資產保存法第9條第1項及第18條第1項規定，構成對上開情形之土地所有人之特別犧牲者，同法第99條第2項及第100條第1項規定，未以金錢或其他適當方式給予上開土地所有人相當之補償，於此範圍內，不符憲法第15條保障人民財產權之意旨。有關機關應自本解釋公布之日起2年內，依本解釋意旨，修正文化資產保存法妥為規定。",
+            "language": "zh-TW",
+            "libraryCatalog": "Lawbank",
+            "reportNumber": "歷史建築所定著之土地為第三人所有之補償案",
+            "url": "https://db.lawbank.com.tw/FINT/FINTQRY04.aspx?id=C%2cD%2c813&ro=1&category=11&type=2&subtype=D&sort=1&p=CF434FFF8364ED26B8C898DE4F1FFAAA",
+            "attachments": [
+              {
+                "title": "Snapshot",
+                "mimeType": "text/html"
+              }
+            ],
+            "tags": [],
+            "notes": [],
+            "seeAlso": []
+          }
+        ]
+      },
+      {
+        "type": "web",
+        "url": "https://www.lawbank.com.tw/treatise/pl_article.aspx?AID=P000268067",
+        "items": [
+          {
+            "itemType": "journalArticle",
+            "title": "公然侮辱的代價－是否能以『罵人價目表』為憑據？",
+            "creators": [
+              {
+                "firstName": "",
+                "lastName": "羅裕翔",
+                "creatorType": "author",
+                "fildMode": 1
+              }
+            ],
+            "date": "2025-03-15",
+            "abstractNote": "慰撫金酌定要件的標準及金額如何量化，是我國實務一直懸而未決的問題，當中的審查要件莫過於「故意或過失程度及侵害影響程度」、「職業與經濟能力」、「身分及社經地位」均是會列為審酌的要件。本文認為，為確保法院在酌定慰撫金有一定之依據，也可使當事人瞭解最後為何判決結果之範圍與原因，建議我國可建立自身之裁判指引，並編纂裁判彙編。法官即可依據歷年判決金額判決慰撫金，除有特別情事需增加或減少慰撫金數額，則於判決中指明清楚，自可減少重複爭執的可能，也會增加一般民眾對司法之信賴。",
+            "issue": "5",
+            "language": "zh-TW",
+            "libraryCatalog": "Lawbank",
+            "publicationTitle": "財稅法令半月刊",
+            "url": "https://www.lawbank.com.tw/treatise/pl_article.aspx?AID=P000268067",
+            "volume": "8",
+            "attachments": [],
+            "tags": [
+              {
+                "tag": "侵害影響程度"
+              },
+              {
+                "tag": "公然侮辱罪"
+              },
+              {
+                "tag": "慰撫金"
+              },
+              {
+                "tag": "社經地位"
+              }
+            ],
+            "notes": [],
+            "seeAlso": []
+          }
+        ]
+      },
+      {
+        "type": "web",
+        "url": "https://www.lawbank.com.tw/treatise/ts_article.aspx?AID=T000010454",
+        "items": [
+          {
+            "itemType": "thesis",
+            "title": "商業訴訟與爭端解決制度改革之比較研究",
+            "creators": [
+              {
+                "firstName": "",
+                "lastName": "黃兆揚",
+                "creatorType": "author",
+                "fildMode": 1
+              },
+              {
+                "firstName": "",
+                "lastName": "謝銘洋",
+                "creatorType": "contributor",
+                "fildMode": 1
+              },
+              {
+                "firstName": "",
+                "lastName": "何曜琛",
+                "creatorType": "contributor",
+                "fildMode": 1
+              }
+            ],
+            "abstractNote": "商業訴訟與商事處理制度攸關一國法治、經濟發展與競爭力，各國一向高度重視。2021 年我國商業法院新制成立，期能改善過往商業事件裁判效率不佳（延宕多年）與資源配置不當（重刑輕民）等結構面問題，積極邁向國際化。論文第二章從比較法的角度及歷史脈絡，分析商業事件的需求及程序特性，探討商業訴訟改革的目標與建構商業法院的方向。第三章延伸視野，介紹各區域（英國、美國、歐洲、亞洲）主要國家籌劃商業法院的經驗及改善商業訴訟的策略，發覺各國多以英國商業法院或英美法（沒有陪審的）商業程序規則為改革藍本。回顧我國的商業法院的建構模式，與程序新制，本章提出比較法的觀察心得。司法改革無法單靠公部門法院獨善其身，應借重民間專業蓬勃的活力及資訊科技，有效整合各種替代紛爭解決機制（ADR）。第四章檢視商業法院與仲裁、調解或其他爭議解決模式之分工協力與搭配關係，省思法院在眾多機制中適合扮演的角色與應有的轉型，包括以科技重塑法院程序之變革（網路法院計畫），並以實例分析商業事件採行 ADR 的可能性與挑戰。商業事件審理法已酌採英美法兼顧公平效率的事證開示與裁判規則。在此基礎上，第五章再擇選：「訴訟前守則（起訴前的紛爭解決規則）、錄取證詞（Deposition 作為事證開示方法）、書面證詞、即決裁判、專家證人」等英國或美國法上獨有而細膩的程序規則，作為未來商業訴訟持續提升取證之公平、程序之效率及裁判品質之參考。第六章為結論與建議。",
+            "extra": "original-title: A Comparative Study on Institutional Reform for Commercial Litigation and Dispute Resolution",
+            "language": "zh-TW",
+            "libraryCatalog": "Lawbank",
+            "numPages": "293",
+            "place": "台灣",
+            "thesisType": "博士學位論文",
+            "university": "私立中國文化大學法律學研究所",
+            "url": "https://www.lawbank.com.tw/treatise/ts_article.aspx?AID=T000010454",
+            "attachments": [],
+            "tags": [
+              {
+                "tag": "ADR"
+              },
+              {
+                "tag": "commercial court"
+              },
+              {
+                "tag": "discovery"
+              },
+              {
+                "tag": "online court"
+              },
+              {
+                "tag": "witness statement"
+              },
+              {
+                "tag": "事證開示"
+              },
+              {
+                "tag": "即決裁判"
+              },
+              {
+                "tag": "商業事件"
+              },
+              {
+                "tag": "商業法院"
+              },
+              {
+                "tag": "紛爭解決"
+              }
+            ],
+            "notes": [],
+            "seeAlso": []
+          }
+        ]
+      },
+      {
+        "type": "web",
+        "url": "https://www.lawbank.com.tw/treatise/ts_article.aspx?AID=T000018124",
+        "items": [
+          {
+            "itemType": "thesis",
+            "title": "AI 在法律執行之應用與隱私權保障之研究",
+            "creators": [
+              {
+                "firstName": "",
+                "lastName": "許淑媛",
+                "creatorType": "author",
+                "fildMode": 1
+              },
+              {
+                "firstName": "",
+                "lastName": "施慧玲",
+                "creatorType": "contributor",
+                "fildMode": 1
+              }
+            ],
+            "abstractNote": "隨著科技的進步和人工智慧的發展，資訊的使用和共享越來越頻繁，這也使得隱私權保障變得越來越重要，本文針對人工智慧與隱私權保障進行研究，分析現代科技和資訊隱私權之間的拉鋸戰，並探討如何保障個人資訊自主權，本文指出隨著人工智慧技術的發展，個人資訊的搜集、分析和使用越來越容易，因此需要加強相關法律法規的制定和執行，同時也需要人工智慧技術的自我約束和監管。以人工智慧適用在協助執法為例，為法庭內及法庭外四個類型，以刑事量刑標準、親子酌定、法律機器人、科技執法為例，適用上有侵害隱私權或與隱私權對立等衝突時該如何處理，藉由這些法律上適用之例子來提出問題並解決之技術發展，未來可能會有更先進的加密技術、隱私保護技術、去識別化技術等出現以及符合可信賴 AI 原則來提出建議，可以在更好的數據流通分析與科技發展的同時，實現保護個人資料隱私。",
+            "extra": "original-author: Hsu || Cadalina",
+            "language": "zh-TW",
+            "libraryCatalog": "Lawbank",
+            "numPages": "152",
+            "place": "台灣",
+            "thesisType": "博士學位論文",
+            "university": "國立中正大學法律學系",
+            "url": "https://www.lawbank.com.tw/treatise/ts_article.aspx?AID=T000018124",
+            "attachments": [],
+            "tags": [
+              {
+                "tag": "Artificial Intelligence"
+              },
+              {
+                "tag": "Information Autonomy"
+              },
+              {
+                "tag": "Information Privacy"
+              },
+              {
+                "tag": "Technology Enforcement"
+              },
+              {
+                "tag": "The Protection of Privacy Right"
+              },
+              {
+                "tag": "Trustworthy AI"
+              },
+              {
+                "tag": "人工智慧"
+              },
+              {
+                "tag": "個人資訊自主權"
+              },
+              {
+                "tag": "可信賴AI"
+              },
+              {
+                "tag": "科技執法"
+              },
+              {
+                "tag": "資訊隱私"
+              },
+              {
+                "tag": "隱私權保障"
+              }
+            ],
+            "notes": [],
+            "seeAlso": []
+          }
+        ]
+      },
+      {
+        "type": "web",
+        "url": "https://www.lawbank.com.tw/treatise/bk_book.aspx?AID=B000005715",
+        "items": [
+          {
+            "itemType": "book",
+            "title": "銀行法講義（2025 年 4 月版）",
+            "creators": [
+              {
+                "firstName": "",
+                "lastName": "戴銘昇",
+                "creatorType": "author",
+                "fildMode": 1
+              }
+            ],
+            "date": "2025-04",
+            "abstractNote": "本講義蒐集了大量立法沿革、相關法令、法院裁判、行政函令、時事新聞與趣聞、學說及文章節錄、外國法等資訊，朝向「百科全書」的方向編纂，固定每月更新法令及增補最新實務見解，可作為教學之用，也可供實務工作者作為工具書之用。講義編寫時，各單元的內容會做有體系之編排，對於法令、裁判及函令，會在有疑義處做特殊標記，也會適時加上評釋。財經法能力之提升，除了要閱讀基本的教科書外，也必須涉獵各種資訊才行。讀者們如果能把本份講義讀熟，財經法能力應該會很驚人！本份講義也歡迎各校老師做為上課教材之用。",
+            "language": "zh-TW",
+            "libraryCatalog": "Lawbank",
+            "numPages": "3222",
+            "publisher": "台灣",
+            "url": "https://www.lawbank.com.tw/treatise/bk_book.aspx?AID=B000005715",
+            "attachments": [],
+            "tags": [],
+            "notes": [],
+            "seeAlso": []
+          }
+        ]
+      },
+      {
+        "type": "web",
+        "url": "https://www.lawbank.com.tw/treatise/author.aspx?AID=17977",
+        "items": "multiple"
+      },
+      {
+        "type": "web",
+        "url": "https://www.lawbank.com.tw/treatise/pl_issue.aspx?IID=PI037425",
+        "items": "multiple"
+      },
+      {
+        "type": "web",
+        "url": "https://db.lawbank.com.tw/SBAR/RESULTS.aspx?kw=%e8%a9%90%e9%a8%99&category=3",
+        "items": "multiple"
+      }
+    ],
+    "zhLabel": "法源法律網",
+    "trends": [
+      {
+        "author": "jiaojiaodubai",
+        "date": "2025-05-06 01:12:19 +0000",
+        "message": "resolve #495"
       }
     ]
   }

@@ -1,9 +1,7 @@
 name: 申请新转换器🙋‍♂️
 description: 申请新的转换器，使Zotero能够从新的网站或文献交换格式导入，或者导出为新的文献交换格式。
 title: "[New]: "
-labels: ["new translator"]
-assignees:
-  - jiaojiaodubai
+labels: ["new translator", "from template"]
 body:
   - type: markdown
     attributes:
@@ -24,11 +22,11 @@ body:
     validations:
       required: true
   - type: input
-    id: url
+    id: new-translator-url
     attributes:
       label: 链接
       description: 网站的网址，或文献交换格式的文档地址。
-      placeholder: https://wwww.cnki.net/
+      placeholder: 例如：https://wwww.cnki.net/
     validations:
       required: true
   - type: checkboxes
@@ -53,7 +51,7 @@ body:
         - label: 视频
         - label: 音频
         - label: 图像
-        - label: 其他
+        - label: 其他条目类型
     validations:
       required: true
   - type: checkboxes
@@ -66,19 +64,19 @@ body:
         - label: 机构帐号
         - label: 付费帐号
         - label: IP认证
-        - label: 其他
+        - label: 其他权限
   - type: markdown
     id: note
     attributes:
       value: |
         注：如果网站需要特殊权限（如机构认证、会员帐号）才能打开详情页面，请联系邮箱 <jiaojiaodubai23@gmail.com> 帮助开发者访问网站，以便尽早完成开发。
   - type: checkboxes
-    id: check-list
+    id: report-check
     attributes:
       label: 提交前检查
       description: 请确认你提交的issue满足以下要求。
       options:
-        - label: 我填写了issue标题，标题格式为`[New]: XXX`，（`XXX`为网站或文献交换格式的名称）。
+        - label: 我填写了issue标题。
           required: true
         - label: 我确实是想申请新的转换器，而不是更新现有转换器。
           required: true

@@ -9,7 +9,7 @@
 	"inRepository": true,
 	"translatorType": 4,
 	"browserSupport": "gcsibv",
-	"lastUpdated": "2025-01-31 12:29:28"
+	"lastUpdated": "2025-07-11 03:58:04"
 }
 
 /*
@@ -71,12 +71,12 @@ const typeMap = {
 };
 
 function detectWeb(doc, url) {
-	const dynamic = doc.querySelector('.container-flex, .periodical');
+	const dynamic = doc.querySelector('#app, .container-flex, .periodical');
 	if (dynamic) {
-		Z.monitorDOMChanges(dynamic, { childList: true });
+		Z.monitorDOMChanges(dynamic, { childList: true, subtree: true });
 	}
 	for (const key in typeMap) {
-		if (url.includes(`/${key}/`)) {
+		if (new RegExp(`/${key}/`, 'i').test(url)) {
 			return typeMap[key].itemType;
 		}
 	}
@@ -126,7 +126,7 @@ function getSearchResults(doc, checkOnly) {
 		for (const row of rows) {
 			const title = text(row, '.title-link');
 			const href = attr(row, '.title-link', 'href');
-			const id = getIdFromUrl(href);
+			const { id } = getUrlParam(href);
 			if (!title || !id) continue;
 			if (checkOnly) return true;
 			found = true;
@@ -149,9 +149,9 @@ async function doWeb(doc, url) {
 		}
 	}
 	else {
-		// get attributes from bookmark button is always reliable and convenient
-		const type = attr(doc, '.collection > wf-favourite', 'literature_type');
-		const id = attr(doc, '.collection > wf-favourite', 'literature_id');
+		const pathParts = new URL(attr(doc, 'meta[property="og\\:url"]', 'content')).pathname.split('/');
+		const type = pathParts[1].toLowerCase();
+		const id = pathParts[2];
 		try {
 			// throw new Error('debug');
 			if (type === 'standard') {
@@ -175,7 +175,7 @@ async function scrapePage(doc, type, id) {
 	);
 	const extra = new Extra();
 	const newItem = new Zotero.Item(typeMap[type].itemType);
-	newItem.title = text(doc, '.detailTitleCN > span:first-child') || text(doc, '.detailTitleCN');
+	newItem.title = text(doc, '.detailTitleCN > :first-child > span:first-child,.detailTitleCN > span:first-child');
 	extra.set('original-title', ZU.capitalizeTitle(text(doc, '.detailTitleEN')), true);
 	newItem.abstractNote = ZU.trimInternal(text(doc, '.summary > .item+*'));
 	doc.querySelectorAll('.author.detailTitle > .itemUrl > a').forEach((elm) => {
@@ -191,7 +191,7 @@ async function scrapePage(doc, type, id) {
 			newItem.date = tryMatch(pubInfo, /^\d{4}/);
 			newItem.volume = tryMatch(pubInfo, /,0*(\d+)\(/, 1);
 			newItem.issue = tryMatch(pubInfo, /\((.+?)\)/, 1).replace(/0*(\d+)/, '$1');
-			newItem.publicationTitle = text(doc, '.periodicalName');
+			newItem.publicationTitle = text(doc, '.periodicalName').replace(/\(([^)]+)\)$/, '（$1）');
 			newItem.pages = tryMatch(data('页数'), /\((.+)\)/, 1)
 				.replace(/\b0*(\d+)/, '$1')
 				.replace(/\+/g, ',')
@@ -260,7 +260,7 @@ async function scrapePage(doc, type, id) {
 			}
 			break;
 		case 'standard':
-			newItem.title = text(doc, '.detailTitleCN').replace(/([\u4e00-\u9fff])\s+([\u4e00-\u9fff])/, '$1　$2');
+			newItem.title = text(doc, '.detailTitleCN').replace(/(\p{Unified_Ideograph})\s+(\p{Unified_Ideograph})/u, '$1　$2');
 			newItem.number = text(doc, '.standardId > .itemUrl').replace('-', '—');
 			newItem.date = text(doc, '.issueDate > .itemUrl');
 			newItem.publisher = data('出版单位');
@@ -323,7 +323,11 @@ function getLabeledData(rows, labelGetter, dataGetter, defaultElm) {
 		if (Array.isArray(labels)) {
 			for (const label of labels) {
 				const result = data(label, element);
-				if (result) return result;
+				if (
+					(element && /\S/.test(result.textContent))
+					|| (!element && /\S/.test(result))) {
+					return result;
+				}
 			}
 			return element ? defaultElm : '';
 		}
@@ -359,8 +363,7 @@ async function scrapeDetilApi(type, id) {
 		resBuffer[x] = respond.body.charCodeAt(x + headLength) & 0xff;
 	}
 	const resObject = DetailResponse.toObject(DetailResponse.decode(resBuffer), { defaults: true });
-	Z.debug(resObject);
-	parseJson(resObject.detail[0][type === 'cstad' ? 'cstadt' : type]);
+	parseJson(resObject.detail[0][type === 'cstad' ? 'cstadt' : type], type, id);
 }
 
 async function scrapeExportApi(type, id) {
@@ -416,7 +419,7 @@ function parseJson(json, type, id) {
 	}[json.language] || 'zh-CN';
 	switch (newItem.itemType) {
 		case 'journalArticle': {
-			newItem.publicationTitle = json.periodicaltitleList[0];
+			newItem.publicationTitle = json.periodicaltitleList[0].replace(/\(([^)]+)\)$/, '（$1）');
 			extra.set('original-container-title', json.periodicaltitleList[1], true);
 			newItem.volume = json.volum;
 			newItem.issue = json.issue;
@@ -610,7 +613,7 @@ function patentCountry(idNumber) {
 	}[idNumber.substring(0, 2).toUpperCase()] || '';
 }
 
-function getIdFromUrl(url) {
+function getUrlParam(url) {
 	const urlObj = new URL(url);
 	const pathParts = urlObj.pathname.split('/');
 	const deURI = decodeURIComponent(pathParts[2]);
@@ -619,7 +622,7 @@ function getIdFromUrl(url) {
 	const buffer = encoder.encode(deBase64);
 	// make a cocy to avoid Error: Accessing TypedArray data over Xrays is slow, and forbidden in order to encourage performant code.
 	const urlMsg = Url.decode(new Uint8Array(buffer));
-	return Url.toObject(urlMsg).id;
+	return Url.toObject(urlMsg);
 }
 
 /**

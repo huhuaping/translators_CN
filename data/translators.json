@@ -21,7 +21,7 @@
   },
   "CCPINFO.js": {
     "label": "国家出版发行信息公共服务平台",
-    "lastUpdated": "2024-11-11 05:42:47"
+    "lastUpdated": "2025-05-27 07:40:48"
   },
   "CHINESE JOURNAL OF LAW.js": {
     "label": "法学研究",
@@ -49,27 +49,31 @@
   },
   "CNKI RefWorks.js": {
     "label": "中国知网RefWorks导出格式",
-    "lastUpdated": "2024-06-14 12:51:45"
+    "lastUpdated": "2025-03-29 13:32:17"
   },
   "CNKI Refer.js": {
     "label": "中国知网Endote导出格式",
-    "lastUpdated": "2024-09-12 07:27:03"
+    "lastUpdated": "2025-03-24 05:24:12"
   },
   "CNKI Scholar.js": {
     "label": "中国知网外文总库",
-    "lastUpdated": "2024-03-01 18:41:50"
+    "lastUpdated": "2025-02-06 14:09:43"
   },
   "CNKI TIKS.js": {
     "label": "中国知网科技创新知识服务平台",
     "lastUpdated": "2024-11-14 03:02:44"
   },
+  "CNKI e-Books.js": {
+    "label": "中国知网电子书",
+    "lastUpdated": "2025-04-08 19:07:53"
+  },
   "CNKI thinker.js": {
-    "label": "中国知网心可图书馆",
-    "lastUpdated": "2024-01-28 16:03:07"
+    "label": "CNKI Thinker",
+    "lastUpdated": "2025-03-24 05:53:56"
   },
   "CNKI.js": {
     "label": "中国知网",
-    "lastUpdated": "2024-10-04 22:36:27"
+    "lastUpdated": "2025-04-14 17:16:06"
   },
   "CNSDA.js": {
     "label": "中国学术调查数据资料库",
@@ -85,7 +89,7 @@
   },
   "CQVIP.js": {
     "label": "维普网",
-    "lastUpdated": "2024-09-19 07:09:20"
+    "lastUpdated": "2025-06-24 14:49:12"
   },
   "CSDN.js": {
     "label": "CSDN",
@@ -121,7 +125,7 @@
   },
   "E-Tiller.js": {
     "label": "勤云科技",
-    "lastUpdated": "2024-09-30 10:33:44"
+    "lastUpdated": "2025-07-14 15:08:15"
   },
   "Encyclopedia of China 3rd.js": {
     "label": "中国大百科全书",
@@ -143,9 +147,13 @@
     "label": "集刊全文数据库",
     "lastUpdated": "2024-11-06 20:43:54"
   },
+  "Lawbank.js": {
+    "label": "法源法律網",
+    "lastUpdated": "2025-04-30 00:29:46"
+  },
   "MagTech.js": {
     "label": "玛格泰克",
-    "lastUpdated": "2024-06-20 16:34:51"
+    "lastUpdated": "2025-06-21 22:17:45"
   },
   "Modern History.js": {
     "label": "抗日战争与近代中日关系文献数据平台",
@@ -181,7 +189,7 @@
   },
   "PKULaw.js": {
     "label": "北大法宝",
-    "lastUpdated": "2024-06-09 14:18:17"
+    "lastUpdated": "2025-04-10 14:56:17"
   },
   "PatentStar.js": {
     "label": "专利之星",
@@ -273,15 +281,15 @@
   },
   "TOAJ.js": {
     "label": "臺灣學術期刊開放取用平台",
-    "lastUpdated": "2024-04-01 16:49:31"
+    "lastUpdated": "2025-04-26 06:28:31"
   },
   "Wanfang Data.js": {
     "label": "万方",
-    "lastUpdated": "2025-01-31 12:29:28"
+    "lastUpdated": "2025-07-11 03:58:04"
   },
   "Wanfang Med.js": {
     "label": "万方医疗",
-    "lastUpdated": "2024-08-26 05:50:26"
+    "lastUpdated": "2025-04-08 06:03:31"
   },
   "Weixin.js": {
     "label": "微信",
@@ -289,7 +297,7 @@
   },
   "Wenjin.js": {
     "label": "国图-文津",
-    "lastUpdated": "2024-06-20 16:34:51"
+    "lastUpdated": "2025-05-27 07:22:17"
   },
   "Xinhuanet.js": {
     "label": "新华网",
@@ -301,7 +309,7 @@
   },
   "Zhihu.js": {
     "label": "知乎",
-    "lastUpdated": "2024-07-19 15:35:31"
+    "lastUpdated": "2025-06-25 06:21:19"
   },
   "Zhihuiya.js": {
     "label": "智慧芽",
@@ -325,7 +333,7 @@
   },
   "epaper.gmw.cn.js": {
     "label": "光明网（电子版）",
-    "lastUpdated": "2025-02-13 13:42:04"
+    "lastUpdated": "2025-04-08 08:07:01"
   },
   "flk.npc.gov.cn.js": {
     "label": "国家法律法规数据库",

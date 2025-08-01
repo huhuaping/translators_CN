@@ -1,12 +1,12 @@
 name: 请求支持新功能💪
 description: 为现有转换器添加新功能。
 title: "[Enhancement]: "
-labels: ["enhancement"]
+labels: ["enhancement", "from template"]
 assignees:
   - jiaojiaodubai
 body:
   - type: input
-    id: url
+    id: enhancement-url
     attributes:
       label: 链接
       description: 网站的网址，或文献交换格式的文档地址。
