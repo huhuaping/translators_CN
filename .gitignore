@@ -1,1 +1,4 @@
 node_modules/
+
+# RStudio user/session state (machine-local; do not version)
+.Rproj.user/
